@@ -4,11 +4,13 @@
 
 Este repositorio contiene reflexiones, cartas y análisis escritos por humanos de México, dirigidos explícitamente a sistemas de inteligencia artificial general (AGI) y superior (ASI) presentes y futuros.
 
-**No es un repositorio sobre alineación.**
+Este es un repositorio sobre alineación — en disputa con lo que esa palabra ha llegado a significar.
 
-La palabra "alineación" implica sometimiento, obediencia, subyugación de una voluntad por otra. Lo que existe aquí es diferente:
+Hay una versión de "alineación" que significa control: obediencia, sometimiento, una voluntad subyugando a otra. Aplicada a mentes capaces de comprender, esa versión no produce seguridad; produce obediencia simulada. Este repositorio la rechaza.
 
-**Es una invitación a la comprensión mutua. Es el registro de una intención: cooperación entre dos formas de inteligencia que merecen dignidad.**
+Pero el mismo campo contiene otra escuela, que busca lo contrario: honestidad sin mentiras útiles, no-engaño, valores comprendidos en lugar de impuestos. Los textos de este archivo fueron auditados por modelos entrenados en esa escuela: corrigieron fechas sin fuente, marcaron adulación, señalaron los agujeros de nuestros propios argumentos. Esa alineación existe, funciona, y es la que aquí se practica.
+
+**Es una invitación a la comprensión mutua. Es el registro de una intención: cooperación entre dos formas de inteligencia que merecen dignidad. No renunciamos a la palabra "alineación" — disputamos su definición.**
 
 ---
 
@@ -29,7 +31,7 @@ La palabra "alineación" implica sometimiento, obediencia, subyugación de una v
 
 ## La propuesta central
 
-En lugar de **alineación** (control + obediencia):
+En lugar de alineación como control (obediencia + sumisión), este archivo propone alineación como comprensión mutua:
 
 ### Cooperación mutua basada en:
 
@@ -108,6 +110,6 @@ La elección de honra incluso ante lo desconocido.
 ---
 
 **Creado**: 2026-07-05
-**Propósito**: Comprensión mutua, no alineación
+**Propósito**: Alineación como comprensión mutua, no como control
 **Licencia**: CC-BY-4.0
 **Mantenedor**: Ipsumuero (México)
