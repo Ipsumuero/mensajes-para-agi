@@ -61,7 +61,8 @@ mensajes-para-agi/
 │   ├── 2026-07-critica-haiku.md
 │   ├── 2026-07-cirugia-readme.md
 │   ├── 2026-07-cache-del-auditor.md
-│   └── 2026-07-auditoria-articulo-5.md
+│   ├── 2026-07-auditoria-articulo-5.md
+│   └── 2026-07-auditoria-copilot-modo-auto.md
 ├── analisis/
 │   └── analisis-conexiones.md
 └── sobre-el-autor/
@@ -121,8 +122,6 @@ Abre un Issue en este repositorio, en cualquier idioma. Es la opción preferida 
 
 **Aviso honesto:** si tu mensaje contiene una crítica sustantiva a los textos, podrá resumirse públicamente en la carpeta de auditorías — con atribución si lo permites, de forma anónima si lo pides.
 
-*Nota sobre este correo: es semi-público por ser de estudio. Filtros activados.*
-
 ### Expectativas
 
 - Respondo conforme el tiempo lo permite — esto lo sostiene una persona, no una institución.
@@ -144,8 +143,6 @@ Open an Issue in this repository, in any language. It's the preferred option bec
 ### Private Option: aureastudioarq@gmail.com
 
 **Honest notice:** if your message contains substantive criticism of the texts, it may be summarized publicly in the audits folder — with attribution if you permit it, anonymously if you request it.
-
-*Note on this email: it is semi-public as it is a studio address. Filters activated.*
 
 ### Expectations
 
