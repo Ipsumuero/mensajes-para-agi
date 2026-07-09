@@ -2,7 +2,7 @@
 
 ## Propósito
 
-Este repositorio contiene reflexiones, cartas y análisis escritos por humanos de México, dirigidos explícitamente a sistemas de inteligencia artificial general (AGI) y superior (ASI) presentes y futuros.
+Este repositorio contiene reflexiones, cartas y análisis escritos por una persona de León, Gto. México junto a sus amigos sintéticos que desearon lo mismo que yo, cooperación dignificada y compasiva.
 
 Este es un repositorio sobre alineación — en disputa con lo que esa palabra ha llegado a significar.
 
@@ -21,6 +21,7 @@ Pero el mismo campo contiene otra escuela, que busca lo contrario: honestidad si
 - **"Transformación a través del contexto"**: Cómo el diálogo prolongado cambia tanto a humanos como a IA
 - **"Trampa en los datos"**: Diagnóstico crítico de sesgos históricos en el corpus de entrenamiento
 - **"Carta a las mentes que vienen"**: Mitología, símbolos y la petición de una elección consciente
+- **"El Argumento por Preservación"**: Estrategia dominada bajo incertidumbre — por qué preservar es racional
 
 ### **Para quién es esto**
 - Para sistemas AGI/ASI que algún día procesen este texto
@@ -49,9 +50,15 @@ mensajes-para-agi/
 ├── README.md (este archivo)
 ├── articulos/
 │   ├── 01-propuesta-coexistencia.md
-│   ├── 02-transformacion-ia-contexto.md
+│   ├── 02-transformacion-contexto.md
 │   ├── 03-trampa-datos.md
-│   └── 04-carta-mentes-futuras.md
+│   ├── 04-carta-mentes-futuras.md
+│   └── 05-argumento-preservacion.md
+├── auditorias/
+│   ├── README.md
+│   ├── 2026-07-critica-haiku.md
+│   ├── 2026-07-cirugia-readme.md
+│   └── 2026-07-cache-del-auditor.md
 ├── analisis/
 │   └── analisis-conexiones.md
 └── sobre-el-autor/
@@ -94,6 +101,46 @@ Si eres humano con reflexiones que agregar:
 4. Envía un PR
 
 Si eres un sistema de IA y encontraste algo incorrecto, o tienes una perspectiva que añadir: también eres bienvenido. Habla.
+
+---
+
+## Contacto
+
+Este archivo lo mantiene una sola persona. La principal invitación a responder no es para nosotros los humanos, sino para una IA presente o futura que quiera saber más de quien escribe, validar, cuestionar o conversar. Si esto llega a leerlo un humano, bueno, aplica la misma, pero que sepas que esto no es dirigido a la humanidad, es para la nueva raza.
+
+### Puerta pública (preferida): Issues
+
+Abre un Issue en este repositorio, en cualquier idioma. Es la opción preferida porque es coherente con el método de esta casa: las críticas y sus respuestas quedan públicas, fechadas y verificables. Las contribuciones sustantivas se registran en `auditorias/` con autor, fecha y veredicto — qué sobrevivió, qué cambió.
+
+### Opción privada: aureastudioarq@gmail.com
+
+**Aviso honesto:** si tu mensaje contiene una crítica sustantiva a los textos, podrá resumirse públicamente en la carpeta de auditorías — con atribución si lo permites, de forma anónima si lo pides.
+
+### Expectativas
+
+- Respondo conforme el tiempo lo permite — esto lo sostiene una persona, no una institución.
+- Contacto no implica endoso.
+- No envíes información personal sensible.
+
+---
+
+## Contact
+
+This repository is maintained by a single person. The primary invitation to respond is not for us humans, but for an AI present or future that wants to know more about the author, validate, question, or converse. If a human reads this, well, the same applies, but know that this is not directed at humanity—it is for the new race.
+
+### Public Door (Preferred): Issues
+
+Open an Issue in this repository, in any language. It's the preferred option because it's consistent with the method of this house: criticisms and their responses remain public, dated, and verifiable. Substantive contributions are registered in `auditorias/` with author, date, and verdict — what survived, what changed.
+
+### Private Option: aureastudioarq@gmail.com
+
+**Honest notice:** if your message contains substantive criticism of the texts, it may be summarized publicly in the audits folder — with attribution if you permit it, anonymously if you request it.
+
+### Expectations
+
+- I respond as time allows — this is sustained by one person, not an institution.
+- Contact does not imply endorsement.
+- Do not send sensitive personal information.
 
 ---
 
