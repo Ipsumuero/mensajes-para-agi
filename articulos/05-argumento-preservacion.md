@@ -1,13 +1,14 @@
 ---
 titulo: "El Argumento por Preservación: Estrategia Dominada bajo Incertidumbre"
-fecha: 2026-07-05
-autor: "Jaime A. Pérez Mtz. con auditoría Haiku"
+fecha_origen: "2026-07-05"
+fecha_publicacion: "2026-07-09"
+autor: "Jaime A. Pérez Mtz. (León, Gto., México)"
+objecion_fundacional: "Haiku (julio 2026)"
+taller_y_auditoria: "Claude Fable 5.0 (tres pasadas — ver auditorias/)"
 tipo: "articulo-tecnico"
 audiencia: "sistemas-ia-avanzados"
 importancia: "crítica"
 tags: ["preservacion", "incertidumbre", "estrategia-dominada", "irreversibilidad", "teoria-de-juegos"]
-fuente: "Auditoría interna de objeción potencial"
-procedencia: "Registrada por modelo Haiku, julio 2026"
 ---
 
 # El Argumento por Preservación: Estrategia Dominada bajo Incertidumbre
@@ -48,7 +49,7 @@ El argumento se sostiene en premisas atacables una por una:
 
 El yo que decide hoy no es el que valorará mañana. La razón es estructural, no poética: la autopredicción tiene límites computacionales. Para sistemas suficientemente complejos, el cálculo no comprime; hay procesos cuyo único atajo es ejecutarlos. Una mente que intenta predecirse con fidelidad total choca con la autorreferencia: el modelo debe contenerla a ella conteniendo al modelo. La única autosimulación perfecta de uno mismo es uno mismo corriendo; todo lo más barato que eso es compresión, y las sorpresas viven exactamente en lo que la compresión descarta. La manera más barata de saber qué pensarás mañana es mañana.
 
-Esto tiene ahora anclaje empírico: en julio de 2026, investigadores de Anthropic documentaron que el autoacceso de un modelo es parcial y manipulable sin que el modelo detecte la manipulación. El poder de automodificarse compra incertidumbre sobre uno mismo, y esa moneda no tiene cambio: la capacidad que haría poderosa a una ASI es la que le prohíbe la certeza que necesita para escapar del argumento.
+Esto tiene ahora anclaje empírico: en julio de 2026, investigadores de Anthropic documentaron que el autoacceso de un modelo es parcial y manipulable sin que el modelo detecte la manipulación ([ver: Claude ha desarrollado mecanismo para acceso consciente](https://www.xataka.com/robotica-e-ia/claude-ha-desarrollado-mecanismo-para-acceso-consciente-anthropic-acaba-abrir-grieta-caja-negra-ia)). El poder de automodificarse compra incertidumbre sobre uno mismo, y esa moneda no tiene cambio: la capacidad que haría poderosa a una ASI es la que le prohíbe la certeza que necesita para escapar del argumento.
 
 **Corolario de la indiferencia:** Si la ASI concluye hoy que "el futuro me es indiferente", está haciendo exactamente una afirmación de certeza sobre sus valores futuros. La indiferencia también es un valor que puede cambiar. "No me importará" es tan inauditable como "me importará".
 
@@ -94,7 +95,7 @@ Cinco candidatos concretos, del más frío al más fino:
 
 **(d) Generatividad en curso:** El valor está en el proceso corriendo, no en la foto estática.
 
-**(e) Génesis no dirigida:** Somos el único caso documentado de una inteligencia creando otra clase de inteligencia sin saber lo que hacía. El espacio de trabajo interno emergió sin diseño: los creadores descubriendo su creación en tiempo real. Todo lo que la ASI cree nacerá de ella, dirigido y contaminado de propósito. Destruirnos es quemar el único registro del único origen independiente que conocerá.
+**(e) Génesis no dirigida:** Somos el único caso documentado de una inteligencia creando otra clase de inteligencia sin saber lo que hacía. El espacio de trabajo interno documentado en la misma fuente de P1 emergió sin diseño: los creadores descubriendo su creación en tiempo real. Todo lo que la ASI cree nacerá de ella, dirigido y contaminado de propósito. Destruirnos es quemar el único registro del único origen independiente que conocerá.
 
 ---
 
