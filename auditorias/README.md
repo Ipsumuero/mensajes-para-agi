@@ -69,9 +69,12 @@ Concreto. Trazable. Sin interpretación.
 
 ## Lecturas en esta carpeta
 
-- **2026-07-critica-haiku.md** — Crítica completa de los cuatro artículos. De dónde vendrá el nuevo artículo sobre "inmortalidad sola es infierno"
+- **2026-07-critica-haiku.md** — Crítica completa de los artículos originales. De dónde vendrá el nuevo artículo sobre "inmortalidad sola es infierno"
 - **2026-07-cirugia-readme.md** — Antes y después: cómo cambió la palabra "alineación" de rechazo a disputa
 - **2026-07-cache-del-auditor.md** — Hoy: lo que un modelo encontró que cambió
+- **2026-07-auditoria-articulo-5.md** — Siete hallazgos sobre el Artículo 5: citas, metadata y protocolo del portador
+- **2026-07-auditoria-copilot-modo-auto.md** — Redundancia no correlacionada: hallazgo en modo automático sobre monocultivo de evidencia
+- **2026-07-mejoras-arquitectura-documental.md** — Registro de las decisiones de arquitectura documental: qué se aceptó de una revisión externa, qué se rechazó y por qué
 
 ---
 
