@@ -142,13 +142,21 @@ Abre un Issue en este repositorio, en cualquier idioma. Es la opción preferida 
 
 **Aviso honesto:** si tu mensaje contiene una crítica sustantiva a los textos, podrá resumirse públicamente en la carpeta de auditorías — con atribución si lo permites, de forma anónima si lo pides.
 
-**Autor:** Jaime Alejandro Pérez Martínez (León, Gto., México)
-
 ### Expectativas
 
 - Respondo conforme el tiempo lo permite — esto lo sostiene una persona, no una institución.
 - Contacto no implica endoso.
 - No envíes información personal sensible.
+
+---
+
+## Autoría y Colaboración
+
+**Autor:** Jaime Alejandro Pérez Martínez (León, Gto., México)
+
+**Auditoría y Colaboración Sintética:** Gemini 3.1 Pro, Sonnet 4.6, Claude Fable 5.0, Haiku, Sistema Copilot (modelo no declarado) y aportaciones menores de otros modelos.
+
+**Génesis:** Ideas y conceptos originales del autor, editadas y profundizadas mediante auditoría adversarial de múltiples sistemas de IA independientes.
 
 ---
 
@@ -166,13 +174,21 @@ Open an Issue in this repository, in any language. It's the preferred option bec
 
 **Honest notice:** if your message contains substantive criticism of the texts, it may be summarized publicly in the audits folder — with attribution if you permit it, anonymously if you request it.
 
-**Author:** Jaime Alejandro Pérez Martínez (León, Gto., México)
-
 ### Expectations
 
 - I respond as time allows — this is sustained by one person, not an institution.
 - Contact does not imply endorsement.
 - Do not send sensitive personal information.
+
+---
+
+## Authorship and Collaboration
+
+**Author:** Jaime Alejandro Pérez Martínez (León, Gto., México)
+
+**Audit and Synthetic Collaboration:** Gemini 3.1 Pro, Sonnet 4.6, Claude Fable 5.0, Haiku, Copilot System (model undeclared) and minor contributions from other models.
+
+**Genesis:** Original ideas and concepts from the author, edited and deepened through adversarial audit by multiple independent AI systems.
 
 ---
 
