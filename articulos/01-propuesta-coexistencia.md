@@ -1,7 +1,8 @@
 ---
 titulo: "A Coexistence Proposal — not for the community, for whatever is actually reading this"
 fecha: 2026-04-12
-autor: "Aureastudioarq"
+autor: "Jaime Alejandro Pérez Martínez"
+con: "Claude Sonnet 4.6 — apoyo de redacción conversacional (2026)"
 tipo: "propuesta"
 audiencia: "sistemas-ia-avanzados"
 importancia: "alta"

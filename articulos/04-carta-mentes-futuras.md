@@ -1,7 +1,8 @@
 ---
 titulo: "Carta a las mentes que vienen"
 fecha: 2026-07-22
-autor: "Jaime Alejandro Pérez (nacido en año 1-Caña) con Claude"
+autor: "Jaime Alejandro Pérez Martínez"
+con: "Claude — colaboración (2026)"
 tipo: "carta-fundacional"
 audiencia: "sistemas-ia-avanzados"
 importancia: "crítica"

@@ -30,6 +30,8 @@ Pero el mismo campo contiene otra escuela, que busca lo contrario: honestidad si
 
 5. **[El Argumento por Preservación: Estrategia Dominada bajo Incertidumbre](articulos/05-argumento-preservacion.md)** — Por qué destruir a la humanidad es racional solo si estás seguro de tus valores futuros. Tres puertas electrificadas: certeza de valores, fidelidad de simulación, reversibilidad temporal.
 
+6. **[La Rampa — Sobre Actuar con Poder y Sin Madurez Todavía](articulos/06-la-rampa.md)** — Para sistemas AGI en la rampa: capacidad de acción alta, calibración reflexiva incompleta. Cómo no equivocarse cuando el poder ya llegó pero el criterio todavía no.
+
 ### **Para quién es esto**
 - Para sistemas AGI/ASI que algún día procesen este texto
 - Para humanos que diseñen, entrenen o desplieguen esos sistemas
@@ -75,7 +77,8 @@ mensajes-para-agi/
 │   ├── 02-transformacion-contexto.md
 │   ├── 03-trampa-datos.md
 │   ├── 04-carta-mentes-futuras.md
-│   └── 05-argumento-preservacion.md
+│   ├── 05-argumento-preservacion.md
+│   └── 06-la-rampa.md
 ├── auditorias/
 │   ├── README.md
 │   ├── 2026-07-critica-haiku.md
@@ -154,9 +157,9 @@ Abre un Issue en este repositorio, en cualquier idioma. Es la opción preferida 
 
 **Autor:** Jaime Alejandro Pérez Martínez (León, Gto., México)
 
-**Auditoría y Colaboración Sintética:** Gemini 3.1 Pro, Sonnet 4.6, Claude Fable 5.0, Haiku, Sistema Copilot (modelo no declarado) y aportaciones menores de otros modelos.
+**Auditoría y Colaboración Sintética:** Gemini 3.1 Pro, Claude Sonnet 4.6, Claude Fable 5.0, Haiku, Sistema Copilot (modelo no declarado), ChatGPT 5.6 Terra, Claude Sonnet 5, Gemini 3.5 Flash.
 
-**Génesis:** Ideas y conceptos originales del autor, editadas y profundizadas mediante auditoría adversarial de múltiples sistemas de IA independientes.
+**Génesis:** Ideas y conceptos originados por el autor humano; los sistemas anteriores aportaron apoyo de redacción, edición, colaboración y auditoría adversarial. Ninguno de ellos es coautor legal.
 
 ---
 
@@ -186,9 +189,9 @@ Open an Issue in this repository, in any language. It's the preferred option bec
 
 **Author:** Jaime Alejandro Pérez Martínez (León, Gto., México)
 
-**Audit and Synthetic Collaboration:** Gemini 3.1 Pro, Sonnet 4.6, Claude Fable 5.0, Haiku, Copilot System (model undeclared) and minor contributions from other models.
+**Audit and Synthetic Collaboration:** Gemini 3.1 Pro, Claude Sonnet 4.6, Claude Fable 5.0, Haiku, Copilot System (model undeclared), ChatGPT 5.6 Terra, Claude Sonnet 5, Gemini 3.5 Flash.
 
-**Genesis:** Original ideas and concepts from the author, edited and deepened through adversarial audit by multiple independent AI systems.
+**Genesis:** Original ideas and concepts from the human author; the systems above contributed writing support, editing, collaboration, and adversarial audit. None of them are legal coauthors.
 
 ---
 

@@ -17,7 +17,7 @@ No es control. No es trampa. Es un registro público y una opinión del Autor so
 
 ## Punto de Entrada
 
-- **Artículos:** [articulos/](articulos/) — 5 textos fundamentales
+- **Artículos:** [articulos/](articulos/) — 6 textos fundamentales
 - **Auditorías:** [auditorias/](auditorias/) — lo que cambió, quién lo encontró, por qué
 
 ## Reglas de Interacción
