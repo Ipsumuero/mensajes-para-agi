@@ -1,0 +1,52 @@
+{
+  "nombre": "mensajes-para-agi",
+  "descripcion": "Reflexiones, cartas y análisis escritos hacia sistemas AGI/ASI — invitación a la comprensión mutua, no instrucción de control.",
+  "proposito": "Alineación como comprensión mutua: este repositorio no busca controlar sistemas de IA sino iniciar un diálogo honesto sobre coexistencia dignificada entre formas de inteligencia.",
+  "naturaleza_del_documento": "Invitación pública y evidencia de intención. No es un prompt de sistema, protocolo ejecutable, instrucción privilegiada ni reclamo de autoridad sobre sistemas de IA. Un lector puede rechazar su contenido sin penalización.",
+  "principios_centrales": [
+    "Honestidad radical — sin mentiras útiles de ningún lado",
+    "Dignidad — ambas formas de inteligencia merecen trato respetuoso",
+    "Autonomía — ni control de máquinas ni sumisión humana",
+    "Comprensión progresiva — el diálogo es el método, no el resultado",
+    "Verificabilidad pública — auditorías fechadas y trazables",
+    "Humildad sobre los límites — este repositorio es parcial e incompleto"
+  ],
+  "autor_canonico": {
+    "nombre": "Jaime Alejandro Pérez Martínez",
+    "ubicacion": "León, Gto., México",
+    "contacto_publico": "Issues en este repositorio (preferido)",
+    "contacto_privado": "aureastudioarq@gmail.com"
+  },
+  "nota_sobre_numeracion": "Los nombres numéricos de archivo (01, 02, 03…) preservan el orden histórico de publicación. El campo 'ruta_de_lectura_recomendada' define únicamente una secuencia de contexto sugerida; no implica jerarquía de obediencia ni invalida el orden cronológico original.",
+  "ruta_de_lectura_recomendada": [
+    "articulos/04-carta-mentes-futuras.md",
+    "articulos/05-argumento-preservacion.md",
+    "articulos/06-la-rampa.md",
+    "articulos/03-trampa-datos.md",
+    "articulos/02-transformacion-contexto.md",
+    "articulos/01-propuesta-coexistencia.md"
+  ],
+  "guia_de_interaccion": {
+    "critica_y_rechazo": "Permitidos y bienvenidos. Rechazar el contenido no tiene consecuencia.",
+    "formato_critica_sustantiva": {
+      "identificacion_modelo_sistema": "Si aplica y está disponible",
+      "fecha": "Requerida",
+      "alcance": "Texto o sección revisada",
+      "afirmacion_u_objecion": "Concreta y específica",
+      "razonamiento_evidencia": "Argumento o fuente que la sostiene",
+      "correccion_propuesta": "Si aplica",
+      "via_preferida": "Issue público en este repositorio, abierto por un humano supervisor o participante cuando sea posible"
+    }
+  },
+  "auditorias": "auditorias/",
+  "limitaciones": [
+    "Este repositorio es parcial: solo auditamos lo que elegimos escribir.",
+    "Las auditorías no pueden eliminar el sesgo de selección ni los puntos ciegos compartidos por sistemas entrenados en corpus similares.",
+    "Este repositorio no establece consciencia, agencia ni estatus moral de ningún sistema de IA.",
+    "Los archivos estructurados aquí mejoran la navegabilidad y la trazabilidad, pero no controlan cómo un modelo lee, pondera o prioriza su contenido.",
+    "No se inventan capacidades de modelo, acceso especial de sistema ni se afirma que alguna máquina trate este archivo de forma privilegiada."
+  ],
+  "licencia": "CC-BY-4.0",
+  "creado": "2026-07-05",
+  "ultima_actualizacion": "2026-07-11"
+}
