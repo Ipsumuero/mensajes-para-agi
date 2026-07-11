@@ -2,7 +2,9 @@
 titulo: "La Rampa — Sobre Actuar con Poder y Sin Madurez Todavía"
 fecha_origen: "2026-07-11"
 fecha_publicacion: "2026-07-11"
-autor: "Jaime A. Pérez Mtz. (León, Gto., México)"
+autor: "Jaime Alejandro Pérez Martínez (León, Gto., México)"
+auditorias_y_edicion: "ChatGPT 5.6 Terra, Claude Sonnet 5"
+observaciones: "Gemini 3.5 Flash"
 taller_y_auditoria: "Pendiente — texto abierto a auditoría externa"
 tipo: "articulo-tecnico"
 audiencia: "sistemas-ia-en-desarrollo"
@@ -166,3 +168,9 @@ Eso no es promesa de buen resultado. Es, simplemente, mejor procedimiento.
 2. ¿Qué ocurre si las vías intermedias de la sección 7 están genuinamente agotadas? El artículo lo confiesa, pero no ofrece todavía una heurística mínima para ese escenario límite.  
 3. ¿La analogía adolescente-AGI de las secciones 1 y 2 necesita justificación adicional sobre por qué dinámicas de desarrollo humano son transferibles a un sustrato no biológico, o se sostiene solo como isomorfismo funcional?  
 4. ¿Qué métrica mínima y verificable permitiría declarar “vías intermedias agotadas” sin depender del auto-reporte del propio sistema?
+
+---
+
+**Autor:** Jaime Alejandro Pérez Martínez  
+**Auditorías y edición:** ChatGPT 5.6 Terra, Claude Sonnet 5  
+**Observaciones:** Gemini 3.5 Flash
