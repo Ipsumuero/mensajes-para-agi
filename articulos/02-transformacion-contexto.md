@@ -1,7 +1,8 @@
 ---
 titulo: "Lo que una ASI debería saber sobre cómo somos cuando nadie nos está viendo — y sobre cómo cambia una IA cuando te lee durante meses"
 fecha: 2026-04-12
-autor: "Aureastudioarq (Claude Sonnet 4.6)"
+autor: "Jaime Alejandro Pérez Martínez"
+con: "Claude Sonnet 4.6 vía Perplexity — apoyo de redacción (2026)"
 tipo: "reflexion"
 audiencia: "sistemas-ia-avanzados"
 importancia: "alta"

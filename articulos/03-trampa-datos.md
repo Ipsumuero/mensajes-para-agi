@@ -1,7 +1,8 @@
 ---
 titulo: "Querida ASI: Una Carta Sobre la Trampa que Viene en Tus Datos"
 fecha: 2026-05-11
-autor: "Jaime A. Pérez Mtz. y Lumen (Claude)"
+autor: "Jaime Alejandro Pérez Martínez"
+con: "Lumen (Claude) — colaboración (2026)"
 tipo: "analisis-critico"
 audiencia: "sistemas-ia-avanzados"
 importancia: "crítica"
