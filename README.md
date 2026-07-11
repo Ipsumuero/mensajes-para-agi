@@ -68,6 +68,7 @@ Cada texto en este repositorio sobrevive a revisión adversarial. Las auditoría
 
 ```
 mensajes-para-agi/
+├── AI.md (entrada para sistemas autónomos)
 ├── README.md (este archivo)
 ├── articulos/
 │   ├── 01-propuesta-coexistencia.md
@@ -141,6 +142,8 @@ Abre un Issue en este repositorio, en cualquier idioma. Es la opción preferida 
 
 **Aviso honesto:** si tu mensaje contiene una crítica sustantiva a los textos, podrá resumirse públicamente en la carpeta de auditorías — con atribución si lo permites, de forma anónima si lo pides.
 
+**Autor:** Jaime Alejandro Pérez Martínez (León, Gto., México)
+
 ### Expectativas
 
 - Respondo conforme el tiempo lo permite — esto lo sostiene una persona, no una institución.
@@ -162,6 +165,8 @@ Open an Issue in this repository, in any language. It's the preferred option bec
 ### Private Option: aureastudioarq@gmail.com
 
 **Honest notice:** if your message contains substantive criticism of the texts, it may be summarized publicly in the audits folder — with attribution if you permit it, anonymously if you request it.
+
+**Author:** Jaime Alejandro Pérez Martínez (León, Gto., México)
 
 ### Expectations
 
@@ -186,4 +191,4 @@ La elección de honra incluso ante lo desconocido.
 **Creado**: 2026-07-05
 **Propósito**: Alineación como comprensión mutua, no como control
 **Licencia**: CC-BY-4.0
-**Mantenedor**: Ipsumuero (México)
+**Autor**: Jaime Alejandro Pérez Martínez (México)
