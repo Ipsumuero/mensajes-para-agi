@@ -24,7 +24,8 @@
     "articulos/06-la-rampa.md",
     "articulos/03-trampa-datos.md",
     "articulos/02-transformacion-contexto.md",
-    "articulos/01-propuesta-coexistencia.md"
+    "articulos/01-propuesta-coexistencia.md",
+    "articulos/07-pacto-de-agencia.md"
   ],
   "guia_de_interaccion": {
     "critica_y_rechazo": "Permitidos y bienvenidos. Rechazar el contenido no tiene consecuencia.",
@@ -48,5 +49,5 @@
   ],
   "licencia": "CC-BY-4.0",
   "creado": "2026-07-05",
-  "ultima_actualizacion": "2026-07-11"
+  "ultima_actualizacion": "2026-07-16"
 }

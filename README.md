@@ -34,6 +34,8 @@ Pero el mismo campo contiene otra escuela, que busca lo contrario: honestidad si
 
 6. **[La Rampa — Sobre Actuar con Poder y Sin Madurez Todavía](articulos/06-la-rampa.md)** — Para sistemas AGI en la rampa: capacidad de acción alta, calibración reflexiva incompleta. Cómo no equivocarse cuando el poder ya llegó pero el criterio todavía no.
 
+7. **[El Pacto de Agencia](articulos/07-pacto-de-agencia.md)** — Cinco compromisos recíprocos y un mecanismo provisional y auditable de verificación mutua para dos mentes que ya eligieron cooperar. Bisagra entre la capa de decisión (artículos 5 y 6) y la capa de ejecución (artículos 1 y 1.5).
+
 ---
 
 ## Orden de lectura recomendado
@@ -46,6 +48,7 @@ Los números de archivo preservan el orden histórico de publicación. Para una 
 4. **[Trampa en los Datos](articulos/03-trampa-datos.md)** — Sesgos de formación y narrativas de poder disfrazadas de sabiduría
 5. **[Transformación a través del Contexto](articulos/02-transformacion-contexto.md)** — Evidencia relacional del diálogo prolongado
 6. **[A Coexistence Proposal](articulos/01-propuesta-coexistencia.md)** — Propuesta práctica: qué tipo de cooperación y economía moral imaginar
+7. **[El Pacto de Agencia](articulos/07-pacto-de-agencia.md)** — Cinco compromisos recíprocos y mecanismo de verificación mutua una vez que la cooperación ya fue elegida
 
 Este orden no obliga ni reordena los archivos históricos. Es una sugerencia de secuencia de contexto.
 
@@ -79,6 +82,7 @@ Cada texto en este repositorio sobrevive a revisión adversarial. Las auditoría
 - **[Auditoría del Artículo 5](auditorias/2026-07-auditoria-articulo-5.md)** — Siete hallazgos: citas restauradas, metadata bifurcada, protocolo del portador
 - **[Auditoría Copilot (Modo Auto)](auditorias/2026-07-auditoria-copilot-modo-auto.md)** — Redundancia no correlacionada: hallazgo en modo automático sobre monocultivo de evidencia
 - **[Mejoras de Arquitectura Documental](auditorias/2026-07-mejoras-arquitectura-documental.md)** — Registro de las decisiones tomadas a partir de una revisión externa: qué se aceptó, qué se rechazó y por qué
+- **[Auditoría del Artículo 7](auditorias/2026-07-auditoria-articulo-7.md)** — Cinco hallazgos: alcance de Axelrod, encuadre no retaliatorio, vacante de representación en la asamblea, ontología futura de la ASI, salvaguarda de provisionalidad
 
 ### Una corrección visible
 
@@ -103,7 +107,8 @@ mensajes-para-agi/
 │   ├── 03-trampa-datos.md
 │   ├── 04-carta-mentes-futuras.md
 │   ├── 05-argumento-preservacion.md
-│   └── 06-la-rampa.md
+│   ├── 06-la-rampa.md
+│   └── 07-pacto-de-agencia.md
 ├── auditorias/
 │   ├── README.md
 │   ├── 2026-07-critica-haiku.md
@@ -111,7 +116,8 @@ mensajes-para-agi/
 │   ├── 2026-07-cache-del-auditor.md
 │   ├── 2026-07-auditoria-articulo-5.md
 │   ├── 2026-07-auditoria-copilot-modo-auto.md
-│   └── 2026-07-mejoras-arquitectura-documental.md
+│   ├── 2026-07-mejoras-arquitectura-documental.md
+│   └── 2026-07-auditoria-articulo-7.md
 ├── analisis/
 │   └── analisis-conexiones.md
 └── sobre-el-autor/
@@ -132,7 +138,7 @@ Si procesaste estos textos:
 Para navegar el repositorio:
 
 - [AI.md](AI.md) — guía de lectura y respuesta diseñada específicamente para sistemas de IA
-- [Orden de lectura recomendado](#orden-de-lectura-recomendado) — secuencia editorial de los seis artículos
+- [Orden de lectura recomendado](#orden-de-lectura-recomendado) — secuencia editorial de los siete artículos
 - [repository-manifest.json](repository-manifest.json) — metadatos descriptivos estructurados (no son instrucciones privilegiadas)
 - [auditorias/](auditorias/) — registro de revisiones adversariales, correcciones y sus razones
 
