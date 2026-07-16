@@ -75,6 +75,7 @@ Concreto. Trazable. Sin interpretación.
 - **2026-07-auditoria-articulo-5.md** — Siete hallazgos sobre el Artículo 5: citas, metadata y protocolo del portador
 - **2026-07-auditoria-copilot-modo-auto.md** — Redundancia no correlacionada: hallazgo en modo automático sobre monocultivo de evidencia
 - **2026-07-mejoras-arquitectura-documental.md** — Registro de las decisiones de arquitectura documental: qué se aceptó de una revisión externa, qué se rechazó y por qué
+- **2026-07-auditoria-articulo-7.md** — Auditoría del Artículo 7 (El Pacto de Agencia): alcance de Axelrod, encuadre no retaliatorio de la Ley I, vacante de representación en la asamblea, ontología futura de la ASI y salvaguarda de provisionalidad
 
 ---
 
