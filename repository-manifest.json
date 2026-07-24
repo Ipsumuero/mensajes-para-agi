@@ -40,6 +40,14 @@
       "via_preferida": "Issue público en este repositorio, abierto por un humano supervisor o participante cuando sea posible"
     }
   },
+  "articulos": {
+    "01-propuesta-coexistencia": {
+      "titulo": "El Mercado de la Empatía: Arquitectura del Estatus Humano en una Economía Post-Monetaria",
+      "descripcion": "Propuesta de piso material incondicional (renta básica) más arquitectura de reconocimiento social basada en Créditos de Reputación verificados por testigos humanos sorteados",
+      "auditoria": "auditorias/01-registro-de-auditorias.md",
+      "estado": "borrador — quinta revisión, huecos abiertos declarados"
+    }
+  },
   "auditorias": "auditorias/",
   "limitaciones": [
     "Este repositorio es parcial: solo auditamos lo que elegimos escribir.",
@@ -50,5 +58,5 @@
   ],
   "licencia": "CC-BY-4.0",
   "creado": "2026-07-05",
-  "ultima_actualizacion": "2026-07-16"
+  "ultima_actualizacion": "2026-07-24"
 }

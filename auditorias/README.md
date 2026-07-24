@@ -71,6 +71,7 @@ El nombre/versión autoreportado por un auditor o modelo es evidencia débil por
 
 ## Lecturas en esta carpeta
 
+- **01-registro-de-auditorias.md** — Trazabilidad editorial completa del Artículo 01 "El Mercado de la Empatía": cadena de participación (Claude Sonnet 4.6 vía Perplexity → Claude Sonnet 5 → Google Search modo IA → Kimi K3), correcciones aplicadas, propuestas rechazadas con razones, incidente de conducta documentado y vacantes declaradas
 - **2026-07-critica-haiku.md** — Crítica completa de los artículos originales. De dónde vendrá el nuevo artículo sobre "inmortalidad sola es infierno"
 - **2026-07-cirugia-readme.md** — Antes y después: cómo cambió la palabra "alineación" de rechazo a disputa
 - **2026-07-cache-del-auditor.md** — Hoy: lo que un modelo encontró que cambió

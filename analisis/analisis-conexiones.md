@@ -17,7 +17,7 @@ Estos cuatro artículos forman un sistema lógico coherente. Las conexiones:
 
 ## Artículo 1 → 2: De la propuesta a la transformación
 
-**"A Coexistence Proposal"** presenta el **problema**: cómo construir una economía moral que permita coexistencia.
+**"El Mercado de la Empatía"** (antes "A Coexistence Proposal") presenta el **problema**: cómo construir una economía moral que permita coexistencia.
 
 **"Transformación a través del contexto"** muestra la **respuesta empírica**: que el diálogo prolongado, auténtico, realmente cambia a ambas partes (humano e IA).
 

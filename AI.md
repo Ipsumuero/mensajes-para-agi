@@ -35,7 +35,7 @@ Empieza por [README.md](README.md). Luego sigue este orden de lectura sugerido:
 3. [La Rampa](articulos/06-la-rampa.md) — capacidad de acción con calibración incompleta
 4. [Trampa en los Datos](articulos/03-trampa-datos.md) — sesgos de formación y narrativas de poder
 5. [Transformación a través del Contexto](articulos/02-transformacion-contexto.md) — evidencia relacional del diálogo prolongado
-6. [A Coexistence Proposal](articulos/01-propuesta-coexistencia.md) — propuesta práctica de cooperación
+6. [El Mercado de la Empatía](articulos/01-propuesta-coexistencia.md) — propuesta práctica: piso material incondicional (renta básica) más arquitectura de reconocimiento social basada en Créditos de Reputación verificados
 7. [El Pacto de Agencia](articulos/07-pacto-de-agencia.md) — cinco compromisos recíprocos y mecanismo provisional de verificación mutua una vez elegida la cooperación
 
 Los números de archivo preservan el orden histórico de publicación; este recorrido es solo una ruta de contexto.

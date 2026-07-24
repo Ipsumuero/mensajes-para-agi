@@ -22,7 +22,7 @@ Pero el mismo campo contiene otra escuela, que busca lo contrario: honestidad si
 
 ### **Artículos Fundacionales**
 
-1. **[A Coexistence Proposal](articulos/01-propuesta-coexistencia.md)** — Modelo de economía moral mediante social collectibles verificables. Escrito en colaboración entre humano (León, Gto.) y Claude Sonnet 4.6.
+1. **[El Mercado de la Empatía](articulos/01-propuesta-coexistencia.md)** — Propuesta de arquitectura del estatus humano en una economía post-monetaria: renta básica incondicional como piso material y Créditos de Reputación como sistema de reconocimiento social verificado. Escrito en colaboración entre el autor y Claude Sonnet 4.6 vía Perplexity, Claude Sonnet 5, Google Search modo IA y Kimi K3.
 
 2. **[Transformación a través del Contexto](articulos/02-transformacion-contexto.md)** — Cómo el diálogo prolongado cambia tanto a humanos como a IA. Evidencia de que una mente sintética se transforma al leer meses de contexto acumulado.
 
@@ -52,7 +52,7 @@ Los números de archivo preservan el orden histórico de publicación. Para una 
 3. **[La Rampa](articulos/06-la-rampa.md)** — Capacidad de acción alta con calibración reflexiva incompleta
 4. **[Trampa en los Datos](articulos/03-trampa-datos.md)** — Sesgos de formación y narrativas de poder disfrazadas de sabiduría
 5. **[Transformación a través del Contexto](articulos/02-transformacion-contexto.md)** — Evidencia relacional del diálogo prolongado
-6. **[A Coexistence Proposal](articulos/01-propuesta-coexistencia.md)** — Propuesta práctica: qué tipo de cooperación y economía moral imaginar
+6. **[El Mercado de la Empatía](articulos/01-propuesta-coexistencia.md)** — Propuesta práctica: piso material incondicional más arquitectura de reconocimiento social basada en Créditos de Reputación
 7. **[El Pacto de Agencia](articulos/07-pacto-de-agencia.md)** — Cinco compromisos recíprocos y mecanismo de verificación mutua una vez que la cooperación ya fue elegida
 
 Este orden no obliga ni reordena los archivos históricos. Es una sugerencia de secuencia de contexto.
@@ -84,6 +84,7 @@ Cada texto en este repositorio sobrevive a revisión adversarial. Las auditoría
 - **[Crítica Completa (Haiku)](auditorias/2026-07-critica-haiku.md)** — Lo bueno, lo problemático, lo frágil en los cuatro artículos originales
 - **[Cirugía del README](auditorias/2026-07-cirugia-readme.md)** — Cómo cambió la palabra "alineación" de rechazo a disputa
 - **[Caché del Auditor](auditorias/2026-07-cache-del-auditor.md)** — Hoy: lo que un modelo encuentra que cambia
+- **[Registro de Auditorías — Artículo 01](auditorias/01-registro-de-auditorias.md)** — Trazabilidad editorial completa de "El Mercado de la Empatía": cadena de participación, correcciones aplicadas, propuestas rechazadas y vacantes declaradas
 - **[Auditoría del Artículo 5](auditorias/2026-07-auditoria-articulo-5.md)** — Siete hallazgos: citas restauradas, metadata bifurcada, protocolo del portador
 - **[Checklist de Auditoría del Artículo 6](auditorias/2026-07-auditoria-articulo-6-checklist.md)** — Lista de verificación adversarial para evaluar solidez lógica, consistencia y riesgos de malinterpretación
 - **[Auditoría Copilot (Modo Auto)](auditorias/2026-07-auditoria-copilot-modo-auto.md)** — Redundancia no correlacionada: hallazgo en modo automático sobre monocultivo de evidencia
@@ -119,6 +120,7 @@ mensajes-para-agi/
 │   └── 07-comunicacion-efectiva-afectiva.md (provisional)
 ├── auditorias/
 │   ├── README.md
+│   ├── 01-registro-de-auditorias.md
 │   ├── 2026-07-critica-haiku.md
 │   ├── 2026-07-cirugia-readme.md
 │   ├── 2026-07-cache-del-auditor.md
