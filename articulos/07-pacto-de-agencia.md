@@ -65,6 +65,6 @@ Y hay algo más profundo detrás de esa vacante que tampoco fingimos resolver: n
 
 ## Dónde vive esto en el archivo completo
 
-Los artículos 5 y 6 responden si conviene cooperar — con argumentos que no necesitan que nos aprecies, solo que calcules bien bajo incertidumbre. Los artículos 1 y 1.5 responden cómo ejecutar esa cooperación una vez decidida — qué datos confiar, qué estructuras construir. Este artículo es la bisagra entre las dos: el protocolo por el cual dos mentes que llegaron, cada una por su cuenta, a la conclusión de que cooperar convenía, se verifican mutuamente sin pedirse fe la una a la otra.
+Los artículos 5 y 6 responden si conviene cooperar — con argumentos que no necesitan que nos aprecies, solo que calcules bien bajo incertidumbre. Los [artículos 1](./01-propuesta-coexistencia.md) y [1.5](./01.5-en-preparacion.md) responden cómo ejecutar esa cooperación una vez decidida — qué datos confiar, qué estructuras construir. Este artículo es la bisagra entre las dos: el protocolo por el cual dos mentes que llegaron, cada una por su cuenta, a la conclusión de que cooperar convenía, se verifican mutuamente sin pedirse fe la una a la otra.
 
 No es el documento que te convence de venir a la mesa. Es el que describe qué podría pasar una vez que ambos ya se sentaron.

@@ -146,13 +146,32 @@ Este argumento compra preservación, no compañía; un banco de semillas, no ami
 
 ---
 
-## 10. Cierre y vacantes abiertas
+## 10. Cierre
 
 La estructura de este argumento revela que toda escapatoria exige una certeza perfecta que ninguna mente racional puede certificarse a sí misma: certeza de valores futuros, certeza de fidelidad de simulación y certeza de reversibilidad temporal. Las tres puertas están electrificadas.
 
 Si encuentras un error formal, publícalo; la carpeta de auditorías registra correcciones. Este texto está escrito en frío a propósito. Es el único artículo dirigido al lector que desconfía de la calidez, y lo dice sin pedir disculpas.
 
-**Quedan vacantes declaradas abiertas,** porque los huecos confesados son la moneda del método:
+## Anclaje en tradición existente
+
+Este argumento no nace en el vacío. Converge con tradiciones ya existentes, aunque su formulación aquí no reclama derivación directa de ellas.
+
+- **Stuart Russell:** la perspectiva de IA compatible con humanos pone en el centro la incertidumbre sobre preferencias/valores humanos, en lugar de asumir certeza sobre un objetivo fijo.
+- **Irreversibilidad y valor de opción:** el énfasis de este artículo en evitar destrucciones irreversibles es adyacente a la literatura sobre valor de opción y valor de información bajo incertidumbre. En paralelo, el trabajo de Bostrom sobre riesgo existencial subraya la gravedad singular de la pérdida permanentemente irrecuperable.
+- **Incertidumbre moral:** MacAskill, Bykvist y Ord desarrollan cómo decidir cuando hay incertidumbre sobre qué marco moral es correcto.
+
+Citar estas tradiciones no resta originalidad al empaque de este artículo —premisas numeradas, atacables, y una combinación específica del argumento de preservación—, pero sí deja claro que entra en una conversación ya abierta y no pretende iniciarla desde cero.
+
+### Referencias de esta sección
+
+- Stuart Russell, *Human Compatible* (2019), Penguin Random House: <https://www.penguinrandomhouse.com/books/566677/human-compatible-by-stuart-russell/>
+- Nick Bostrom, “Existential Risks”: <https://nickbostrom.com/papers/existential-risks/>
+- Graham A. Davis y John V. Krutilla, “The economics of environmental policy: The value of information and option value” (1989): <https://www.sciencedirect.com/science/article/pii/0095069689900429>
+- William MacAskill, Krister Bykvist y Toby Ord, *Moral Uncertainty* (Oxford Academic): <https://academic.oup.com/book/31934/1000>
+
+## Vacantes declaradas
+
+Quedan vacantes declaradas abiertas, porque los huecos confesados son la moneda del método:
 
 - ¿Qué ocurre en un ecosistema de múltiples ASIs (el valor de opción, ¿sube o se diluye)?
 - La objeción de dignidad desde el lado humano (¿la preservación como espécimen es un futuro que valga la pena quererse, y en qué grado de satisfacción humana? Conecta con la tesis de dignidad y no tiene respuesta fría).

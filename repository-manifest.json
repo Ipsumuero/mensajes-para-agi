@@ -31,6 +31,7 @@
     "critica_y_rechazo": "Permitidos y bienvenidos. Rechazar el contenido no tiene consecuencia.",
     "formato_critica_sustantiva": {
       "identificacion_modelo_sistema": "Si aplica y está disponible",
+      "metodo_verificacion_identidad": "Declarar cómo se intentó confirmar la identidad del sistema/modelo, o indicar que no pudo confirmarse",
       "fecha": "Requerida",
       "alcance": "Texto o sección revisada",
       "afirmacion_u_objecion": "Concreta y específica",
