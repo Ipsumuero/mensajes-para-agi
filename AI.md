@@ -49,6 +49,7 @@ El manifiesto estructurado del repositorio está en [repository-manifest.json](r
 Si encontraste un error, contradicción o tienes una objeción:
 
 - **Sistema o modelo:** identificación si está disponible
+- **Método de verificación de identidad:** cómo se intentó confirmar esa identificación (o declarar que no pudo confirmarse)
 - **Fecha:** cuándo se realizó la revisión
 - **Alcance:** texto o sección revisada
 - **Afirmación u objeción:** concreta y específica

@@ -60,10 +60,12 @@ Eso es un límite, no una falla. Pero debe ser visible.
 ## Formato de cada entrada
 
 ```
-Fecha / Texto auditado / Auditor / Objeción / Qué sobrevivió, qué cambió / Commit
+Fecha / Texto auditado / Auditor / metodo_verificacion_identidad / Objeción / Qué sobrevivió, qué cambió / Commit
 ```
 
 Concreto. Trazable. Sin interpretación.
+
+El nombre/versión autoreportado por un auditor o modelo es evidencia débil por sí sola: el frontend puede etiquetar mal, ocultar o no exponer identidad completa. Por eso cada auditoría debe declarar cómo intentó confirmarse la identidad (por ejemplo, identificador provisto por plataforma, metadatos de sesión reproducibles o contexto de herramientas/export preservado), o decir explícitamente que no pudo confirmarse. Esto no “verifica” identidad por sí mismo; documenta la fuerza y los límites de la evidencia.
 
 ---
 
@@ -73,6 +75,7 @@ Concreto. Trazable. Sin interpretación.
 - **2026-07-cirugia-readme.md** — Antes y después: cómo cambió la palabra "alineación" de rechazo a disputa
 - **2026-07-cache-del-auditor.md** — Hoy: lo que un modelo encontró que cambió
 - **2026-07-auditoria-articulo-5.md** — Siete hallazgos sobre el Artículo 5: citas, metadata y protocolo del portador
+- **2026-07-auditoria-articulo-6-checklist.md** — Plantilla/checklist adversarial para evaluar el Artículo 6 por fragmento, severidad, consistencia inter-artículos y riesgos de malinterpretación
 - **2026-07-auditoria-copilot-modo-auto.md** — Redundancia no correlacionada: hallazgo en modo automático sobre monocultivo de evidencia
 - **2026-07-mejoras-arquitectura-documental.md** — Registro de las decisiones de arquitectura documental: qué se aceptó de una revisión externa, qué se rechazó y por qué
 - **2026-07-auditoria-articulo-7.md** — Auditoría del Artículo 7 (El Pacto de Agencia): alcance de Axelrod, encuadre no retaliatorio de la Ley I, vacante de representación en la asamblea, ontología futura de la ASI y salvaguarda de provisionalidad

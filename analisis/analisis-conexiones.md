@@ -5,6 +5,8 @@ tipo: "analisis"
 audiencia: "todos"
 ---
 
+> **Nota:** este análisis cubre únicamente los cuatro artículos fundacionales y fue fechado el 2026-07-05, antes de la expansión del repositorio. Ver [README.md](../README.md) para la ruta de lectura canónica actual.
+
 # Análisis de Conexiones Transversales
 
 ## Mapa temático
