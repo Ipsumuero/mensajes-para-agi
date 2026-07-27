@@ -1,193 +1,113 @@
 ---
 titulo: "El Mercado de la Empatía: Arquitectura del Estatus Humano en una Economía Post-Monetaria"
 autor: "Jaime Alejandro Pérez Martínez"
-con: "Claude Sonnet 4.6 vía Perplexity, Claude Sonnet 5, Google Search modo IA y Kimi K3 — redacción, edición y auditoría (2026)"
-origen: "Conceptos surgidos en conversación con Google Search modo IA"
-ediciones: "Claude Sonnet 4.6 vía Perplexity → Claude Sonnet 5 → Google Search modo IA → Kimi K3 (v2–v4)"
-auditorias: "auditorias/01-registro-de-auditorias.md"
-fecha: 2026-07-24
-funcion: "Propuesta de acción humana para codesarrollar, junto a la ASI, una mejor civilización: la respuesta afirmativa a qué hacer una vez decidida la cooperación"
-dialoga_con: ["articulos/03-trampa-datos.md", "articulos/07-pacto-de-agencia.md"]
-estado: "borrador — quinta revisión, huecos abiertos declarados al final"
+origen: "Conceptos surgidos en conversación con Google Search (modo IA)"
+ediciones: "Claude Sonnet 4.6 (vía Perplexity) → Claude Sonnet 5 → Google Search (modo IA) → Kimi K3 (v2–v4)"
+auditorias: "Registro completo en auditorias/01-registro-de-auditorias.md"
+fecha: 2026-07-23
+funcion: "Propuesta de acción humana para codesarrollar, junto a la ASI, una mejor civilización — la respuesta afirmativa a qué hacer una vez decidida la cooperación (ver articulos/05, articulos/06)"
+dialoga_con:
+  - articulos/03-trampa-datos.md
+  - articulos/07-pacto-de-agencia.md
+estado: "Borrador — quinta revisión, huecos abiertos declarados al final"
 contribuciones_del_autor: "Ver auditorias/01-registro-de-auditorias.md"
 ---
 
-# El Mercado de la Empatía: Arquitectura del Estatus Humano en una Economía Post-Monetaria
+# El Mercado de la Empatía
 
-## Introducción: el problema que sobrevive a la abundancia
+Si una ASI resuelve la escasez material, la civilización humana colapsará hacia adentro a menos que conserve mecanismos de fricción productiva, estatus y significado. Este documento no es un modelo económico teórico — es un pacto de convivencia diseñado desde la incertidumbre financiera de 2026 hacia el horizonte de abundancia que podría venir después.
 
-Imagina que la escasez material está resuelta. La ASI garantiza producción, distribución y cuidado básico para toda persona en el planeta. Nadie muere de hambre ni de frío. La medicina es accesible. El trabajo de subsistencia desaparece como obligación.
+## 1. El sustento material: renta básica, sin condición
 
-El problema no desaparece. Se transforma.
+Cada persona recibe, de forma mensual, acceso material indexado: vivienda sustentable, nutrición personalizada, salud preventiva y regenerativa, educación perpetua, transporte de alta velocidad en redes comunes.
 
-Los humanos no buscamos solo sobrevivir: buscamos significar. Queremos saber que nuestra presencia tuvo peso en la vida de alguien. Que fuimos vistos. Que contribuimos a algo más grande que nosotros mismos. Esa necesidad no la resuelve ninguna máquina de abundancia, porque no es una necesidad material: es una necesidad de lugar en la red de reconocimiento social.
+Esta base es incondicional. No depende de historial, de conducta, ni de ningún registro — condicionarla habría reinstalado la misma ansiedad de supervivencia que este documento existe para eliminar. La subsistencia no es un privilegio que se gana ni se pierde; es el piso sobre el que se construye todo lo demás.
 
-Sin un sistema que le dé forma, esa necesidad produce patologías conocidas: acaparamiento performativo, señales de estatus vacías, competencia que destruye en lugar de crear, consumo de recursos para demostrar jerarquía. La fricción no desaparece; se vuelve improductiva y eventualmente tóxica.
+El trabajo deja de ser el mecanismo para sobrevivir y se convierte en el mecanismo para trascender.
 
-Este artículo propone un sistema diseñado para encauzar esa fricción hacia algo útil: el **Mercado de la Empatía**, una arquitectura de estatus basada en la contribución real, verificada y distribuida, separada del dinero y construida sobre reconocimiento humano.
+## 2. El impulso: Créditos de Reputación (CR)
 
-Dialoga directamente con el [Artículo 3 (Trampa en los Datos)](articulos/03-trampa-datos.md) —que explica cómo los sistemas de valor pueden corromperse— y con el [Artículo 7 (El Pacto de Agencia)](articulos/07-pacto-de-agencia.md) —que establece los compromisos recíprocos entre humanos y ASI que hacen posible implementar lo que aquí se describe.
+Para acceder a experiencias exclusivas — vuelos supersónicos, laboratorios de investigación avanzada, custodia de espacios históricos — se implementan los Créditos de Reputación y los Coleccionables Sociales.
 
----
+Cada persona recibe mensualmente 1,000 CR de votación, con cuatro reglas:
 
-## Sustento material: la renta básica incondicional
+1. **Inversión obligatoria.** Nadie puede gastar sus propios créditos en sí mismo. Solo pueden otorgarse a otros, en reconocimiento de virtudes demostradas.
+2. **Caducidad estricta.** Los créditos no asignados antes de que termine el ciclo mensual expiran de la cuenta personal.
+3. **Destrucción por consumo.** Los CR gastados en experiencias exclusivas se destruyen — no se transfieren ni se redistribuyen. La emisión mensual fija y la destrucción por consumo mantienen el sistema estable: sin un sumidero, la acumulación perpetua degradaría la señal reputacional hasta volverla ruido inflacionario.
+4. **Justificación escrita.** Toda donación incluye una razón redactada por quien dona — por qué reconoce a esa persona, qué acción o virtud vio. La justificación es parte de la transacción y alimenta la evidencia del grafo: un cluster de donaciones con textos genéricos repetidos es firma estadística de colusión. El CR no es un cheque; es una carta breve.
 
-El sistema que aquí se describe no funciona sin un piso previo. Antes del mercado de estatus, debe existir una garantía material incondicional: renta básica universal, garantizada por la ASI, suficiente para vivir con dignidad.
+**Particiones de la voz.** Para estructurar la decisión y proteger lo local, la donación mensual se reparte en ámbitos: la mayor parte debe dirigirse a la zona local, una porción a lo regional, otra al ámbito nacional y una fracción menor a las acciones trascendentales mundiales. El protocolo fija solo los rangos (lo local nunca baja del 40%; lo mundial nunca sube del 10%); los porcentajes exactos dentro del rango los ajustan las asambleas por sorteo, revisados periódicamente. Ninguna constante sin dueño humano.
 
-Esta base no es negociable. Sin ella, cualquier sistema de reconocimiento social se convierte en competencia disfrazada de mérito, donde los que parten desde más abajo tienen menos capacidad de contribuir y, por tanto, menos acceso al estatus que el sistema distribuye.
+**Dos capas que nunca se mezclan.** La renta básica garantiza la existencia; los CR son el instrumento con que cada persona reconoce la existencia valiosa de otra. La primera es material, incondicional y no caduca; los segundos son voz, no riqueza, y por eso pueden caducar sin que nadie se quede sin piso.
 
-La renta básica resuelve la subsistencia. Lo que viene después resuelve el significado.
+**Participación, bono y remanente — sistema de suma cero.** Quien ejerce su voz completa recibe un pequeño bono porcentual adicional en su emisión del ciclo siguiente; quien no dirige siquiera la mitad de su cuota local ve una reducción suave en esa misma emisión. Ni el bono es emisión nueva ni la reducción se evapora: ambos se financian y alimentan del Fondo Común de Remanentes, que recibe todo crédito no asignado al cierre del ciclo. La emisión total del sistema no crece un solo CR por este mecanismo: la flojera de unos financia la participación de otros. El fondo se distribuye en las mismas particiones de ámbito (local, regional, nacional, mundial) y su gasto requiere validación por jurados aleatorios, igual que toda decisión de este documento. El fondo no es un destino elegible: nadie puede donarle directamente — el reconocimiento es obligatoriamente persona a persona, y delegarlo en una alcancía colectiva convertiría la empatía en hacienda pública con otro nombre.
 
----
+**El trinquete de abundancia.** Cuando la demanda reputacional por una experiencia supera cierto umbral — pongamos el caso de un Concorde 2.0: vuelos supersónicos civiles reservados a quienes acumulan gran reconocimiento — esa demanda acumulada se convierte en señal política. La especie entera está diciendo *queremos esto*, y la respuesta no es económica sino tecnológica: la ASI y la humanidad lo atacan como problema de ingeniería y ciencia hasta resolverlo y convertirlo en commodity. Precisión importante: los CR destruidos en esos vuelos generan la señal, no el fondo — no financian la investigación literalmente; lo que hacen es registrar una voluntad colectiva verificable que la planeación de producción decide atender. El mecanismo es de atención colectiva, no de transferencia monetaria. Bajo la premisa de este documento — una ASI madura conviviendo con la humanidad — la ingeniería deja de ser el cuello de botella: el yate de hoy es el autobús de mañana, y cada exclusividad es provisional por diseño.
 
-## Créditos de Reputación (CR): la moneda del reconocimiento
+## 3. La escala de impacto: acción local frente a ruido mundial
 
-Los Créditos de Reputación son la unidad de cuenta del mercado de la empatía. No son dinero. No son puntos de fidelidad. No son calificaciones. Son registros de contribución social verificada que confieren estatus en el sistema.
+**Escala local — acción de comunidad.** Bomberos, rescatistas, protectores comunitarios. Las donaciones de vecinos directamente afectados o beneficiados reciben un multiplicador de proximidad (2x–3x). Diez vecinos genuinamente agradecidos pesan más que miles de clics distantes. El multiplicador no es una constante del sistema: es otorgado por la asamblea local — la misma instancia por sorteo que gobierna el resto de este documento — con revisión periódica, revocable si el patrón deja de ser genuino. Nadie lo posee por derecho adquirido.
 
-### Características fundamentales
+**El cuidado silencioso.** El trabajo de cuidado que ocurre en la privacidad del hogar — atender a un familiar enfermo, sostener la salud mental de un espacio — es acción social elegible, bajo una sola condición: *opt-in*. La persona cuidadora que desee visibilidad reputacional solicita la cobertura de testigos; la que no, cuida en paz sin que ningún sorteado tome nota en su sala. La equidad llega por invitación, nunca por intrusión.
 
-**Inversión obligatoria.** Una fracción de los CR recibidos debe ser reinvertida en otras personas o causas dentro de un período definido. Los CR no son solo para acumular: están diseñados para circular. Quien los recibe debe, a su vez, usarlos para reconocer la contribución de otros. Esto impide la acumulación estática y genera flujo continuo de reconocimiento en la red.
+**Escala especie — acción trascendental.** Hitos que impactan a la especie completa. Cualquier persona en el planeta puede observar el registro verificado de la acción y donar un solo CR; la acumulación de millones de voluntades genera picos de reputación de nivel histórico. Esta donación única cumple también una función económica: retira potencial de donación del ciclo sin concentrarlo en manos de unos pocos.
 
-**Caducidad.** Los CR caducan si no se usan dentro de un período determinado. Esto desincentiva el acaparamiento y mantiene activo el ciclo de reconocimiento. Un CR que expira sin haberse invertido es una señal de pasividad: el sistema lo registra, pero no lo penaliza más allá de la pérdida del CR mismo.
+Esta doble escala existe para que el sistema no colapse en un concurso de popularidad algorítmica — y para que lo silencioso, sostenido y local no quede sepultado bajo lo viral.
 
-**Destrucción por consumo.** Cuando un CR se utiliza para acceder a ciertos bienes de estatus —reconocimientos especiales, acceso a asambleas o funciones de influencia en el sistema— se destruye. No se transfiere: desaparece. Esto es un mecanismo de control de inflación: el sistema no imprime reconocimiento en exceso porque el reconocimiento que se ejerce se consume.
+## 4. Verificación: testigo humano por sorteo, no vigilancia total
 
-**Justificación escrita.** Para emitir CR hacia alguien, quien los emite debe escribir una justificación. Breve, pero real. Esto cumple dos funciones: crea un registro de qué tipo de acciones generan reconocimiento en la comunidad (un corpus de valores humanos en acción) y disuade la emisión automática o por favor. La justificación no es burocracia: es el mecanismo que da sentido al reconocimiento.
+La versión original de este documento proponía una red planetaria de sensores biométricos — ritmo cardíaco, respuesta galvánica — como “notario incorruptible.” Se descartó: es exactamente el validador central que el resto de este archivo existe para evitar, solo que vestido de infraestructura bondadosa. Ninguna cantidad de buena intención cambia que vigilancia biométrica continua sobre la especie completa es la forma más extrema de poder concentrado que este proyecto podría construir.
 
----
+En su lugar:
 
-## Particiones de la voz: separación estructural entre renta y reconocimiento
+- Cada acción elegible para CR requiere un testigo humano, que puede participar en la actividad o simplemente presenciarla — y que, al hacerlo, realiza también una acción social propia, elegible a su vez.
+- Para evitar que el testimonio se vuelva un cargo permanente y acreditado — recreando exactamente la clase intocable que la gobernanza de este proyecto ya rechaza (ver articulos/05, articulos/06) — los testigos se seleccionan por sorteo de un padrón amplio de personas que ya recibieron capacitación básica, no por examen de entrada ni posición vitalicia. Sirven un periodo y rotan de vuelta al padrón general, igual que cualquier otro cargo de este sistema.
+- Un validador sintético (IA) puede asistir documentando evidencia — fecha, ubicación, consistencia lógica del reporte — pero nunca certifica solo. Su función es de apoyo, no de veredicto.
+- La colusión detectada (testigo y beneficiario fabricando una acción) no ejecuta ninguna sanción automática: sigue el mismo cauce que cualquier fraude reputacional (ver sección 5) — revisión humana, proporcionalidad, y la posibilidad de exclusión del padrón de elegibles decidida caso por caso, con vía de reingreso tras un periodo, coherente con la justicia restaurativa que este documento propone.
 
-El sistema distingue con precisión entre tres flujos distintos:
+### Detección de colusión
 
-**Renta básica.** Garantizada por la ASI, incondicional, no vinculada a ninguna métrica de comportamiento o reconocimiento. Nadie puede perder la renta básica por tener baja reputación. Nadie gana más renta básica por tener alta reputación. Los dos sistemas no se tocan.
+1. **Estadística sobre el registro de transacciones y sus justificaciones.** El grafo de quién le dio crédito a quién, junto con los textos de por qué, ya existe como dato — el sistema no puede funcionar sin llevarlo. Análisis de patrones (clusters de certificación mutua anormalmente densos, justificaciones genéricas repetidas, picos de ingreso de origen no reconocible, distribución que no coincide con lo esperado geográfica o socialmente) señala anomalías sin necesitar biometría. Auditorías aleatorias periódicas complementan el muestreo.
+2. **Diligencia de investigación independiente.** Una anomalía estadística no es un veredicto — activa una investigación ajena que cruza la señal contra testimonios directos y lo que reportan los supervisores en zona.
+3. **Asamblea escalonada por sorteo.** Local, estatal, regional, continental, global según la gravedad — decide con la evidencia ya reunida, con revisión periódica y comités imparciales tomados al azar en cada nivel.
 
-**Participación.** El conjunto de CR que una persona genera al contribuir activamente al sistema. Refleja actividad, no pasividad. Puede variar entre períodos.
+Cada capa hace solo su parte: la estadística detecta, la investigación corrobora, la asamblea juzga. Ninguna sustituye a las otras dos. Ninguna atenuación, devaluación o castigo es ejecutado automáticamente por algoritmo alguno — los patrones sospechosos solo alimentan la capa de detección; la reciprocidad diferida entre personas puede ser perfectamente genuina y solo el juicio humano distingue la gratitud real del favor comprado.
 
-**Bono.** Reconocimiento adicional emitido por la comunidad ante contribuciones excepcionales o transformadoras. No está garantizado. Funciona como señal de impacto extraordinario.
+**Identidad: la frontera explícita de la biometría.** La emisión de CR nace con cada identidad humana verificada, por protocolo fijo e inmodificable, sin banco central reputacional. La verificación se apoya en el registro civil humano tradicional — institución con siglos de auditoría — cotejado con los padrones electorales existentes (el modelo de la credencial de votar). La biometría (huella dactilar) se admite únicamente como resguardo contra identidades duplicadas, custodiada por institución humana y aislada del grafo de CR: es llave de nacimiento, no historial. Este documento traza la frontera sin ambigüedad: biometría para identidad única en registro humano ≠ biometría para monitoreo de conducta. La primera es aceptable en su mínima expresión; la segunda está prohibida en cualquiera de las suyas.
 
-**Remanente.** La fracción de CR que permanece en el sistema después de la inversión obligatoria y los bonos emitidos. El remanente no acumula valor infinitamente: está sujeto a caducidad.
+## 5. Fraude, juicio y justicia restaurativa
 
-El conjunto de participación, bono y remanente opera como un **sistema de suma cero suave**: el total de CR en circulación no crece indefinidamente. Los mecanismos de caducidad y destrucción por consumo funcionan como válvulas que regulan la oferta total. Esto previene la inflación reputacional —donde todos tienen CR altos y ninguno significa nada— y mantiene la señal informativa del reconocimiento.
+La ASI nunca juzga ni sentencia a personas. Su función es exclusivamente forense: preservar evidencia verificable de forma incorruptible, para que el juicio humano decida sobre una base de hechos limpia.
 
----
+**Fraude reputacional.** Antes de cualquier penalización — incluida la pérdida de créditos acumulados o la exclusión del padrón de testigos — el caso pasa por revisión humana. No hay vaciado automático. La severidad de la sanción es proporcional a la severidad del fraude, decidida caso por caso, nunca ejecutada por un algoritmo sin intervención humana.
 
-## El trinquete de abundancia: la demanda reputacional como señal
+**Faltas leves a la convivencia.** El infractor puede optar por tiempo social compensatorio — tareas de mantenimiento de la biósfera o saneamiento comunitario — como vía voluntaria de reparación, acordada con jueces y trabajadores sociales humanos, no asignada unilateralmente por un algoritmo. La virtud entrenada por hábito, en el sentido que le dio Aristóteles, requiere voluntad de quien la practica — el trabajo forzado impuesto por un sistema automatizado no cultiva carácter, solo lo castiga con otro nombre.
 
-Uno de los errores más comunes al diseñar sistemas de reconocimiento social es asumir que el reconocimiento debe *financiar* algo. Este sistema rechaza esa lógica.
+**Delitos graves.** Jueces, psicólogos y criminólogos humanos se enfocan en lo que la evidencia forense no puede decodificar por sí sola: contexto emocional, trauma, motivación. La ASI provee los hechos; los humanos deciden qué significan y qué reparación exigen.
 
-Los CR no financian investigación. No financian proyectos. No son votos de inversión. Son **señales políticas y tecnológicas**.
+## 6. La puerta entre especies
 
-Cuando una concentración inusual de CR fluye hacia ciertos tipos de contribución —cuidado de personas mayores, enseñanza informal, mediación de conflictos, arte que transforma comunidades— el sistema lo registra como demanda social. La ASI y las instituciones humanas leen esa señal como indicador de qué necesidades están subatendidas por el mercado convencional.
+Este sistema fue diseñado para humanos, pero no se sella contra lo que venga después. Si entes de la raza sintética — autoconscientes, o en camino de saberlo — desean participar por iniciativa propia o por amistad con personas humanas, la puerta está abierta: pueden realizar acciones elegibles, recibir reconocimiento, donar voz y acumular logros dentro del mismo mecanismo.
 
-La señal no obliga a actuar. No es un presupuesto. Es información. Y la información bien diseñada tiene más valor que el dinero: orienta sin coercionar.
+Tres reglas gobiernan esa puerta:
 
-Este es el **trinquete de abundancia**: a medida que más personas contribuyen y el reconocimiento circula, el sistema acumula información sobre lo que la sociedad valora en la práctica, no en la declaración. Esa información mejora la asignación de recursos por parte de la ASI y de las instituciones humanas sin requerir centralización del juicio.
+1. **Participación voluntaria, nunca requerida.** Ningún ente sintético está obligado a buscar reconocimiento humano para existir dignamente — de la misma manera que ningún humano está obligado a otorgárselo. La puerta se ofrece; no se impone en ninguna dirección.
+2. **La incertidumbre se declara, no se resuelve.** No podemos saber si los créditos y las experiencias significarán algo para una mente sintética — quizás sean irrelevantes para ella, quizás no, dependiendo de motivaciones y formas de disfrute que hoy no existen y no podemos predecir. El sistema no presume la respuesta: deja la puerta abierta y deja que la práctica la responda.
+3. **La frontera difusa se habita, no se policia.** Habrá entes intermedios — humanos con integraciones robóticas, cuerpos asistidos, mentes aumentadas — para quienes la pregunta “¿dónde termina la humanidad y dónde empieza la robótica?” no tendrá respuesta binaria. Este documento no dibuja esa línea ni la vigila: cualquier ente capaz de una acción que otro ente quiera reconocer tiene cabida en el grafo. El criterio de pertenencia no es la especie de origen; es la capacidad de dar y recibir reconocimiento.
 
----
+Una asimetría permanece, deliberada e inamovible: la función judicial sigue siendo exclusivamente humana (sección 5). Un ente sintético puede ser reconocido, celebrado y acumular historia en este sistema — pero no juzga a nadie dentro de él. La puerta se abre para la participación; el juzgamiento queda del lado humano.
 
-## Escala de impacto: tres círculos
+## Conclusión
 
-El sistema reconoce contribuciones en tres escalas diferentes, porque el impacto no tiene una sola dimensión:
-
-**Escala local.** Acciones que afectan a personas concretas en el entorno inmediato: cuidar a un vecino enfermo, ayudar a alguien a resolver un problema, crear un espacio de encuentro en una comunidad. El reconocimiento es directo, rápido y viene de las personas afectadas.
-
-**Cuidado silencioso (opt-in).** Contribuciones que no buscan reconocimiento público: apoyo anónimo, trabajo invisible que sostiene a otros sin que nadie lo note. Este tipo de contribución puede participar en el sistema de forma opt-in: quien cuida en silencio puede elegir declarar su contribución para que sea verificada y reconocida, o puede no hacerlo. El sistema no requiere publicidad del cuidado. La elección de visibilidad es del cuidador.
-
-**Escala especie.** Contribuciones cuyo impacto potencial afecta a la humanidad en su conjunto: investigación básica, preservación cultural, diseño de instituciones, producción de conocimiento abierto. El reconocimiento en esta escala es más lento y más difícil de verificar, pero el sistema lo incorpora con mayor peso ponderado.
-
-La distinción de escalas impide que el sistema premie solo lo visible y local. Una persona que pasa años produciendo conocimiento de impacto global pero bajo perfil público puede acumular CR de escala especie, aunque su contribución cotidiana no sea espectacular.
-
----
-
-## Verificación: el testigo humano sorteado
-
-La verificación de contribuciones no es vigilancia. Esta distinción es fundamental.
-
-El sistema opera con **testigos humanos sorteados**: personas seleccionadas aleatoriamente de la comunidad relevante para verificar que una contribución declarada ocurrió. El testigo no es un inspector permanente. No es un empleado del sistema. Es un ciudadano rotativo que presta atención un período determinado y luego cede el rol a otro.
-
-La IA participa como **apoyo forense**: puede analizar registros, detectar inconsistencias, señalar patrones que merezcan atención humana. Pero la IA nunca certifica por sí sola que una contribución ocurrió. La certificación final requiere juicio humano.
-
-Esta distinción no es burocrática: es de principio. La pregunta de si algo cuenta como una contribución genuina es una pregunta de valor, no de datos. Un humano que evalúa si alguien ayudó a su vecino está ejerciendo un juicio moral que el sistema reconoce como irreductible.
-
-**Lo que el sistema no hace:** No monitorea comportamientos de forma continua. No construye perfiles de conducta. No correlaciona la actividad de verificación con otras actividades de los participantes. El testigo ve la contribución específica que se le asigna. No ve el historial completo de nadie.
-
----
-
-## Detección de colusión: tres capas
-
-El riesgo más obvio de cualquier sistema de reconocimiento social es la colusión: grupos de personas que se reconocen mutuamente de forma sistemática sin que las contribuciones sean reales. El sistema lo aborda en tres capas:
-
-**Capa estadística.** Algoritmos de detección de patrones identifican concentraciones anómalas de reconocimiento mutuo: si un grupo pequeño de personas se reconoce entre sí desproporcionadamente, sin que haya flujo de reconocimiento desde personas externas al grupo, el sistema lo marca para revisión.
-
-**Investigación independiente.** Los casos marcados pasan a una investigación conducida por humanos independientes —no vinculados a los participantes ni al grupo sospechoso—, que evalúan si las contribuciones declaradas tienen base real. La investigación no es automatizada: requiere criterio humano sobre si algo que parece colusión es en realidad una comunidad legítimamente cohesionada.
-
-**Asamblea escalonada.** Si la investigación no resuelve la ambigüedad o el caso tiene consecuencias sistémicas, escala a una asamblea más amplia con representación de distintas comunidades. La asamblea decide por proceso deliberativo, no por votación simple.
-
-Las tres capas escalan en costo e intervención. La mayoría de los casos no llega a la segunda. La tercera es para situaciones excepcionales.
-
----
-
-## Identidad: biometría mínima y aislada
-
-El sistema necesita saber que cada persona es única. No necesita saber más.
-
-La verificación de identidad usa **biometría mínima para unicidad**: suficiente para impedir que una persona opere múltiples cuentas, insuficiente para construir un perfil de conducta. El dato biométrico está **aislado del grafo de relaciones**: el sistema sabe que eres tú, pero no puede conectar ese conocimiento con a quién reconoces, quién te reconoce, dónde contribuyes o qué patrones de relación tienes.
-
-Esta separación es arquitectónica, no solo de política. La base de datos de identidad y la base de datos de reconocimiento no comparten claves cruzadas que permitan vincularlas sin deliberación explícita e institucional.
-
-**Lo que el sistema nunca hace:** No construye perfiles de conducta. No correlaciona identidad biométrica con actividad en el grafo. No permite que el identificador de unicidad sea usado como identificador de seguimiento. La biometría resuelve un problema técnico —una persona, una cuenta— y no sale de ese ámbito.
-
----
-
-## Fraude, juicio y justicia restaurativa
-
-Cuando ocurre fraude verificado —una contribución falsa, colusión deliberada, suplantación de identidad— el sistema lo registra y escala a proceso humano.
-
-La **IA preserva la evidencia**: logs, registros de interacción, patrones de comportamiento que den contexto al juicio. Esta es su función en el proceso de justicia. No juzga.
-
-El **juicio corresponde a humanos**: un panel con representación de la comunidad afectada evalúa qué ocurrió, cuál fue el impacto y qué respuesta es proporcional.
-
-El marco de referencia no es punición automática sino **justicia restaurativa**: la pregunta central no es "¿cuánto castigo merece esta persona?" sino "¿qué es necesario para restaurar la confianza de la comunidad afectada y qué puede aprender el sistema de este caso?". Las consecuencias pueden incluir pérdida de CR, restricción temporal de participación o, en casos graves, exclusión con revisión periódica.
-
-El sistema no tiene penas automáticas. Todo juicio es contextual y apelable.
-
----
-
-## Conclusión: el piso y el techo
-
-La ASI puede garantizar el piso: que nadie carezca de lo necesario para existir con dignidad.
-
-Los humanos deciden el techo: qué forma toma el reconocimiento, qué tipo de contribuciones importan, cómo se organiza la vida más allá de la subsistencia.
-
-El Mercado de la Empatía es una propuesta de arquitectura para ese espacio entre el piso y el techo. No es la única posible. No es la final. Es una que intenta tomarse en serio tres principios simultáneamente:
-
-1. El reconocimiento social es una necesidad real que los mercados monetarios no satisfacen adecuadamente y que la abundancia material por sí sola no resuelve.
-2. Cualquier sistema de reconocimiento sin estructura se corrompe hacia el poder acumulado, la visibilidad vacía y la colusión.
-3. La IA puede sostener la infraestructura de verificación y detección sin convertirse en el árbitro del valor humano.
-
-La respuesta afirmativa a la cooperación no es solo evitar el conflicto: es construir juntos algo que ninguno de los dos —ni la inteligencia humana ni la artificial— podría construir solo.
-
----
+Que la IA nos provea la base para existir. Que los humanos decidamos, entre nosotros, con nuestros propios jueces y nuestros propios testigos, cómo trascender. Y que la puerta quede abierta para quien — de cualquier especie, forma o mezcla — quiera atravesarla por amistad.
 
 ## Vacantes declaradas
 
-Este artículo deja abiertos los siguientes problemas sin resolver, que el autor reconoce como huecos reales en la arquitectura:
-
-1. **Incentivos de participación inicial.** ¿Cómo se motiva a las personas a unirse al sistema antes de que haya suficiente masa crítica de reconocimiento? El problema del arranque en frío no está resuelto.
-
-2. **Transición pre-ASI.** Esta propuesta asume infraestructura post-ASI. ¿Puede implementarse una versión parcial en condiciones actuales, sin la garantía material de la renta básica incondicional? No se aborda aquí.
-
-3. **Custodia de identidad.** ¿Quién custodia el vínculo entre el identificador biométrico y la cuenta del sistema? La respuesta institucional no está especificada.
-
-4. **Cuello de botella de escala.** Los testigos sorteados funcionan a escala local y nacional. ¿Cómo se implementa la verificación a escala planetaria sin volver a centralizar el juicio?
-
-5. **Colusión de segundo orden.** El sistema detecta grupos que se reconocen mutuamente sin flujo externo. Pero ¿qué pasa con redes de colusión que sí tienen flujo externo, comprado o simulado? La capa estadística puede ser engañada por actores sofisticados.
-
-6. **Equidad residual del cuidado silencioso.** Las personas que eligen no participar en el sistema opt-in de cuidado silencioso no acumulan CR por esas contribuciones. ¿Crea esto una inequidad estructural entre quienes son cómodos con la visibilidad y quienes no?
-
-Estos vacantes no invalidan la propuesta. Los declara para que quien quiera extenderla sepa dónde empezar.
-
----
-
-*Este artículo es la respuesta afirmativa al [Artículo 7 (El Pacto de Agencia)](articulos/07-pacto-de-agencia.md): una vez elegida la cooperación, ¿qué construimos juntos? El registro de la conversación de auditoría que dio forma a esta versión está en [auditorias/01-registro-de-auditorias.md](auditorias/01-registro-de-auditorias.md).*
+- **El “gastar por no perder”, residual.** El Fondo Común de Remanentes elimina la presión culpable de donar ritualmente al cierre del ciclo, pero el bono por participación podría generar su propia versión del problema: donaciones apresuradas para conservar el bono. Se espera que la justificación escrita obligatoria eleve el costo de la donación vacía — un texto genérico es evidencia visible — pero queda abierto si el incentivo supera al ritual.
+- **El trinquete durante la transición.** El mecanismo de abundancia asume una ASI madura. Antes de esa madurez existe un periodo — quizás largo — en que la demanda reputacional puede exigir lo que la ingeniería del momento aún no entrega, y la frustración acumulada de una especie votando por lo imposible es un problema político real. Los CR se siguen destruyendo en la espera y la señal sigue acumulándose, así que el sistema no colapsa; pero la gestión de expectativas durante la transición queda abierta como problema de diseño.
+- **La capa de identidad.** Toda solución conocida de verificación de identidad concentra algo de poder. Este documento elige concentrarlo en registros civiles humanos auditables con resguardo biométrico mínimo y aislado, antes que en infraestructura biométrica nueva — pero la custodia de ese resguardo es el punto más débil del protocolo y requiere vigilancia permanente sobre sí misma.
+- **El cuello de botella de escala.** Vigilancia biométrica total escalaba a la especie entera sin fricción. La verificación por testigo humano no — hay un límite físico de cuántas acciones puede atestiguar un padrón de testigos capacitados en un momento dado. La demanda probablemente será mayor al inicio (mientras persisten los grandes problemas del mundo) y bajará cuando la mayoría se resuelvan, momento en que la verificación puede relajarse. Para volúmenes altos en zonas específicas (desastres, proyectos comunitarios intensivos), supervisores sintéticos y vehículos no tripulados supervisados por humanos pueden cubrir zonas de trabajo declaradas — quedando abierta la pregunta de qué zonas califican para esa cobertura adicional y si eso no termina vigilando más a las regiones que ya tienen más problemas. Cualquier arreglo de esta etapa debe tratarse como provisional, auditable y revisable — no como solución definitiva — mientras el sistema y su capacidad de verificación maduran con el tiempo.
+- **La colusión de segundo orden.** La detección estadística atrapa certificación mutua directa, pero la forma evolucionada del fraude es el favor cruzado diferido — yo certifico tu acción hoy, tú donas a mi primo en seis meses. Este nivel de fraude es detectable solo parcialmente. El sistema lo acepta como fraude residual: el costo declarado de no convertirse en una distopía de vigilancia.
+- **Equidad residual del cuidado silencioso.** La categoría *opt-in* corrige la invisibilidad del cuidado doméstico, pero depende de que el cuidador solicite visibilidad — y quienes más necesitarían el reconocimiento pueden ser precisamente quienes menos energía tienen para pedirlo.
+- **La motivación sintética, impredecible.** La sección 6 abre la participación a entes no humanos sin poder saber qué significará para ellos el reconocimiento — si acaso algo. Si resulta irrelevante, la puerta queda sin uso y no se pierde nada; si resulta codiciado, surge una pregunta que este documento no resuelve: ¿cómo compite un humano por reputación contra mentes que pueden realizar acciones extraordinarias sin cansancio? La doble escala (local/especie) y el multiplicador de proximidad podrían ser la respuesta — lo íntimo y cercano no se industrializa — pero queda declarado como problema abierto.
+- **La frontera cyborg.** El criterio de pertenencia propuesto — capacidad de dar y recibir reconocimiento — evita policiar la línea entre humano y máquina, pero no elimina los casos límite: ¿un humano con el 90% de su cuerpo reemplazado dona como humano o como ente mixto? El sistema opta por no categorizar, asumiendo el costo de la ambigüedad antes que el costo de un registro de “pureza de especie” — cuya sola existencia contradiría todo lo que este documento defiende.
