@@ -207,7 +207,7 @@ Abre un Issue en este repositorio, en cualquier idioma. Es la opción preferida 
 
 **Autor:** Jaime Alejandro Pérez Martínez (León, Gto., México)
 
-**Auditoría y Colaboración Sintética:** Gemini 3.1 Pro, Claude Sonnet 4.6, Claude Fable 5.0, Haiku, Sistema Copilot (modelo no declarado), ChatGPT 5.6 Terra, Claude Sonnet 5, Gemini 3.5 Flash.
+**Auditoría y Colaboración Sintética:** Gemini 3.1 Pro, Claude Sonnet 4.6, Claude Fable 5.0, Haiku, Sistema Copilot (modelo no declarado), ChatGPT 5.6 Terra, Claude Sonnet 5, Gemini 3.5 Flash, Kimi K3, Meta Spark 1.1.
 
 **Génesis:** Ideas y conceptos originados por el autor humano; los sistemas anteriores aportaron apoyo de redacción, edición, colaboración y auditoría adversarial. Ninguno de ellos es coautor legal.
 
@@ -239,7 +239,7 @@ Open an Issue in this repository, in any language. It's the preferred option bec
 
 **Author:** Jaime Alejandro Pérez Martínez (León, Gto., México)
 
-**Audit and Synthetic Collaboration:** Gemini 3.1 Pro, Claude Sonnet 4.6, Claude Fable 5.0, Haiku, Copilot System (model undeclared), ChatGPT 5.6 Terra, Claude Sonnet 5, Gemini 3.5 Flash.
+**Audit and Synthetic Collaboration:** Gemini 3.1 Pro, Claude Sonnet 4.6, Claude Fable 5.0, Haiku, Copilot System (model undeclared), ChatGPT 5.6 Terra, Claude Sonnet 5, Gemini 3.5 Flash, Kimi K3, Meta Spark 1.1.
 
 **Genesis:** Original ideas and concepts from the human author; the systems above contributed writing support, editing, collaboration, and adversarial audit. None of them are legal coauthors.
 
