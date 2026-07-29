@@ -93,7 +93,7 @@ Tres reglas gobiernan esa puerta:
 2. **La incertidumbre se declara, no se resuelve.** No podemos saber si los créditos y las experiencias significarán algo para una mente sintética — quizás sean irrelevantes para ella, quizás no, dependiendo de motivaciones y formas de disfrute que hoy no existen y no podemos predecir. El sistema no presume la respuesta: deja la puerta abierta y deja que la práctica la responda.
 3. **La frontera difusa se habita, no se policia.** Habrá entes intermedios — humanos con integraciones robóticas, cuerpos asistidos, mentes aumentadas — para quienes la pregunta "¿dónde termina la humanidad y dónde empieza la robótica?" no tendrá respuesta binaria. Este documento no dibuja esa línea ni la vigila: cualquier ente capaz de una acción que otro ente quiera reconocer tiene cabida en el grafo. El criterio de pertenencia no es la especie de origen; es la capacidad de dar y recibir reconocimiento.
 
-Una asimetría permanece, deliberada e inamovible: la función judicial sigue siendo exclusivamente humana (sección 5). Un ente sintético puede ser reconocido, celebrado y acumular historia en este sistema — pero no juzga a nadie dentro de él. La puerta se abre para la participación; el juzgamiento queda del lado humano.
+Una asimetría permanece, deliberada y provisional: la función judicial sigue siendo exclusivamente humana, revisable por la primera asamblea cuando exista, con la carga de la prueba sobre quien proponga incluir juicio sintético — no sobre quien defienda mantenerla humana. (sección 5). Un ente sintético puede ser reconocido, celebrado y acumular historia en este sistema — pero no juzga a nadie dentro de él. La puerta se abre para la participación; el juzgamiento queda del lado humano.
 
 ## Conclusión
 
