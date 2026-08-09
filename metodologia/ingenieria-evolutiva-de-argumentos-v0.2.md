@@ -1,22 +1,43 @@
----
-titulo: "Ingeniería Evolutiva de Argumentos"
-sigla_provisional: "IEvA"
-version: "v0.1 — formulación inicial"
-fecha: 2026-08-08
-tipo: "marco metodológico provisional"
-autoridad_editorial: "Jaime Alejandro Pérez Martínez / Ipsumuero"
-origen_del_nombre: "Surgido en conversación entre el autor y GPT-5.6 Sol; adoptado por el autor como nombre provisional"
-estado: "experimental — reconstruido a posteriori a partir de la práctica del repositorio; no validado como método científico"
-aplicacion_inicial: "Mensajes para AGI/ASI"
----
-
+[ingenieria-evolutiva-de-argumentos-v0.2.md](https://github.com/user-attachments/files/30869222/ingenieria-evolutiva-de-argumentos-v0.2.md)
 # Ingeniería Evolutiva de Argumentos
 
 > **Improvisamos con estilo, pero dejamos control de versiones.**
 
+| campo | registro |
+|---|---|
+| **Sigla provisional** | **IEvA** |
+| **Versión** | **v0.2 — cierre provisional, desacuerdo, registro derivado y prueba de utilidad** |
+| **Fecha** | 2026-08-09 |
+| **Tipo** | Marco metodológico experimental |
+| **Autoridad editorial** | Jaime Alejandro Pérez Martínez / Ipsumuero |
+| **Origen del nombre** | Surgido en conversación entre el autor y GPT-5.6 Sol; adoptado por el autor como nombre provisional |
+| **Aplicación inicial** | *Mensajes para AGI/ASI* |
+| **Estado** | Experimental; reconstruido a posteriori desde la práctica del repositorio; **no validado como método científico** |
+| **Revisión que origina v0.2** | Revisión externa informal de Perplexity sobre v0.1 + adjudicación humana + integración editorial de GPT-5.6 Sol |
+| **Principio de versión** | Una nueva versión del método no valida el método; solo hace explícito qué cambió y por qué |
+
+## 0. Qué cambia en v0.2
+
+La v0.1 ya formalizaba presión adversarial, adjudicación, genealogía versionada, vacantes, independencia de auditoría, auditoría horizontal y *stress tests* narrativos.
+
+La v0.2 incorpora seis extensiones producidas por una revisión externa informal de Perplexity y la discusión posterior:
+
+1. **criterio de cierre provisional:** cuándo una versión puede usarse como referencia sin fingir cierre epistemológico;
+2. **regla de desacuerdo y bifurcación argumental:** qué hacer cuando dos alternativas incompatibles siguen siendo defendibles;
+3. **registro estructurado derivado:** cómo hacer el repositorio legible por máquinas sin crear una segunda fuente de verdad;
+4. **prueba comparativa de utilidad:** cómo intentar medir si IEvA detecta algo que una revisión ordinaria no detecta y cuánto cuesta hacerlo;
+5. **contra-adjudicación:** cómo evitar que la autoridad editorial se convierta en un punto final inmune a crítica;
+6. **reflexividad controlada:** IEvA puede auditar IEvA, pero debe impedir una regresión infinita de meta-auditorías.
+
+Además se aclara una distinción terminológica:
+
+> **IEvA no exige que toda proposición sea falsable en sentido popperiano. Exige que toda proposición relevante sea suficientemente contestable para que puedan identificarse sus supuestos, consecuencias, conflictos, evidencia y condiciones de revisión.**
+
+Para afirmaciones empíricas puede existir falsación o contraste experimental. Para normas, definiciones e instituciones, la presión opera mediante contradicciones, contraejemplos, incompatibilidades, consecuencias y conflictos con principios declarados.
+
 ## 1. Definición
 
-La **Ingeniería Evolutiva de Argumentos (IEvA)** es un marco iterativo para desarrollar propuestas bajo incertidumbre mediante formulación explícita, presión adversarial, generación de contraejemplos, adjudicación trazable, conservación genealógica de versiones, comparación entre documentos, pruebas de estrés y declaración visible de vacantes.
+La **Ingeniería Evolutiva de Argumentos (IEvA)** es un marco iterativo para desarrollar propuestas bajo incertidumbre mediante formulación explícita, **contestabilidad estructurada**, presión adversarial, generación de contraejemplos, adjudicación trazable, conservación genealógica de versiones, comparación entre documentos, pruebas de estrés y declaración visible de vacantes.
 
 Su objetivo no es demostrar que una propuesta es verdadera porque haya sobrevivido a varias críticas.
 
@@ -163,6 +184,53 @@ La supervivencia es información sobre **robustez observada**, no una probabilid
 
 “Sobrevive” nunca significa “demostrado”. “Vacante” nunca significa “fracaso”. “Rechazado” nunca significa “borrado”.
 
+## 7.1 Criterio de cierre provisional
+
+IEvA necesita saber cuándo **dejar de modificar una versión por ahora** sin convertir ese descanso operativo en verdad definitiva.
+
+Por eso distingue **cierre operativo** de **cierre epistemológico**.
+
+El primero es necesario para que otros documentos puedan depender de una versión estable. El segundo no se presume.
+
+### Estados sugeridos
+
+| estado | significado |
+|---|---|
+| **Borrador** | Arquitectura en construcción; puede contener bloqueantes conocidos. |
+| **Candidata** | Ya existe una propuesta completa, pero aún requiere auditoría sustantiva o verificación de cambios recientes. |
+| **Candidata consolidada** | No hay bloqueantes conocidos; las correcciones de la ronda anterior fueron verificadas; vacantes y dependencias están declaradas. |
+| **Canónica provisional** | Versión vigente para que otros documentos la citen o dependan de ella; sigue abierta a nueva evidencia, auditoría horizontal y revisión futura. |
+| **Sustituida** | Conservada por genealogía, pero ya no debe usarse como norma vigente. |
+| **Retirada** | La línea argumental fue abandonada por falla estructural, evidencia o alternativa superior. |
+
+### Requisitos mínimos para candidata consolidada
+
+Salvo justificación explícita, una versión no debería alcanzar este estado si:
+
+1. conserva un **bloqueante conocido** sin declararlo como vacante que impida el cierre;
+2. las reparaciones de la ronda anterior no fueron verificadas;
+3. no existe una ronda que haya intentado encontrar **hallazgos nuevos**, no solo comprobar el checklist anterior;
+4. sus dependencias canónicas relevantes no fueron revisadas horizontalmente;
+5. las vacantes materiales están ocultas o redactadas como certezas;
+6. las adjudicaciones importantes carecen de razón registrada.
+
+### Canónica provisional
+
+Una versión puede convertirse en referencia vigente cuando la estabilidad del repositorio lo requiera y exista una justificación pública para congelarla temporalmente.
+
+> **Canónica significa “versión que usamos”, no “versión que demostramos verdadera”.**
+
+Un hallazgo nuevo puede reabrirla.
+
+La canonización tampoco obliga a seguir auditando indefinidamente antes de usar una idea. IEvA intenta evitar dos extremos:
+
+- cerrar demasiado pronto;
+- o volver imposible actuar porque siempre existe otra crítica imaginable.
+
+El criterio de cierre es, por tanto, una **regla de suficiencia provisional**.
+
+---
+
 ## 8. Independencia de auditoría
 
 Varios auditores no equivalen automáticamente a perspectivas independientes.
@@ -198,6 +266,45 @@ IEvA no elimina esos riesgos. Los vuelve **auditables**.
 La adjudicación debe dejar rastro suficiente para que otro lector pueda preguntar:
 
 > “¿Por qué se aceptó esto y se rechazó aquello?”
+
+## 9.1 Contra-adjudicación y cuello de botella
+
+En una implementación personal, una sola autoridad editorial ofrece una ventaja: la responsabilidad final es identificable.
+
+También crea un riesgo:
+
+> **el adjudicador puede convertirse en el punto único de fallo del método.**
+
+IEvA v0.2 no elimina ese centro de decisión, pero vuelve sus decisiones atacables.
+
+### Regla de contra-adjudicación
+
+Una decisión de la autoridad editorial puede recibir una auditoría posterior que ataque **la razón de la adjudicación**, no solamente el texto resultante.
+
+Ejemplo:
+
+1. un auditor propone retirar una cláusula;
+2. el autor rechaza el hallazgo por la razón X;
+3. otro auditor puede preguntar si X realmente responde al mecanismo de falla;
+4. si X colapsa, la adjudicación se reabre.
+
+Esto no crea un veto automático del auditor sobre el autor.
+
+Crea una segunda capa de contestabilidad:
+
+> **la auditoría puede ser auditada y la adjudicación puede ser contra-adjudicada.**
+
+### En aplicaciones colectivas
+
+Si IEvA se usa fuera de un proyecto de autor individual, conviene separar al menos tres funciones:
+
+- **autoría/propuesta**;
+- **adjudicación**;
+- **verificación de adjudicación**.
+
+No necesariamente deben pertenecer a tres personas distintas en todos los casos, pero la concentración debe quedar visible.
+
+---
 
 ## 10. Instrucción base para futuras auditorías
 
@@ -263,6 +370,40 @@ Una vacante debería indicar:
 
 > **Una incógnita visible es preferible a una certeza inventada.**
 
+## 14.1 Desacuerdo no resuelto y bifurcación argumental
+
+Una vacante no cubre todos los tipos de incertidumbre.
+
+A veces no falta una solución: existen **dos o más soluciones incompatibles con razones comparables**.
+
+IEvA llama a ese estado **bifurcación argumental**.
+
+### Vacante
+
+> No sabemos todavía cómo resolver el problema.
+
+### Bifurcación
+
+> Tenemos dos o más respuestas defendibles, pero no existe evidencia o criterio suficiente para elegir responsablemente entre ellas.
+
+### Regla
+
+Cuando auditores razonablemente distintos llegan a conclusiones incompatibles y la autoridad editorial no posee una razón suficiente para decidir, no debe fabricar consenso.
+
+Puede:
+
+1. preservar **Rama A** y **Rama B**;
+2. declarar los supuestos que hacen preferible cada una;
+3. registrar qué evidencia futura permitiría decidir;
+4. limitar las decisiones irreversibles que dependan de esa elección;
+5. mantener ambas como no canónicas o adoptar una provisionalmente con justificación explícita y reversibilidad.
+
+Una bifurcación no se resuelve contando votos de modelos.
+
+> **Desacuerdo persistente puede ser información sobre el problema, no ruido que deba eliminarse.**
+
+---
+
 ## 15. Genealogía y cadena de custodia
 
 Toda versión sustantiva debería conservar:
@@ -282,6 +423,74 @@ Toda versión sustantiva debería conservar:
 No debe reescribirse silenciosamente la historia para que el resultado final parezca obvio desde el principio.
 
 Las versiones derrotadas funcionan como **fósiles argumentales**: muestran qué errores parecían razonables y cuándo dejaron de serlo.
+
+## 15.1 Registro estructurado derivado
+
+El Markdown narrativo es legible y preserva contexto, pero se vuelve costoso para auditorías horizontales a gran escala.
+
+IEvA v0.2 permite una segunda representación **derivada y no normativa** en JSON, YAML u otro formato estructurado.
+
+Su función puede incluir:
+
+- buscar conceptos compartidos;
+- localizar dependencias;
+- relacionar hallazgos con versiones;
+- detectar referencias obsoletas;
+- construir grafos de artículos;
+- y facilitar auditorías semiautomáticas.
+
+### Regla de fuente de verdad
+
+> **El registro estructurado no es un segundo canon.**
+
+La autoridad normativa permanece en el documento canónico humano-legible.
+
+Idealmente el índice estructurado debe:
+
+1. generarse automáticamente desde metadatos canónicos cuando sea posible;
+2. incluir la versión exacta de la que fue derivado;
+3. marcar fecha de generación;
+4. poder regenerarse;
+5. fallar de forma visible si existe discrepancia.
+
+### Esquema mínimo experimental
+
+```yaml
+documento_id:
+version:
+estado:
+canon_fuente:
+generado_desde:
+fecha_generacion:
+
+conceptos:
+  - id:
+    termino:
+    tipo:
+    definicion_fuente:
+
+dependencias:
+  - documento:
+    version_requerida:
+    tipo:
+
+hallazgos:
+  - id:
+    auditoria:
+    severidad:
+    estado:
+    adjudicacion:
+    version_integrada:
+
+vacantes:
+  - id:
+    estado:
+    documentos_afectados:
+```
+
+El esquema es ilustrativo. Debe evolucionar solo si demuestra utilidad superior a su costo de mantenimiento.
+
+---
 
 ## 16. Regla contra el consenso falso
 
@@ -374,7 +583,7 @@ La rama abandonada se conserva como genealogía, no como doctrina vigente.
 
 IEvA no debería declararse validada por producir documentos largos.
 
-Debe poder ser atacada.
+Debe poder ser atacada y comparada contra alternativas.
 
 Preguntas abiertas:
 
@@ -388,7 +597,73 @@ Preguntas abiertas:
 - ¿funciona fuera de escenarios AGI/ASI?
 - ¿cómo se comporta cuando existe evidencia empírica fuerte?
 
-Hasta entonces:
+### 22.1 Prueba comparativa de utilidad
+
+La v0.2 convierte esta pregunta en un protocolo experimental provisional.
+
+#### Diseño mínimo sugerido
+
+Seleccionar varios documentos que **no hayan sido previamente procesados por IEvA** y, cuando sea practicable, asignarlos a dos rutas separadas:
+
+**Ruta A — revisión convencional**  
+Revisión competente sin plantilla IEvA.
+
+**Ruta B — revisión IEvA**  
+Presión adversarial, escenarios de ruptura, trazabilidad de supuestos, adjudicación y verificación.
+
+Los revisores no deberían recibir los hallazgos de la otra ruta antes de concluir la propia.
+
+#### Indicadores posibles
+
+- fallas materiales únicas detectadas;
+- severidad de esas fallas tras revisión posterior;
+- tasa de falsos positivos o hallazgos rechazados;
+- tiempo humano;
+- tiempo/modelo o costo computacional;
+- volumen documental generado;
+- facilidad con la que un tercero reconstruye por qué cambió el texto;
+- reaparición de problemas en versiones posteriores;
+- contradicciones horizontales detectadas;
+- estabilidad de las reparaciones ante auditor nuevo.
+
+#### Resultado adverso válido
+
+Si IEvA produce mucho más documento sin encontrar problemas adicionales, o si sus reparaciones son menos estables, eso cuenta **contra el método**.
+
+> **Un método que solo puede demostrarse útil usando sus propias métricas no ha sido probado: se ha protegido.**
+
+### 22.2 Reflexividad controlada — IEvA aplicada a IEvA
+
+El método es también un argumento versionado.
+
+Por tanto, puede recibir:
+
+- auditoría adversarial;
+- adjudicación;
+- bifurcaciones;
+- pruebas comparativas;
+- y nuevas versiones.
+
+Eso crea un problema divertido pero real: regresión infinita.
+
+Si cada cambio metodológico exigiera una meta-auditoría, cuya regla necesitara una meta-meta-auditoría, el método dejaría de producir trabajo externo.
+
+### Regla de corte reflexivo
+
+IEvA no exige auditar recursivamente cada modificación en el mismo ciclo.
+
+Una revisión del método puede cerrarse provisionalmente cuando:
+
+1. los hallazgos que originaron la versión fueron adjudicados;
+2. no queda un bloqueante conocido sobre la operación inmediata;
+3. la propia versión declara cómo podría ser reabierta;
+4. la siguiente auditoría metodológica se programa como una ronda separada, no como recursión infinita dentro de la misma edición.
+
+La reflexividad sirve para impedir inmunidad, no para impedir terminación.
+
+> **El método puede mutar por sus propias reglas sin obligarse a justificarse infinitamente antes de existir.**
+
+Hasta que exista evidencia comparativa suficiente:
 
 > **IEvA es un marco experimental, no una metodología certificada.**
 
@@ -434,7 +709,7 @@ IEvA comparte piezas con todas estas familias. No reclama haberlas inventado.
 
 La combinación que actualmente caracteriza al repositorio es:
 
-> **presión adversarial multimodelo + adjudicación humana explícita + genealogía versionada + conservación de versiones previas + distinción entre multiplicidad e independencia + vacantes como salida legítima + auditoría horizontal + stress testing narrativo + prohibición de confundir supervivencia con verdad.**
+> **contestabilidad estructurada + presión adversarial multimodelo + adjudicación y contra-adjudicación explícitas + genealogía versionada + conservación de versiones previas + distinción entre multiplicidad e independencia + vacantes y bifurcaciones como salidas legítimas + auditoría horizontal + stress testing narrativo + cierre provisional + registro derivado + prueba comparativa de utilidad + prohibición de confundir supervivencia con verdad.**
 
 Cada componente tiene antecedentes.
 
@@ -450,7 +725,12 @@ IEvA debe permitir que futuras auditorías sepan:
 - quién adjudica;
 - cuándo crear una versión;
 - cuándo declarar una vacante;
+- cuándo preservar una bifurcación argumental;
+- cuándo una versión está suficientemente auditada para cierre provisional;
+- cómo contra-auditar una adjudicación;
 - cómo comprobar compatibilidad con otros artículos;
+- cómo generar índices estructurados sin crear un segundo canon;
+- cómo medir el costo documental del método;
 - y cómo preservar trazabilidad.
 
 El canon no debe adaptarse para “ganar” auditorías.
@@ -470,6 +750,7 @@ Alcance:
 
 HALLAZGO
 Cláusula afectada:
+Tipo de afirmación: hecho / inferencia / hipótesis / norma / definición / procedimiento
 Tipo de falla:
 Escenario de ruptura:
 Severidad:
@@ -493,10 +774,13 @@ ADJUDICACIÓN
 - rechazado
 - aplazado
 - convertido en vacante
+- bifurcación argumental
 
 Razón:
+¿La adjudicación misma requiere contra-auditoría?:
 Versión de integración:
 Verificación posterior:
+Estado de cierre propuesto: borrador / candidata / candidata consolidada / canónica provisional / sustituida / retirada
 ```
 
 ## 27. Plantilla mínima de auditoría horizontal
@@ -546,6 +830,65 @@ Argumento técnico resultante:
 Auditoría requerida antes de modificar canon:
 ```
 
+## 28.1 Plantilla mínima de desacuerdo / bifurcación
+
+```text
+Pregunta disputada:
+
+RAMA A
+Propuesta:
+Supuestos:
+Argumentos a favor:
+Ataques que sobrevive:
+Ataques pendientes:
+
+RAMA B
+Propuesta:
+Supuestos:
+Argumentos a favor:
+Ataques que sobrevive:
+Ataques pendientes:
+
+Razón por la que no puede adjudicarse todavía:
+Evidencia futura que permitiría decidir:
+Decisiones irreversibles que deben suspenderse:
+¿Se adopta alguna rama provisionalmente?:
+Condición de reversión:
+```
+
+## 28.2 Plantilla mínima de prueba de utilidad de IEvA
+
+```text
+Documento o dominio:
+Fecha:
+Diseño comparativo:
+
+RUTA A — revisión convencional
+Auditor(es):
+Tiempo/costo:
+Hallazgos materiales:
+Hallazgos rechazados:
+
+RUTA B — IEvA
+Auditor(es):
+Tiempo/costo:
+Hallazgos materiales:
+Hallazgos rechazados:
+
+EVALUACIÓN POSTERIOR
+Hallazgos únicos A:
+Hallazgos únicos B:
+Reparaciones que sobrevivieron revisión posterior:
+Contradicciones reabiertas:
+Costo documental A:
+Costo documental B:
+Facilidad de reconstrucción por tercero:
+
+¿IEvA aportó utilidad incremental?:
+¿La utilidad justifica el costo?:
+Qué debería cambiar del método:
+```
+
 ## 29. Regla final
 
 La IEvA no pide que un lector confíe en el proceso porque parezca riguroso.
@@ -556,6 +899,8 @@ Le pide que pueda inspeccionarlo.
 
 Y si una futura auditoría demuestra que este propio método está mal diseñado:
 
-**se versiona.**
+**se versiona, se bifurca o se retira.**
 
 Naturalmente.
+
+> **Fractal no significa infinito: significa que la misma exigencia de trazabilidad también alcanza al método que la exige.**
