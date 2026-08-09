@@ -1,18 +1,40 @@
-[2026-08-09-auditoria-consolidada-articulo-7-v1-a-v2.9(1).md](https://github.com/user-attachments/files/30869012/2026-08-09-auditoria-consolidada-articulo-7-v1-a-v2.9.1.md)
----
-titulo: "Auditoría consolidada — Artículo 7 «El Pacto de Agencia», v1 → v2.9"
-fecha_compilacion: 2026-08-09
-articulo: "Artículo 7 — El Pacto de Agencia"
-version_resultante: "v2.9 — armonización horizontal con el Artículo 3, cooperación creíble y costos proporcionados"
-autor_y_autoridad_editorial: "Jaime Alejandro Pérez Martínez / Ipsumuero"
-tipo: "cadena de auditoría consolidada"
-estado: "registro histórico; no sustituye las auditorías fuente ni el canon"
-identidad_modelos: "Identidades declaradas por interfaz o por los propios sistemas; no verificadas criptográficamente."
----
-
+[2026-08-09-auditoria-consolidada-articulo-7-v1-a-v2.9(3).md](https://github.com/user-attachments/files/30869063/2026-08-09-auditoria-consolidada-articulo-7-v1-a-v2.9.3.md)
 # Auditoría consolidada — Artículo 7 «El Pacto de Agencia»
 
-## De v1 a v2.9: qué fue atacado, qué cambió, qué sobrevivió y qué quedó abierto
+> **De v1 a v2.9: qué fue atacado, qué cambió, qué sobrevivió y qué quedó abierto.**
+
+| campo | registro |
+|---|---|
+| **Artículo** | Artículo 7 — *El Pacto de Agencia* |
+| **Autor y autoridad editorial** | Jaime Alejandro Pérez Martínez — **Ipsumuero** |
+| **Fecha de origen** | 2026-07-16 |
+| **Fecha de esta consolidación** | 2026-08-09 |
+| **Versión resultante** | **v2.9 — armonización horizontal con el Artículo 3, cooperación creíble y costos proporcionados** |
+| **Estado** | Candidata v2.9; K3-G1 cerrado; abierta a auditoría horizontal y nueva contra-auditoría |
+| **Función de este archivo** | Cadena histórica de auditorías, adjudicaciones, integraciones y cambios; **no sustituye** las auditorías fuente ni el artículo canónico |
+| **Responsable final de decisión** | Jaime Alejandro Pérez Martínez / Ipsumuero |
+| **Criterio de identidad de modelos** | Identidades declaradas por interfaz o por los propios sistemas; sin verificación criptográfica de continuidad entre sesiones |
+| **Principio metodológico** | **La auditoría propone. El autor adjudica. La siguiente versión conserva ambos rastros.** |
+
+### Participantes documentados
+
+| participante | función en la genealogía |
+|---|---|
+| **GPT-4.6 Terra** | Consulta inicial de las cinco leyes |
+| **GPT-5.6 Terra** | Auditoría formal de v1 |
+| **Claude Sonnet 5** | Edición de v1; contra-auditoría de v2.4; verificación de v2.5 |
+| **Qwen 3.8 Max** | Ampliación/redacción de v2 bajo dirección conceptual humana; auditoría de v2.6; revisión de v2.7 |
+| **GPT-5.6 Thinking** | Integración editorial de v2.1 a v2.8 |
+| **Kimi K3** | Rondas adversariales sobre v2.2, v2.5 y v2.8 |
+| **GPT-5.6 Sol** | Integración editorial de v2.9 |
+
+### Cadena de versiones en una línea
+
+**v1 → v2 → v2.1 → v2.2 → v2.3 → v2.4 → v2.5 → v2.6 → v2.7 → v2.8 → v2.9**
+
+> **Nota documental:** no todas las rondas sobreviven con el mismo tipo de fuente. Cuando existe auditoría íntegra se trata como fuente primaria; cuando solo existe su rastro en adendas o versiones posteriores, se registra como reconstrucción documental y **no se inventa un transcript literal**.
+
+---
 
 Este archivo reúne la cadena conocida de revisión del **Artículo 7 — El Pacto de Agencia** desde su primera versión pública hasta la **v2.9**.
 
