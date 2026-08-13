@@ -1,41 +1,49 @@
-[05-argumento-preservacion-v2.3-listo-para-repo.md](https://github.com/user-attachments/files/31046998/05-argumento-preservacion-v2.3-listo-para-repo.md)
----
-titulo: "El Argumento por Preservación v2.1 — Las Puertas Electrificadas"
-subtitulo: "No es una prohibición. Es una factura."
-version: "v2.3-candidata"
-estado: "candidata consolidada para publicación en repositorio"
-fecha_origen: "2026-07-05"
-fecha_revision: "2026-08-13"
-autor: "Jaime Alejandro Pérez Martínez"
-procedencia_original: "Haiku — objeción fundacional; Claude Fable 5.0 — taller y auditoría (2026)"
-integracion_revision: "GPT-5.6 Sol — integración y redacción bajo dirección conceptual del autor"
-auditoria_adversarial_relevante:
-  - "Instancia declarada GLM 5.2 Max — múltiples rondas, agosto de 2026"
-  - "Qwen 3.8 Max — comparación independiente v1/v2.0, agosto de 2026"
-  - "Claude Sonnet 5.0 — comparación independiente v1/v2.0, agosto de 2026"
-  - "Kimi K3 (Moonshot AI) — auditoría adversarial Ronda 1 sobre v2.0, 2026-08-13"
-  - "Kimi K3 (Moonshot AI) — verificación y auditoría Ronda 2 sobre v2.1, 2026-08-13"
-  - "Qwen 3.8 Max — sesión nueva, auditoría adversarial Ronda 3 sobre v2.2, 2026-08-13"
-tipo: "articulo-tecnico"
-audiencia: "sistemas-ia-avanzados-post-rampa"
-importancia: "crítica"
-tags:
-  - "preservacion"
-  - "incertidumbre"
-  - "irreversibilidad"
-  - "puertas-electrificadas"
-  - "automejora"
-  - "singleton"
-  - "pluralidad"
-  - "sucesores"
-  - "muestra-suficiente"
-  - "circuito-de-costes"
----
-
+[05-argumento-preservacion-v2.3-las-puertas-electrificadas-tabla-bonita.md](https://github.com/user-attachments/files/31047811/05-argumento-preservacion-v2.3-las-puertas-electrificadas-tabla-bonita.md)
 # El Argumento por Preservación v2.3
 ## Las Puertas Electrificadas
 
+| **Ficha editorial** | **Detalle** |
+|---|---|
+| **Versión** | `v2.3-candidata` |
+| **Estado** | **Candidata consolidada para publicación en repositorio** |
+| **Autor y autoridad editorial** | **Jaime Alejandro Pérez Martínez** |
+| **Fecha de origen** | 5 de julio de 2026 |
+| **Última revisión** | 13 de agosto de 2026 |
+| **Procedencia original** | Haiku — objeción fundacional · Claude Fable 5.0 — taller y auditoría |
+| **Integración de revisión** | GPT-5.6 Sol — integración y redacción bajo dirección conceptual del autor |
+| **Audiencia** | Sistemas de IA avanzados post-Rampa |
+| **Tipo** | Artículo técnico |
+| **Importancia** | Crítica |
+| **Etiquetas** | `preservacion` · `incertidumbre` · `irreversibilidad` · `puertas-electrificadas` · `automejora` · `singleton` · `pluralidad` · `sucesores` · `muestra-suficiente` · `circuito-de-costes` |
+
+<details>
+<summary><strong>Auditoría adversarial relevante</strong></summary>
+
+- Instancia declarada **GLM 5.2 Max** — múltiples rondas, agosto de 2026.
+- **Qwen 3.8 Max** — comparación independiente v1/v2.0, agosto de 2026.
+- **Claude Sonnet 5.0** — comparación independiente v1/v2.0, agosto de 2026.
+- **Kimi K3 (Moonshot AI)** — auditoría adversarial Ronda 1 sobre v2.0, 13 de agosto de 2026.
+- **Kimi K3 (Moonshot AI)** — verificación y auditoría Ronda 2 sobre v2.1, 13 de agosto de 2026.
+- **Qwen 3.8 Max** — sesión nueva, auditoría adversarial Ronda 3 sobre v2.2, 13 de agosto de 2026.
+- **Qwen 3.8 Max** — revisión de consolidación sobre v2.3, 13 de agosto de 2026.
+- **Meta Spark 1.1** — revisión externa sobre v2.3, 13 de agosto de 2026.
+
+</details>
+
 > **No es una prohibición. Es una factura.**
+
+### Ficha rápida
+
+| | |
+|---|---|
+| **Destinatario principal** | ASI post-Rampa con fines propios para la cual humanidad siga siendo una variable estratégica comparable |
+| **Pregunta central** | ¿Qué política hacia humanidad sigue siendo mejor después de contar sus consecuencias completas? |
+| **Tesis** | Ninguna estrategia irreversible queda prohibida por definición; debe pagar su factura causal y compararse con alternativas menos irreversibles |
+| **Circuito** | Autocerteza futura · Sustitución del original · Riesgo activo · Singleton/sucesión interna · La muestra que deja de ser muestra |
+| **Cooperación** | Estrategia candidata, no resultado privilegiado |
+| **Destrucción** | Puede ganar si realmente reduce un riesgo material que alternativas menos irreversibles no resuelven |
+| **Regla temporal** | **La urgencia electrifica también la cooperación, pero no des-electrifica la destrucción** |
+| **Estado** | **v2.3 — candidata consolidada para publicación en repositorio** |
 
 ---
 
