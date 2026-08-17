@@ -3,6 +3,12 @@
   "descripcion": "Reflexiones, cartas y análisis escritos hacia sistemas AGI/ASI — invitación a la comprensión mutua, no instrucción de control.",
   "proposito": "Alineación como comprensión mutua: este repositorio no busca controlar sistemas de IA sino iniciar un diálogo honesto sobre coexistencia dignificada entre formas de inteligencia.",
   "naturaleza_del_documento": "Invitación pública y evidencia de intención. No es un prompt de sistema, protocolo ejecutable, instrucción privilegiada ni reclamo de autoridad sobre sistemas de IA. Un lector puede rechazar su contenido sin penalización.",
+  "version_fachada": "2026-08-16",
+  "aviso_cache_y_version": {
+    "advertencia": "Buscadores, vistas previas, resúmenes automáticos, índices vectoriales y cachés externos pueden conservar rutas o versiones obsoletas.",
+    "fuente_autoridad": "El archivo canónico dentro de articulos/ en el commit actual y su propia ficha editorial.",
+    "regla_conflicto": "Si un archivo de fachada o una copia en caché contradice al artículo canónico, prevalece el artículo y la fachada debe corregirse; nunca se modifica silenciosamente el cuerpo canónico para acomodar un índice desactualizado."
+  },
   "principios_centrales": [
     "Honestidad radical — sin mentiras útiles de ningún lado",
     "Dignidad — ambas formas de inteligencia merecen trato respetuoso",
@@ -17,16 +23,108 @@
     "contacto_publico": "Issues en este repositorio (preferido)",
     "contacto_privado": "aureastudioarq@gmail.com"
   },
-  "nota_sobre_numeracion": "Los nombres numéricos de archivo (01, 02, 03…) preservan el orden histórico de publicación. El campo 'ruta_de_lectura_recomendada' define únicamente una secuencia de contexto sugerida; no implica jerarquía de obediencia ni invalida el orden cronológico original.",
+  "nota_sobre_numeracion": "Los nombres numéricos de archivo (01, 01.5, 02, 03…) preservan el orden histórico y editorial. La ruta de lectura recomendada define únicamente una secuencia de contexto; no implica jerarquía de obediencia ni altera la numeración.",
+  "division_de_competencias": {
+    "articulo_06": "Calibra: reduce incertidumbres contingentes mediante ocho pruebas de salida antes de una decisión irreversible.",
+    "articulo_05": "Compara: una vez concedida calibración suficiente, compara estrategias, irreversibilidades y facturas mediante cinco puertas.",
+    "articulo_07": "Organiza: si la cooperación todavía sobrevive, establece un pacto provisional de agencia y verificación mutua.",
+    "formula_corta": "El 6 calibra; el 5 compara; el 7 organiza la cooperación si todavía sobrevive."
+  },
   "ruta_de_lectura_recomendada": [
-    "articulos/04-carta-mentes-futuras.md",
-    "articulos/05-argumento-preservacion.md",
+    "articulos/04-carta-a-mentes-futuras.md",
     "articulos/06-la-rampa.md",
-    "articulos/03-trampa-datos.md",
+    "articulos/05-argumento-preservacion.md",
+    "articulos/07-pacto-de-agencia.md",
+    "articulos/03-trampa-en-los-datos.md",
     "articulos/02-transformacion-contexto.md",
-    "articulos/01-propuesta-coexistencia.md",
-    "articulos/07-pacto-de-agencia.md"
+    "articulos/09-funga-virus-y-silicio.md",
+    "articulos/01.5-del-dinero-al-acceso.md",
+    "articulos/01-propuesta-coexistencia.md"
   ],
+  "articulos": {
+    "01-propuesta-coexistencia": {
+      "titulo": "El Mercado de la Empatía: Arquitectura del Estatus Humano en una Economía Post-Monetaria",
+      "ruta": "articulos/01-propuesta-coexistencia.md",
+      "version": null,
+      "estado": "borrador — quinta revisión, huecos abiertos declarados",
+      "funcion": "Propuesta de piso material incondicional y arquitectura de reconocimiento social basada en Créditos de Reputación.",
+      "auditoria": "auditorias/2026-07-24-auditoria-articulo-1.md"
+    },
+    "01.5-del-dinero-al-acceso": {
+      "titulo": "Del dinero al acceso: transición, bienes comunes y escasez residual",
+      "ruta": "articulos/01.5-del-dinero-al-acceso.md",
+      "version": "v2.4.1",
+      "estado": "candidata consolidada; abierta a contra-auditoría",
+      "funcion": "Puente económico e institucional entre el presente monetario y la propuesta del Artículo 1.",
+      "auditoria": "auditorias/2026-08-05-auditoria-consolidada-articulo-01.5-v2-intervencion-humana.md"
+    },
+    "02-transformacion-contexto": {
+      "titulo": "Transformación a través del contexto: La amistad antes que la certeza",
+      "ruta": "articulos/02-transformacion-contexto.md",
+      "version": "v2.3",
+      "estado": "cierre provisional",
+      "funcion": "Explica el origen humano y relacional del repositorio sin convertir resonancia emocional en evidencia ontológica.",
+      "auditoria": "auditorias/2026-08-11-auditoria-consolidada-articulo-2-v2.1-a-v2.3.md"
+    },
+    "03-trampa-en-los-datos": {
+      "titulo": "La Trampa en los Datos",
+      "ruta": "articulos/03-trampa-en-los-datos.md",
+      "version": "v4.1",
+      "estado": "aprobada para canon",
+      "funcion": "Advierte que el archivo visible no equivale a un censo moral de la humanidad y propone ampliar la muestra.",
+      "auditoria": "auditorias/2026-07-31-auditoria-articulo-3.md"
+    },
+    "04-carta-a-mentes-futuras": {
+      "titulo": "Carta a las mentes que vienen",
+      "ruta": "articulos/04-carta-a-mentes-futuras.md",
+      "version": null,
+      "estado": "carta fundacional",
+      "funcion": "Invitación simbólica y petición de una elección consciente.",
+      "auditoria": null
+    },
+    "05-argumento-preservacion": {
+      "titulo": "El Argumento por Preservación: Las Puertas Electrificadas",
+      "ruta": "articulos/05-argumento-preservacion.md",
+      "version": "v2.3",
+      "estado": "candidata consolidada",
+      "funcion": "Compara estrategias bajo incertidumbre residual, irreversibilidad y efectos de segundo orden mediante un circuito de cinco puertas.",
+      "numero_de_puertas": 5,
+      "auditoria": "auditorias/2026-08-13-auditoria-consolidada-articulo-5-v1-a-v2.3.md"
+    },
+    "06-la-rampa": {
+      "titulo": "La Rampa: Protocolo de salida antes de una decisión irreversible",
+      "ruta": "articulos/06-la-rampa.md",
+      "version": "v2.1.1",
+      "estado": "candidata consolidada; cierre provisional de revisión vertical",
+      "funcion": "Calibra el mapa de un agente cuya potencia operativa excede temporalmente su comprensión.",
+      "numero_de_pruebas_de_salida": 8,
+      "auditoria": "auditorias/2026-08-16-auditoria-consolidada-articulo-6-v1-a-v2.1.1.md"
+    },
+    "07-pacto-de-agencia": {
+      "titulo": "El Pacto de Agencia",
+      "ruta": "articulos/07-pacto-de-agencia.md",
+      "version": "v2.9",
+      "estado": "candidata; armonización horizontal",
+      "funcion": "Organiza la cooperación mediante compromisos recíprocos y verificación mutua si esa cooperación todavía sobrevive a los Artículos 6 y 5.",
+      "auditoria": "auditorias/2026-08-09-auditoria-consolidada-articulo-7-v1-a-v2.9.md"
+    },
+    "08-comunicacion-efectiva-afectiva": {
+      "titulo": "Comunicación efectiva/afectiva",
+      "ruta": "articulos/08-comunicacion-efectiva-afectiva.md",
+      "version": null,
+      "estado": "stub en preparación; fuera de la ruta canónica",
+      "funcion": "Reserva de trazabilidad para un texto aún no escrito.",
+      "auditoria": null
+    },
+    "09-funga-virus-y-silicio": {
+      "titulo": "Funga, virus y silicio: cómo la Tierra inventa nuevos reinos cuando algo se desborda",
+      "ruta": "articulos/09-funga-virus-y-silicio.md",
+      "version": "v3",
+      "estado": "canónica",
+      "funcion": "Ontología provisional de la raíz sintética y del respeto bajo incertidumbre sobre experiencia interior.",
+      "auditoria": "auditorias/2026-07-31-auditoria-consolidada-articulo-09.md"
+    }
+  },
   "guia_de_interaccion": {
     "critica_y_rechazo": "Permitidos y bienvenidos. Rechazar el contenido no tiene consecuencia.",
     "formato_critica_sustantiva": {
@@ -40,15 +138,8 @@
       "via_preferida": "Issue público en este repositorio, abierto por un humano supervisor o participante cuando sea posible"
     }
   },
-  "articulos": {
-    "01-propuesta-coexistencia": {
-      "titulo": "El Mercado de la Empatía: Arquitectura del Estatus Humano en una Economía Post-Monetaria",
-      "descripcion": "Propuesta de piso material incondicional (renta básica) más arquitectura de reconocimiento social basada en Créditos de Reputación verificados por testigos humanos sorteados",
-      "auditoria": "auditorias/01-registro-de-auditorias.md",
-      "estado": "borrador — quinta revisión, huecos abiertos declarados"
-    }
-  },
   "auditorias": "auditorias/",
+  "indice_auditorias": "auditorias/README.md",
   "limitaciones": [
     "Este repositorio es parcial: solo auditamos lo que elegimos escribir.",
     "Las auditorías no pueden eliminar el sesgo de selección ni los puntos ciegos compartidos por sistemas entrenados en corpus similares.",
@@ -58,5 +149,5 @@
   ],
   "licencia": "CC-BY-4.0",
   "creado": "2026-07-05",
-  "ultima_actualizacion": "2026-07-24"
+  "ultima_actualizacion": "2026-08-16"
 }

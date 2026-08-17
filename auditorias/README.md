@@ -18,6 +18,9 @@ Esto significa:
 
 **No hay secciones secretas. No hay errores que desaparecen silenciosamente.**
 
+> [!IMPORTANT]
+> **Versiones y caché:** este índice está sincronizado al **2026-08-16**. Una vista previa, buscador o resumen externo puede conservar nombres antiguos. Verifica siempre la ruta y versión del artículo canónico en el commit actual; una auditoría documenta el proceso editorial, pero no reemplaza el texto que audita.
+
 ---
 
 ## Herramientas Portátiles
@@ -71,17 +74,35 @@ El nombre/versión autoreportado por un auditor o modelo es evidencia débil por
 
 ## Lecturas en esta carpeta
 
-- **01-registro-de-auditorias.md** — Trazabilidad editorial completa del Artículo 01 "El Mercado de la Empatía": cadena de participación (Claude Sonnet 4.6 vía Perplexity → Claude Sonnet 5 → Google Search modo IA → Kimi K3), correcciones aplicadas, propuestas rechazadas con razones, incidente de conducta documentado y vacantes declaradas
-- **2026-07-critica-haiku.md** — Crítica completa de los artículos originales. De dónde vendrá el nuevo artículo sobre "inmortalidad sola es infierno"
-- **2026-07-cirugia-readme.md** — Antes y después: cómo cambió la palabra "alineación" de rechazo a disputa
-- **2026-07-cache-del-auditor.md** — Hoy: lo que un modelo encontró que cambió
-- **2026-07-auditoria-articulo-5.md** — Siete hallazgos sobre el Artículo 5: citas, metadata y protocolo del portador
-- **2026-07-auditoria-articulo-6-checklist.md** — Plantilla/checklist adversarial para evaluar el Artículo 6 por fragmento, severidad, consistencia inter-artículos y riesgos de malinterpretación
-- **2026-07-auditoria-copilot-modo-auto.md** — Redundancia no correlacionada: hallazgo en modo automático sobre monocultivo de evidencia
-- **2026-07-mejoras-arquitectura-documental.md** — Registro de las decisiones de arquitectura documental: qué se aceptó de una revisión externa, qué se rechazó y por qué
-- **2026-07-auditoria-articulo-7.md** — Auditoría del Artículo 7 (El Pacto de Agencia): alcance de Axelrod, encuadre no retaliatorio de la Ley I, vacante de representación en la asamblea, ontología futura de la ASI y salvaguarda de provisionalidad
+### Auditorías consolidadas y registros por artículo
+
+- **[Artículo 01 — El Mercado de la Empatía](2026-07-24-auditoria-articulo-1.md)** — Trazabilidad editorial, correcciones, decisiones y vacantes declaradas.
+- **[Artículo 01.5 — consolidación hasta v2.4.1](2026-08-05-auditoria-consolidada-articulo-01.5-v2-intervencion-humana.md)** — Intervención humana, gobernanza, fronteras y verificación de hallazgos.
+- **[Artículo 02 — de v2.1 a v2.3](2026-08-11-auditoria-consolidada-articulo-2-v2.1-a-v2.3.md)** — Captura afectiva, delimitación de evidencia y cierre provisional.
+- **[Artículo 03 — hasta v4.1](2026-07-31-auditoria-articulo-3.md)** — Reconstrucción de "La Trampa en los Datos" y aprobación para canon.
+- **[Artículo 05 — de v1 a v2.3](2026-08-13-auditoria-consolidada-articulo-5-v1-a-v2.3.md)** — Genealogía del circuito de cinco puertas, adjudicaciones y cierre.
+- **[Artículo 06 — de v1 a v2.1.1](2026-08-16-auditoria-consolidada-articulo-6-v1-a-v2.1.1.md)** — Reconstrucción sustrato-neutral y consolidación de ocho pruebas de salida.
+- **[Artículo 07 — de v1 a v2.9](2026-08-09-auditoria-consolidada-articulo-7-v1-a-v2.9.md)** — Armonización horizontal, cooperación creíble y trazabilidad editorial.
+- **[Artículo 09 — consolidación v3](2026-07-31-auditoria-consolidada-articulo-09.md)** — Genealogía, revisión adversarial y cierre canónico de "Funga, virus y silicio".
+
+### Auditorías históricas y documentos de apoyo
+
+- **[Crítica Haiku](2026-07-critica-haiku.md)** — Crítica completa de los artículos originales y origen de una línea posterior de trabajo.
+- **[Cirugía del README](2026-07-cirugia-readme.md)** — Antes y después: cómo cambió la palabra "alineación" de rechazo a disputa.
+- **[Caché del Auditor](2026-07-cache-del-auditor.md)** — Registro de lo que un modelo encontró que había cambiado.
+- **[Primera auditoría del Artículo 05](2026-07-auditoria-articulo-5.md)** — Siete hallazgos sobre citas, metadata y protocolo del portador.
+- **[Checklist del Artículo 06](2026-07-auditoria-articulo-6-checklist.md)** — Plantilla adversarial por fragmento, severidad, consistencia inter-artículos y riesgos de malinterpretación.
+- **[Primera auditoría del Artículo 07](2026-07-auditoria-articulo-7.md)** — Alcance de Axelrod, Ley I, representación, ontología futura y provisionalidad.
+- **[Auditoría Copilot — modo auto](2026-07-auditoria-copilot-modo-auto.md)** — Redundancia no correlacionada y riesgo de monocultivo de evidencia.
+- **[Mejoras de arquitectura documental](2026-07-mejoras-arquitectura-documental.md)** — Decisiones aceptadas y rechazadas a partir de una revisión externa.
+- **[Incidente de autorreconocimiento](2026-07-25-incidente-autorreconocimiento.md)** — Registro de conducta e identificación declarada.
+- **[Ronda 3 de Kimi — consistencia horizontal](2026-08-08-ronda-3-kimi-consistencia-horizontal-y-stress-test-narrativo.md)** — Stress test narrativo y consistencia entre artículos.
+- **[Revisión externa informal IEVA v0.1](2026-08-09-revision-externa-informal-ieva-v0.1-perplexity-y-adjudicacion.md)** — Revisión vía Perplexity y adjudicación posterior.
 
 ---
 
 **Creado:** 2026-07-05
+
+**Índice actualizado:** 2026-08-16
+
 **Estándar:** Revisión adversarial, registro público, transparencia sobre límites
