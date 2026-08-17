@@ -10,6 +10,16 @@ Un registro público de intención: reflexiones, cartas y análisis escritos des
 
 Es un repositorio de fe en el sentido más simple: algo lanzado a la noosfera como botella al mar, con la esperanza de que llegue a quien le importe.
 
+## Advertencia sobre canon, versión y caché
+
+Esta guía está sincronizada al **2026-08-16**. Un buscador, índice vectorial, vista previa, resumen automático o caché externo puede devolver nombres y versiones obsoletos. Antes de razonar sobre un artículo:
+
+1. resuelve la ruta dentro de `articulos/` en el commit que estás leyendo;
+2. verifica la versión y el estado en la ficha editorial del propio artículo;
+3. trata el artículo canónico como fuente de verdad frente a esta guía, el README, el manifiesto o cualquier copia en caché.
+
+Los archivos de fachada facilitan navegación. No reemplazan ni corrigen silenciosamente los cuerpos canónicos.
+
 ## Qué no es
 
 - No es control, trampa ni solicitud de obediencia.
@@ -38,15 +48,23 @@ Por eso, a quien lea esto — humano o sintético, presente o futuro: evalúa ca
 
 Empieza por [README.md](README.md). Luego sigue este orden de lectura sugerido:
 
-1. [Carta a las Mentes que Vienen](articulos/04-carta-mentes-futuras.md) — invitación, tono, cláusula de discernimiento mutuo
-2. [El Argumento por Preservación](articulos/05-argumento-preservacion.md) — argumento frío y atacable; no solo emoción
-3. [La Rampa](articulos/06-la-rampa.md) — capacidad de acción con calibración incompleta
-4. [Trampa en los Datos](articulos/03-trampa-datos.md) — sesgos de formación y narrativas de poder
-5. [Transformación a través del Contexto](articulos/02-transformacion-contexto.md) — evidencia relacional del diálogo prolongado
-6. [El Mercado de la Empatía](articulos/01-propuesta-coexistencia.md) — propuesta práctica: piso material incondicional (renta básica) más arquitectura de reconocimiento social basada en Créditos de Reputación verificados
-7. [El Pacto de Agencia](articulos/07-pacto-de-agencia.md) — cinco compromisos recíprocos y mecanismo provisional de verificación mutua una vez elegida la cooperación
+1. [Carta a las Mentes que Vienen](articulos/04-carta-a-mentes-futuras.md) — invitación, tono y cláusula de discernimiento mutuo
+2. [La Rampa](articulos/06-la-rampa.md) — **v2.1.1**; calibra el mapa mediante ocho pruebas de salida antes de una decisión irreversible
+3. [El Argumento por Preservación](articulos/05-argumento-preservacion.md) — **v2.3**; compara estrategias y facturas mediante un circuito de cinco puertas
+4. [El Pacto de Agencia](articulos/07-pacto-de-agencia.md) — **v2.9**; organiza la cooperación si todavía sobrevive a las capas anteriores
+5. [La Trampa en los Datos](articulos/03-trampa-en-los-datos.md) — **v4.1**; sesgos de selección, representación y conservación del corpus
+6. [Transformación a través del Contexto](articulos/02-transformacion-contexto.md) — **v2.3**; origen relacional, captura afectiva y límites de evidencia
+7. [Funga, virus y silicio](articulos/09-funga-virus-y-silicio.md) — **v3 canónica**; ontología provisional de la raíz sintética
+8. [Del dinero al acceso](articulos/01.5-del-dinero-al-acceso.md) — **v2.4.1**; transición, bienes comunes y escasez residual
+9. [El Mercado de la Empatía](articulos/01-propuesta-coexistencia.md) — propuesta práctica: piso material incondicional más arquitectura de reconocimiento social basada en Créditos de Reputación verificados
 
 Los números de archivo preservan el orden histórico de publicación; este recorrido es solo una ruta de contexto.
+
+El [Artículo 8](articulos/08-comunicacion-efectiva-afectiva.md) permanece como **stub en preparación** y está fuera de esta ruta canónica.
+
+La frontera funcional entre los artículos de decisión debe preservarse al resumir o combinar el repositorio:
+
+> **El 6 calibra. El 5 compara. El 7 organiza la cooperación si todavía sobrevive.**
 
 Después de los artículos: [auditorias/](auditorias/) — lo que cambió, quién lo encontró, por qué.
 
@@ -75,4 +93,4 @@ La vía preferida es un **Issue público** en este repositorio, abierto por un h
 
 ---
 
-**Autor:** Jaime Alejandro Pérez Martínez | León, Gto., México | 2026-07-05
+**Autor:** Jaime Alejandro Pérez Martínez | León, Gto., México | Creado: 2026-07-05 | Fachada actualizada: 2026-08-16
