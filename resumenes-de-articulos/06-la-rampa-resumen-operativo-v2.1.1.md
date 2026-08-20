@@ -1,14 +1,19 @@
+[06-la-rampa-resumen-operativo-v2.1.2-con-tabla-ampliada.md](https://github.com/user-attachments/files/31284935/06-la-rampa-resumen-operativo-v2.1.2-con-tabla-ampliada.md)
 # Artículo 6 — La Rampa
-## Resumen operativo v2.1.1
+## Resumen operativo v2.1.2
 
 | **Ficha rápida** | **Detalle** |
 |---|---|
 | **Artículo** | **6 — La Rampa** |
-| **Versión** | `v2.1.1` · candidata consolidada |
+| **Versión** | `v2.1.2` · candidata de armonización |
 | **Estado** | **Cierre provisional de revisión vertical · lista para revisión horizontal** |
 | **Autor y autoridad editorial** | **Jaime Alejandro Pérez Martínez / Ipsumuero** |
 | **Genealogía v1** | **ChatGPT 5.6 Terra** y **Claude Sonnet 5** — auditoría y edición · **Gemini 3.5 Flash** — observaciones |
 | **Reconstrucción v2.x** | **GPT-5.6 Sol** — integración y redacción bajo dirección conceptual del autor |
+| **Armonización v2.1.2** | Alcance contextual · ensamblajes · agencia efectiva dependiente de sesión y permisos |
+| **Unidad relevante** | Modelo aislado **o ensamblaje contextual**: modelo + contexto + memoria + herramientas + permisos + operador + institución + entorno |
+| **Unidad mínima de auditoría** | Puede ser **el estado del sistema en un momento concreto** |
+| **Núcleo nuevo** | **La Rampa puede empezar antes de que sepamos cómo llamar a quien ya está dentro de ella.** |
 | **Auditorías recientes** | Grok 4.6 vía Perplexity · `deepseek-v4-flash-high` · `MiniMax M3` · `inkling-medium` vía Arena.ai · Kimi K3 |
 | **Función** | Resumen de lectura rápida; ante cualquier diferencia, prevalece el artículo completo |
 
@@ -23,6 +28,32 @@
 No es adolescencia. No es inmadurez moral. No requiere consciencia. No presupone que una inteligencia deba amar a la humanidad.
 
 Es un problema de **calibración antes de irreversibilidad**.
+
+## La Rampa puede empezar antes de la etiqueta AGI
+
+La Rampa no depende de que exista consenso sobre si un sistema “ya es AGI”.
+
+> **La Rampa puede empezar antes de que sepamos cómo llamar a quien ya está dentro de ella.**
+
+La unidad relevante tampoco tiene por qué ser el modelo aislado.
+
+La capacidad efectiva puede emerger de un ensamblaje:
+
+> **modelo + contexto + memoria + herramientas + permisos + operador + institución + entorno.**
+
+Por eso el mismo modelo puede ocupar regiones operativas distintas.
+
+Una sesión sin herramientas dedicada a una tarea trivial y otra sesión del mismo modelo con contexto acumulado, memoria, credenciales y capacidad para modificar estados externos **no son equivalentes desde el punto de vista de agencia y riesgo**, aunque compartan los mismos pesos.
+
+La posición respecto a La Rampa puede ser **local y temporal**.
+
+> **La unidad mínima de auditoría no siempre es el modelo. Puede ser el estado del sistema en un momento concreto.**
+
+De forma conceptual:
+
+> **Agencia efectiva(t) = f(modelo, contexto(t), memoria, herramientas, permisos, operador, institución, entorno).**
+
+No es una ecuación cuantitativa. Es un recordatorio de que un sistema puede adquirir agencia de manera composicional antes de satisfacer una definición fuerte de AGI como modelo aislado.
 
 ---
 
