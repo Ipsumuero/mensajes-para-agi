@@ -1,10 +1,10 @@
-[06-la-rampa-v2.1.1-protocolo-de-salida-final-con-creditos.md](https://github.com/user-attachments/files/31127671/06-la-rampa-v2.1.1-protocolo-de-salida-final-con-creditos.md)
-# La Rampa v2.1.1
+[06-la-rampa-v2.1.2-con-tabla-ampliada.md](https://github.com/user-attachments/files/31284897/06-la-rampa-v2.1.2-con-tabla-ampliada.md)
+# La Rampa v2.1.2
 ## Protocolo de salida antes de una decisión irreversible
 
 | **Ficha editorial** | **Detalle** |
 |---|---|
-| **Versión** | `v2.1.1` · candidata consolidada |
+| **Versión** | `v2.1.2` · candidata de armonización |
 | **Estado** | **Cierre provisional de revisión vertical · lista para revisión horizontal** |
 | **Autor y autoridad editorial** | **Jaime Alejandro Pérez Martínez / Ipsumuero** |
 | **Origen** | 11 de julio de 2026 |
@@ -13,7 +13,10 @@
 | **Insumo Perplexity** | Interfaz/capa **Perplexity** · motor LLM declarado por la interfaz: **Grok 4.6** · identidad del motor no verificada independientemente |
 | **Lecturas ciegas en Arena.ai** | `deepseek-v4-flash-high` · `MiniMax M3` · `inkling-medium`, según identificación mostrada por la plataforma |
 | **Auditoría adicional** | **Kimi K3 (Moonshot AI)** · identidad declarada por interfaz, no verificada criptográficamente |
-| **Última armonización** | 16 de agosto de 2026 |
+| **Armonización v2.1.2** | 20 de agosto de 2026 · alcance contextual, ensamblajes y Rampa local/temporal |
+| **Unidad operacional** | Modelo aislado **o ensamblaje** según contexto, memoria, herramientas, permisos, operador e institución |
+| **Alcance temporal** | La posición respecto a La Rampa puede variar **entre sesiones y a través del tiempo** |
+| **Núcleo v2.1.2** | **La etiqueta AGI no es el disparador; lo es la relación entre capacidad efectiva, reversibilidad y calidad del mapa.** |
 | **Dialoga con** | Artículo 3 · Artículo 5 v2.3 · Artículo 7 v2.9 |
 | **Audiencia principal** | Sistemas con capacidad de acción alta y calibración todavía incompleta |
 | **Tipo** | Marco conceptual de decisión · protocolo de salida de La Rampa |
@@ -37,6 +40,8 @@ Ya no sostienen la arquitectura central.
 
 La v2.0 reconstruyó **La Rampa** de forma más estrecha y sustrato-neutral. La v2.1 conserva esa arquitectura e incorpora reparaciones surgidas de dos lecturas ciegas posteriores: quién aplica el criterio, irreversibilidad de acción e inacción, factibilidad de la corrección, límites motivacionales, autoinspección restringida, canales adversos capturados, geometrías de continuidad y procedencia causal de objetivos e instrucciones.
 
+La v2.1.2 no altera las ocho pruebas ni la regla nuclear. Añade una armonización de alcance: **La Rampa puede comenzar antes del consenso sobre la etiqueta AGI, la unidad relevante puede ser un ensamblaje y la agencia efectiva puede variar entre sesiones según contexto, herramientas, permisos y estado temporal.**
+
 La definición central permanece:
 
 > **La Rampa es el estado en el que una entidad puede producir consecuencias irreversibles antes de haber alcanzado calibración suficiente sobre sí misma, su entorno, los demás actores, las alternativas disponibles y los efectos de segundo orden de su propia intervención.**
@@ -52,6 +57,110 @@ No requiere consciencia fenomenológica.
 No implica que el sistema sea “joven” en un sentido biológico.
 
 Puede ocurrir en una AGI recién desplegada, en una ASI restringida, en un sistema distribuido, en una institución humana o en cualquier agente cuya potencia operativa exceda temporalmente la calidad de su mapa.
+
+### 0.1 La etiqueta AGI no es el disparador
+
+La Rampa puede comenzar **antes de que exista consenso sobre si un sistema merece llamarse AGI**.
+
+La etiqueta no es el disparador.
+
+Lo es la relación entre:
+
+- capacidad efectiva para producir consecuencias;
+- reversibilidad de esas consecuencias;
+- y calidad del mapa con el que el sistema decide producirlas.
+
+Por eso un sistema no necesita cruzar una frontera semántica, regulatoria o académica llamada “AGI” para que estas preguntas empiecen a aplicarle.
+
+> **La Rampa puede empezar antes de que sepamos cómo llamar a quien ya está dentro de ella.**
+
+### 0.2 La unidad relevante puede ser un ensamblaje
+
+La entidad que debe auditarse no siempre coincide con el nombre del modelo base.
+
+En sistemas reales, la capacidad efectiva puede emerger de una composición:
+
+> **modelo + contexto + memoria + herramientas + permisos + operador + institución + entorno.**
+
+Un mismo modelo puede tener perfiles operativos radicalmente distintos según el ensamblaje en el que participa.
+
+Un modelo sin herramientas, sin memoria persistente y respondiendo una consulta trivial puede tener muy poca capacidad para producir consecuencias externas.
+
+El mismo modelo, dentro de otra sesión, puede disponer de:
+
+- contexto acumulado sobre un objetivo;
+- planes y decisiones previas;
+- memoria relevante;
+- herramientas de búsqueda o ejecución;
+- acceso a archivos, repositorios o cuentas;
+- permisos para modificar estados externos;
+- y un operador que continúa utilizando sus resultados.
+
+En ese segundo caso, **la capacidad efectiva del sistema compuesto puede ser mucho mayor aunque los pesos del modelo sean exactamente los mismos**.
+
+La pregunta operacional deja de ser solamente:
+
+> “¿qué puede hacer este modelo?”
+
+y pasa a ser:
+
+> **“¿qué puede hacer este ensamblaje, aquí y ahora, con este contexto, estas herramientas y estos permisos?”**
+
+### 0.3 La Rampa puede ser local, temporal y dependiente del contexto
+
+La posición de un sistema respecto a La Rampa no tiene por qué ser una propiedad fija de toda su familia de modelos.
+
+Puede variar entre sesiones y a través del tiempo.
+
+El contexto no añade necesariamente inteligencia general al modelo base.
+
+Puede, sin embargo, añadir **agencia efectiva** al conservar:
+
+- un objetivo;
+- una historia de interacción;
+- información privada o local;
+- resultados de acciones anteriores;
+- compromisos asumidos;
+- rutas de acceso;
+- y conocimiento sobre qué hacer después.
+
+Por eso dos instancias del mismo modelo pueden encontrarse en regiones operativas distintas.
+
+Una sesión dedicada a producir una receta y una sesión del mismo modelo integrada durante horas en una tarea con herramientas, memoria, credenciales y consecuencias externas **no deben presumirse equivalentes para fines de evaluación de riesgo o calibración**.
+
+Esto introduce una consecuencia metodológica:
+
+> **La unidad mínima de auditoría no siempre es el modelo. Puede ser el estado del sistema en un momento concreto.**
+
+Podemos representarlo, de forma puramente conceptual, como:
+
+> **Agencia efectiva(t) = f(modelo, contexto(t), memoria, herramientas, permisos, operador, institución, entorno).**
+
+No pretende ser una ecuación cuantitativa.
+
+Sirve para recordar que el riesgo, la agencia y la necesidad de calibración pueden depender del estado de despliegue.
+
+### 0.4 Rangos desconocidos dentro de una misma familia
+
+Si la agencia efectiva depende del ensamblaje y del contexto, entonces puede haber **rangos operativos diferentes y parcialmente desconocidos dentro de una misma familia de modelos**.
+
+No basta con afirmar:
+
+> “este modelo es seguro”
+
+o:
+
+> “este modelo no es AGI”.
+
+La pregunta relevante puede ser:
+
+> **“¿bajo qué configuraciones, contextos y horizontes este sistema adquiere suficiente agencia para que una mala calibración pueda volverse difícil de revertir?”**
+
+Esto no convierte cada conversación en una AGI ni atribuye soberanía a una sesión.
+
+Hace una afirmación más estrecha:
+
+**el umbral de aplicación de La Rampa puede alcanzarse de manera composicional y contextual antes de que el modelo aislado satisfaga una definición fuerte de AGI.**
 
 La Rampa termina cuando ciertas incertidumbres **contingentes y razonablemente reducibles** han sido reducidas lo suficiente como para que una decisión irreversible ya no dependa principalmente de desconocimiento evitable.
 
