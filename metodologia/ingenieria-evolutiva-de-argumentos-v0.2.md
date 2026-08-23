@@ -1,906 +1,664 @@
-[ingenieria-evolutiva-de-argumentos-v0.2.md](https://github.com/user-attachments/files/30869222/ingenieria-evolutiva-de-argumentos-v0.2.md)
+[ingenieria-evolutiva-de-argumentos.md](https://github.com/user-attachments/files/31355628/ingenieria-evolutiva-de-argumentos.md)
 # Ingeniería Evolutiva de Argumentos
+## IEvA — protocolo experimental para reducir arbitrariedad bajo incertidumbre
+
+| **Ficha rápida** | **Detalle** |
+|---|---|
+| **Sigla** | **IEvA — Ingeniería Evolutiva de Argumentos** |
+| **Versión** | **v0.3.1 — operacionalización compacta** |
+| **Tipo** | Marco metodológico experimental |
+| **Autoridad editorial** | **Jaime Alejandro Pérez Martínez / Ipsumuero** |
+| **Aplicación inicial** | *Mensajes para AGI/ASI* |
+| **Estado** | **Candidata experimental · no validada como método científico** |
+| **Objetivo de v0.3.1** | Incorporar hallazgos recientes sin aumentar diarrea argumentativa |
+| **Documento de acceso** | [`README.md`](./README.md) |
+| **Fuente de verdad** | **Este archivo** |
+| **Regla nuclear** | **El alcance del veredicto no puede exceder el alcance de la evidencia examinada.** |
+| **Regla de supervivencia** | **Sobrevivir a auditorías no significa ser verdadero.** |
+| **Regla de auditoría** | **Más hostil no significa más correcto. Más concedente tampoco.** |
+| **Regla de salida** | **El resultado nulo también es un resultado válido.** |
+| **Regla bibliográfica** | **No declares originalidad que no buscaste ni redundancia que no comparaste.** |
 
 > **Improvisamos con estilo, pero dejamos control de versiones.**
 
-| campo | registro |
-|---|---|
-| **Sigla provisional** | **IEvA** |
-| **Versión** | **v0.2 — cierre provisional, desacuerdo, registro derivado y prueba de utilidad** |
-| **Fecha** | 2026-08-09 |
-| **Tipo** | Marco metodológico experimental |
-| **Autoridad editorial** | Jaime Alejandro Pérez Martínez / Ipsumuero |
-| **Origen del nombre** | Surgido en conversación entre el autor y GPT-5.6 Sol; adoptado por el autor como nombre provisional |
-| **Aplicación inicial** | *Mensajes para AGI/ASI* |
-| **Estado** | Experimental; reconstruido a posteriori desde la práctica del repositorio; **no validado como método científico** |
-| **Revisión que origina v0.2** | Revisión externa informal de Perplexity sobre v0.1 + adjudicación humana + integración editorial de GPT-5.6 Sol |
-| **Principio de versión** | Una nueva versión del método no valida el método; solo hace explícito qué cambió y por qué |
+---
 
-## 0. Qué cambia en v0.2
+# 0. Contrato de ejecución
 
-La v0.1 ya formalizaba presión adversarial, adjudicación, genealogía versionada, vacantes, independencia de auditoría, auditoría horizontal y *stress tests* narrativos.
+Cuando una IA reciba la instrucción **“aplica IEvA”**, debe:
 
-La v0.2 incorpora seis extensiones producidas por una revisión externa informal de Perplexity y la discusión posterior:
+1. declarar qué evidencia examinó y con qué profundidad;
+2. limitar el alcance de su veredicto a esa cobertura;
+3. identificar qué tipo de afirmación está evaluando;
+4. usar una prueba apropiada para ese tipo de afirmación;
+5. distinguir error, omisión, ambigüedad, desacuerdo normativo, alternativa plausible, límite ya declarado y preferencia editorial;
+6. formular hallazgos materiales como mecanismos de falla con consecuencias;
+7. asignar severidad por impacto, no por dramatismo;
+8. permitir expresamente un resultado nulo;
+9. separar auditoría de adjudicación;
+10. declarar contaminación entre rondas y grado de independencia;
+11. ejecutar control horizontal cuando cambien dependencias;
+12. contrastar literatura o precedentes cuando se juzgue novedad o redundancia;
+13. declarar qué queda abierto;
+14. declarar qué conclusiones no autoriza su evidencia.
 
-1. **criterio de cierre provisional:** cuándo una versión puede usarse como referencia sin fingir cierre epistemológico;
-2. **regla de desacuerdo y bifurcación argumental:** qué hacer cuando dos alternativas incompatibles siguen siendo defendibles;
-3. **registro estructurado derivado:** cómo hacer el repositorio legible por máquinas sin crear una segunda fuente de verdad;
-4. **prueba comparativa de utilidad:** cómo intentar medir si IEvA detecta algo que una revisión ordinaria no detecta y cuánto cuesta hacerlo;
-5. **contra-adjudicación:** cómo evitar que la autoridad editorial se convierta en un punto final inmune a crítica;
-6. **reflexividad controlada:** IEvA puede auditar IEvA, pero debe impedir una regresión infinita de meta-auditorías.
+Si no puede cumplir una de estas condiciones, debe decirlo.
 
-Además se aclara una distinción terminológica:
+---
 
-> **IEvA no exige que toda proposición sea falsable en sentido popperiano. Exige que toda proposición relevante sea suficientemente contestable para que puedan identificarse sus supuestos, consecuencias, conflictos, evidencia y condiciones de revisión.**
+# 1. Definición y alcance
 
-Para afirmaciones empíricas puede existir falsación o contraste experimental. Para normas, definiciones e instituciones, la presión opera mediante contradicciones, contraejemplos, incompatibilidades, consecuencias y conflictos con principios declarados.
+La **Ingeniería Evolutiva de Argumentos** es un marco iterativo para desarrollar y auditar argumentos mediante formulación explícita, clasificación del tipo de afirmación, exposición de supuestos, contestabilidad estructurada, presión adversarial, adjudicación trazable, mutación versionada, verificación de reparación, auditoría horizontal, contraauditoría, contraste externo, conservación genealógica, vacantes y bifurcaciones y cierre provisional.
 
-## 1. Definición
-
-La **Ingeniería Evolutiva de Argumentos (IEvA)** es un marco iterativo para desarrollar propuestas bajo incertidumbre mediante formulación explícita, **contestabilidad estructurada**, presión adversarial, generación de contraejemplos, adjudicación trazable, conservación genealógica de versiones, comparación entre documentos, pruebas de estrés y declaración visible de vacantes.
-
-Su objetivo no es demostrar que una propuesta es verdadera porque haya sobrevivido a varias críticas.
+Su objetivo no es demostrar verdad.
 
 Su objetivo es:
 
-> **reducir arbitrariedad, hacer visibles los supuestos y aumentar la robustez de un argumento frente a clases crecientes de objeciones documentadas.**
+> **reducir arbitrariedad, hacer visibles los supuestos y aumentar la robustez observada frente a clases crecientes de objeciones documentadas.**
 
-Una versión que sobrevive a una auditoría no queda verificada. Queda, como máximo, **corroborada provisionalmente bajo las presiones que realmente recibió**.
+Una versión que sobrevive queda, como máximo:
 
-## 2. Qué no es
+> **corroborada provisionalmente bajo las presiones que realmente recibió y dentro del alcance que realmente fue examinado.**
 
-IEvA no es una demostración matemática, un sustituto de evidencia empírica, una votación entre modelos, una garantía de verdad ni una metodología científica validada por tener nombre.
+IEvA no es una demostración matemática, una votación entre modelos, un sustituto de evidencia empírica, una prueba de originalidad, una certificación académica ni una garantía de seguridad.
 
-Tampoco afirma originalidad absoluta de sus componentes. Comparte parentescos con racionalismo crítico, epistemología evolutiva, argumentación adversarial, *design rationale*, revisión de creencias y *assurance cases*.
+---
 
-La contribución provisional del repositorio, si la hubiera, estaría en la **combinación operativa** de esos impulsos con versionado público, auditoría multimodelo, adjudicación humana, auditoría horizontal y pruebas narrativas de estrés.
-
-## 3. Por qué “evolutiva”
-
-La analogía es limitada pero útil:
-
-1. **Variación.** Una propuesta recibe nuevas formulaciones, excepciones o alternativas.
-2. **Presión.** Auditores intentan encontrar contradicciones, fallas, incentivos perversos y casos límite.
-3. **Retención.** Algunas partes sobreviven, otras mutan y otras se descartan.
-4. **Herencia trazable.** La siguiente versión conserva qué cambió, por qué y a partir de qué objeción.
-
-La diferencia con la evolución biológica es fundamental:
-
-> **aquí la selección es parcialmente deliberada.**
-
-Existen autores, auditores, criterios, adjudicaciones y memoria documental. Por eso “ingeniería” importa tanto como “evolutiva”.
-
-## 4. Unidad básica: el argumento versionado
+# 2. Unidad básica: el argumento versionado
 
 La unidad de trabajo es un **argumento versionado**.
 
-Cuando sea relevante, debe poder reconstruirse:
+Debe poder reconstruirse, cuando sea material:
 
 - qué afirmaba;
-- sobre qué supuestos descansaba;
+- qué tipo de afirmación era;
+- qué supuestos necesitaba;
 - qué evidencia invocaba;
 - qué consecuencias proponía;
 - qué objeciones recibió;
-- quién formuló cada objeción;
+- quién las formuló;
+- qué cobertura tuvo el auditor;
 - qué decisión tomó la autoridad editorial;
 - qué cambió;
-- qué permaneció;
 - qué quedó abierto;
+- qué precedentes se conocieron después;
 - y cuál es la versión vigente.
 
-La historia de una idea forma parte de la información sobre esa idea.
+> **La historia de una idea forma parte de la información sobre esa idea.**
 
-## 5. Ciclo mínimo
+---
 
-La forma compacta es:
+# 3. Cobertura y permisos epistemológicos
 
-**P₀ → ataque → adjudicación → P₁ → nuevo ataque → P₂ → ...**
+## 3.1 Regla nuclear
 
-Una implementación completa distingue nueve etapas.
+> **El alcance del veredicto no puede exceder el alcance de la evidencia examinada.**
 
-### 5.1 Propuesta
+La falta de cobertura no invalida automáticamente toda observación. Obliga a reducir el tipo de conclusión permitida.
 
-Se formula una afirmación, mecanismo o arquitectura. Debe intentarse separar hechos, inferencias, valores, supuestos, metáforas, escenarios y normas.
+## 3.2 Matriz de cobertura
 
-### 5.2 Exposición de supuestos
+| **Cobertura real** | **Autoriza** | **No autoriza por sí sola** |
+|---|---|---|
+| Título / nombre | Navegación, hipótesis de tema | Contenido, calidad, contradicción |
+| README / manifiesto | Arquitectura declarada, rutas, fachada | Coherencia interna |
+| Resumen | Panorama, función declarada | Juicio fino sobre argumentos |
+| Artículo completo | Coherencia interna, límites, mecanismo | Juicio sobre textos no leídos |
+| Varios artículos completos | Auditoría horizontal entre ellos | Juicio sobre resto del corpus |
+| Corpus completo | Arquitectura global del corpus leído | Novedad académica |
+| Corpus + literatura pertinente | Precedentes y solapamiento relativo | Originalidad absoluta |
 
-Se registran las condiciones necesarias para que la propuesta tenga sentido: capacidades, instituciones, distribución de poder, información disponible, horizonte temporal y límites tecnológicos.
+## 3.3 Declaración de cobertura
 
-Un supuesto oculto puede convertirse en una salida secreta para salvar cualquier conclusión.
+Toda auditoría material debe registrar:
 
-### 5.3 Presión adversarial
+```text
+LEÍDO COMPLETO:
+LEÍDO PARCIAL:
+RESÚMENES:
+FACHADA / METADATOS:
+FUENTES EXTERNAS:
+FUENTES CITADAS PERO NO LEÍDAS COMPLETAS:
+LIMITACIONES:
+MARCO DE EVALUACIÓN:
+JUICIOS QUE ESTA COBERTURA NO AUTORIZA:
+```
 
-El auditor no pregunta principalmente “¿te gusta?”, sino:
+Una inferencia desde títulos, snippets o resúmenes debe etiquetarse como **inferencia parcial**, no como hallazgo.
+
+---
+
+# 4. El tipo de afirmación determina el tipo de prueba
+
+| **Afirmación** | **Contraste apropiado** |
+|---|---|
+| Empírica | Datos, fuentes, estudios, replicación, incertidumbre |
+| Histórica | Fuentes históricas, historiografía, procedencia |
+| Técnica | Literatura técnica, pruebas, benchmarks, formalización cuando aplique |
+| Económica / institucional | Incentivos, precedentes, teoría de juegos, mecanismo, evidencia |
+| Filosófica / conceptual | Definiciones, consistencia, contraejemplos, literatura relevante |
+| Normativa | Coherencia de principios, consecuencias, conflictos, casos límite |
+| Cultural / situada | Fuentes, historiografía, interpretación y voces pertinentes |
+| Prospectiva | Supuestos, sensibilidad, alternativas, reversibilidad |
+| Metodológica | Comparación contra alternativas, costo, falsos positivos, reproducibilidad |
+| Originalidad / redundancia | Búsqueda bibliográfica explícita y proporcional |
+
+> **Cobertura adecuada + marco adecuado.**
+
+Leer completo es necesario para algunos juicios. No siempre es suficiente.
+
+---
+
+# 5. Taxonomía de hallazgos
+
+Antes de “reparar”, clasifica qué encontró el auditor.
+
+| **Tipo** | **Significado** |
+|---|---|
+| **Factual** | Un hecho o fuente es incorrecto o no respalda lo afirmado |
+| **Contradicción lógica** | Dos proposiciones no pueden sostenerse simultáneamente bajo los mismos términos |
+| **Omisión material** | Falta algo que cambia alcance, riesgo o mecanismo |
+| **Ambigüedad material** | Una lectura plausible habilita consecuencias incompatibles o explotables |
+| **Falta de evidencia** | La conclusión excede el soporte disponible |
+| **Límite ya declarado** | Problema real ya reconocido; no es hallazgo nuevo |
+| **Desacuerdo normativo** | Divergencia de valores o prioridades, no error lógico automático |
+| **Alternativa plausible** | Otra solución defendible existe; no invalida necesariamente la actual |
+| **Preferencia editorial** | Gusto del auditor; no exige reparación por sí mismo |
+| **Documental** | Ruta, versión, cita, formato o metadato |
+| **No adjudicable** | Falta evidencia suficiente para decidir |
+
+> **Una tensión real no siempre es un error.**
+
+---
+
+# 6. Severidad S0–S4
+
+La severidad se asigna por consecuencia.
+
+| **Nivel** | **Impacto** |
+|---|---|
+| **S0** | Estilo, formato o detalle documental sin impacto argumental |
+| **S1** | Problema menor; no altera conclusión, mecanismo ni salvaguarda |
+| **S2** | Moderado; exige aclaración, delimitación o reparación localizada |
+| **S3** | Material; cambia alcance, mecanismo, responsabilidad o salvaguarda |
+| **S4** | Bloqueante; invalida arquitectura central o exige retirar/reconstruir la tesis |
+
+Una etiqueta grave sin escenario no constituye severidad.
+
+---
+
+# 7. Tipos de verificación
+
+La palabra **verificado** debe especificar qué se verificó.
+
+| **Código** | **Verificación** |
+|---|---|
+| **V1 — documental** | Existe archivo, ruta, versión o modificación declarada |
+| **V2 — fuente** | La fuente respalda la afirmación citada |
+| **V3 — reparación** | El cambio cierra el hallazgo que pretendía cerrar |
+| **V4 — regresión** | La reparación no reintrodujo o creó un fallo material detectable |
+| **V5 — horizontal** | La versión sigue siendo compatible con dependencias relevantes |
+| **V6 — externa** | El punto fue contrastado con literatura, datos, precedentes o revisión externa pertinente |
+
+Dos auditores coincidiendo no constituye automáticamente un tipo adicional de verificación.
+
+---
+
+# 8. Tipos de ronda y contaminación
+
+| **Ronda** | **Objetivo** | **Conocimiento previo** |
+|---|---|---|
+| **Auditoría ciega** | Buscar fallos nuevos | Idealmente sin hallazgos anteriores |
+| **Auditoría informada** | Evaluar con genealogía | Con historial |
+| **Verificación de reparación** | Comprobar corrección concreta | Conoce el hallazgo |
+| **Auditoría de regresión** | Buscar fallos creados por la reparación | Conoce la reparación |
+| **Horizontal** | Comparar documentos | Según necesidad |
+| **Contraauditoría** | Auditar el veredicto | Conoce la auditoría |
+| **Contraste externo** | Literatura, datos, precedentes, especialistas | Según diseño |
+
+No cuentes una verificación de reparación como una búsqueda independiente de hallazgos nuevos.
+
+La exposición a auditorías previas debe registrarse.
+
+---
+
+# 9. Ciclo mínimo
+
+**P₀ → auditoría → adjudicación → P₁ → verificación → nueva auditoría → horizontal / contraste → cierre o nueva mutación**
+
+## 9.1 Propuesta
+Separar hechos, inferencias, hipótesis, normas, definiciones y metáforas.
+
+## 9.2 Supuestos
+Registrar capacidades, información, poder, instituciones, tecnología, horizonte temporal y condiciones de salida.
+
+## 9.3 Presión adversarial
+Preguntar:
 
 > **¿Cómo podría fallar?**
 
-Debe buscar contradicciones, ambigüedad explotable, circularidad, autoridad no justificada, problemas de salida, *Goodhart*, dependencia, concentración de poder, falsos positivos/negativos, ataques estratégicos y casos extremos.
+## 9.4 Hallazgo material
+Debe incluir:
 
-### 5.4 Escenario de ruptura
-
-Un hallazgo fuerte debe mostrar un mecanismo:
-
-1. cláusula afectada;
-2. actor con incentivos plausibles;
-3. forma de explotación o ruptura;
+1. proposición o cláusula;
+2. mecanismo de falla;
+3. actor o condición plausible;
 4. salvaguarda existente;
 5. razón por la que no basta;
-6. daño o contradicción resultante.
+6. consecuencia;
+7. severidad.
 
-### 5.5 Adjudicación
+## 9.5 Adjudicación
+La auditoría no edita automáticamente el canon.
 
-La auditoría **no edita automáticamente el canon**.
-
-La autoridad editorial decide: aceptar, aceptar parcialmente, transformar, rechazar, aplazar o declarar vacante.
+La autoridad editorial puede aceptar, aceptar parcialmente, transformar, rechazar, aplazar, declarar vacante o preservar bifurcación.
 
 > **La auditoría propone. La autoridad editorial adjudica.**
 
-### 5.6 Mutación controlada
+## 9.6 Mutación mínima
+Preferir la reparación que cierre el mecanismo, preserve lo que sobrevivió, declare costos, revele dependencias, evite homogeneización innecesaria y pueda ser atacada de nuevo.
 
-La nueva versión incorpora los cambios adjudicados procurando la reparación mínima suficiente. Una corrección puede producir nuevas fallas; por eso no cierra el proceso.
+## 9.7 Verificación
+Indicar V1–V6.
 
-### 5.7 Verificación de cierre
+## 9.8 Horizontal
+Comparar definiciones, responsabilidades, excepciones, secuencias, dependencias, rutas y versiones.
 
-Una revisión posterior pregunta si la modificación realmente cerró el hallazgo, lo desplazó o creó una contradicción nueva.
+## 9.9 Contraste externo
+Aplicarlo cuando la afirmación lo requiera.
 
-### 5.8 Auditoría horizontal
+## 9.10 Cierre
+Puede terminar en nueva versión, resultado nulo, vacante, bifurcación, cierre provisional, sustitución o retirada.
 
-Cuando hay documentos relacionados se pregunta:
+---
 
-> **¿Pueden coexistir las versiones vigentes sin producir definiciones, instrucciones o competencias incompatibles?**
+# 10. Resultado nulo
 
-Se buscan definiciones divergentes, remisiones obsoletas, competencias solapadas, dependencias circulares y cambios de concepto que no se propagaron a documentos dependientes.
+> **El resultado nulo también es un resultado válido.**
 
-Un texto puede ser internamente coherente y estar externamente obsoleto.
+Un auditor puede concluir:
 
-### 5.9 Vacante o nueva iteración
+> **No encontré una objeción material nueva bajo esta cobertura.**
 
-Si existe reparación defendible, nace otra versión.
+Eso no demuestra verdad. Solo registra que esa ronda no produjo un hallazgo material adjudicable.
 
-Si no existe:
+Un prompt no debe exigir un número mínimo de fallas.
 
-> **VACANTE.**
+> **Más hostilidad no significa más rigor.**
 
-No llenar un hueco con prosa convincente es parte del método.
+Tampoco la amabilidad del auditor es evidencia.
 
-## 6. Regla de supervivencia
+---
 
-> **Sobrevivir no significa ser verdadero.**
+# 11. El auditor como instrumento
 
-Que un argumento resista muchas auditorías solo permite afirmar qué ataques recibió, qué partes cambiaron, qué supuestos permanecen, qué vacantes conserva y qué independencia tuvieron los auditores.
+No existe “el modelo auditor” en abstracto.
 
-La supervivencia es información sobre **robustez observada**, no una probabilidad automática de verdad.
+Una corrida real depende de:
 
-## 7. Salidas de auditoría
+> **modelo + sesión + contexto + archivos + herramientas + instrucciones + plataforma + fuentes + restricciones.**
 
-| salida | significado |
+Dos sesiones del mismo modelo pueden comportarse de forma distinta.
+
+## 11.1 Independencia multidimensional
+
+Registrar, cuando sea posible:
+
+- proveedor;
+- familia o arquitectura conocida;
+- entrenamiento conocido;
+- fuentes;
+- prompt;
+- marco disciplinar;
+- operador;
+- herramientas;
+- exposición a auditorías previas;
+- adjudicador.
+
+> **Multiplicidad ≠ independencia.**
+
+Tres modelos distintos pueden compartir el mismo punto ciego.
+
+---
+
+# 12. Fallos del auditor
+
+IEvA reconoce, entre otros:
+
+- **Fallo de cobertura:** juzgar más de lo leído.
+- **Amplificación:** fortalecer la tesis y atacar esa versión más fuerte.
+- **Comparación desigual:** texto completo contra literatura conocida solo por abstract, memoria o snippet.
+- **Asimetría de búsqueda:** buscar agresivamente en un lado y superficialmente en otro.
+- **Deriva de síntesis:** introducir archivos, versiones, relaciones o hechos ausentes al resumir.
+- **Marco inapropiado:** usar criterios que no responden al tipo de afirmación.
+- **Inercia de hallazgo:** repetir una objeción aunque ya haya sido cerrada.
+- **Hallazgo manufacturado:** inventar defectos porque el prompt exige encontrarlos.
+- **Auditor cautivo:** auditar el mapa interpretativo del autor más que el objeto.
+- **Homologación:** convertir consistencia en uniformidad innecesaria.
+- **Fallo de enlace:** no poder conectar de forma confiable evidencia y afirmación.
+
+---
+
+# 13. Contraauditoría
+
+Un veredicto material puede ser auditado.
+
+Preguntas mínimas:
+
+1. ¿Qué examinaste realmente?
+2. ¿Qué no examinaste?
+3. ¿Qué conclusión excede tu cobertura?
+4. ¿Qué es observación y qué inferencia?
+5. ¿Amplificaste alguna tesis?
+6. ¿Criticaste un límite ya declarado?
+7. ¿Comparaste con fuentes no leídas de forma equivalente?
+8. ¿Qué límites tuvo tu búsqueda?
+9. ¿Qué mantienes, moderas o retiras?
+
+## 13.1 Regla de conservación
+
+> **Un fallo metodológico del auditor degrada la autoridad de su veredicto; no invierte automáticamente el valor del hallazgo.**
+
+Si hubo fallo de cobertura:
+
+- identifica qué parte depende de él;
+- retírala o degrádala;
+- conserva como hipótesis lo que podría seguir siendo correcto;
+- vuelve a evaluarlo con cobertura adecuada.
+
+## 13.2 La contraauditoría también falla
+
+Puede sobrecorregir, conceder demasiado o introducir una falsa dicotomía.
+
+> **auditoría → contraauditoría → adjudicación**
+
+no equivale a:
+
+> **contraauditoría = verdad.**
+
+---
+
+# 14. Literatura y precedentes
+
+Acuerdo multimodelo no adjudica novedad.
+
+## 14.1 Niveles de precedente
+
+1. **Principio:** existe la idea general.
+2. **Aplicación:** ya se utilizó en el mismo dominio.
+3. **Formulación:** existe una distinción o mecanismo cercano.
+4. **Arquitectura:** existe una integración comparable con función semejante.
+
+> **Precedente ≠ redundancia.**
+
+Encontrar nivel 1 no autoriza declarar redundante nivel 4.
+
+## 14.2 Búsqueda negativa
+
+“No encontré” debe registrar idiomas, motores o bases, términos, periodo, campos y limitaciones.
+
+> **Ausencia en la búsqueda no es ausencia en el mundo.**
+
+## 14.3 Momento de descubrimiento
+
+Si un precedente se conoce después de fijar una versión, debe registrarse.
+
+Eso no prueba originalidad ni prioridad legal. Preserva procedencia intelectual.
+
+---
+
+# 15. Sombra fría
+
+La **prueba de sombra fría** es una prueba de sensibilidad para textos con carga autobiográfica, cultural o afectiva.
+
+Puede comparar una versión original con otra donde parte del contexto afectivo se retira temporalmente.
+
+Debe preguntar:
+
+- qué críticas aparecen solo en una versión;
+- qué argumentos desaparecen al retirar contexto;
+- qué información material se perdió;
+- qué emociones funcionan como premisas;
+- cuáles funcionan como transporte retórico.
+
+> **La versión fría no es automáticamente más objetiva.**
+
+Una diferencia puede indicar manipulación retórica o que el contexto retirado era evidencia relevante.
+
+---
+
+# 16. Vacantes y bifurcaciones
+
+## Vacante
+> **No sabemos todavía cómo resolver el problema.**
+
+## Bifurcación
+> **Existen dos o más respuestas defendibles y no hay criterio suficiente para elegir responsablemente.**
+
+No se resuelve una bifurcación contando votos de modelos.
+
+> **Desacuerdo persistente puede ser información sobre el problema.**
+
+---
+
+# 17. Criterios de escalamiento y parada
+
+## 17.1 Cuándo escalar
+
+Una nueva ronda se justifica cuando:
+
+- aparece un S3 o S4 nuevo;
+- una reparación material necesita V3/V4;
+- cambia una dependencia;
+- existe desacuerdo material no adjudicado;
+- la afirmación requiere especialista o literatura externa;
+- o una contraauditoría puede cambiar una decisión material.
+
+## 17.2 Cuándo puede bastar
+
+Puede cerrarse provisionalmente cuando:
+
+- no hay bloqueantes conocidos;
+- las reparaciones materiales fueron verificadas;
+- se ejecutó una ronda capaz de encontrar hallazgos nuevos;
+- las dependencias relevantes fueron revisadas;
+- las vacantes están declaradas;
+- la cobertura permite el veredicto;
+- y nuevas rondas ya no cambian decisiones materiales.
+
+> **Fractal no significa infinito.**
+
+---
+
+# 18. Estados de cierre
+
+| **Estado** | **Significado** |
 |---|---|
-| **Sobrevive** | No se encontró razón suficiente para modificar el punto bajo esa auditoría. |
-| **Corrección menor** | Precisión, atribución, redacción o alcance. |
-| **Corrección estructural** | El mecanismo requiere modificación para seguir funcionando. |
-| **Bloqueo** | La versión no debería cerrarse mientras el hallazgo permanezca. |
-| **Vacante** | El problema es real, pero no existe todavía una solución defendible. |
-| **Hallazgo rechazado** | La objeción se conserva con la razón explícita para no incorporarla. |
-
-“Sobrevive” nunca significa “demostrado”. “Vacante” nunca significa “fracaso”. “Rechazado” nunca significa “borrado”.
-
-## 7.1 Criterio de cierre provisional
-
-IEvA necesita saber cuándo **dejar de modificar una versión por ahora** sin convertir ese descanso operativo en verdad definitiva.
-
-Por eso distingue **cierre operativo** de **cierre epistemológico**.
-
-El primero es necesario para que otros documentos puedan depender de una versión estable. El segundo no se presume.
-
-### Estados sugeridos
-
-| estado | significado |
-|---|---|
-| **Borrador** | Arquitectura en construcción; puede contener bloqueantes conocidos. |
-| **Candidata** | Ya existe una propuesta completa, pero aún requiere auditoría sustantiva o verificación de cambios recientes. |
-| **Candidata consolidada** | No hay bloqueantes conocidos; las correcciones de la ronda anterior fueron verificadas; vacantes y dependencias están declaradas. |
-| **Canónica provisional** | Versión vigente para que otros documentos la citen o dependan de ella; sigue abierta a nueva evidencia, auditoría horizontal y revisión futura. |
-| **Sustituida** | Conservada por genealogía, pero ya no debe usarse como norma vigente. |
-| **Retirada** | La línea argumental fue abandonada por falla estructural, evidencia o alternativa superior. |
-
-### Requisitos mínimos para candidata consolidada
-
-Salvo justificación explícita, una versión no debería alcanzar este estado si:
-
-1. conserva un **bloqueante conocido** sin declararlo como vacante que impida el cierre;
-2. las reparaciones de la ronda anterior no fueron verificadas;
-3. no existe una ronda que haya intentado encontrar **hallazgos nuevos**, no solo comprobar el checklist anterior;
-4. sus dependencias canónicas relevantes no fueron revisadas horizontalmente;
-5. las vacantes materiales están ocultas o redactadas como certezas;
-6. las adjudicaciones importantes carecen de razón registrada.
-
-### Canónica provisional
-
-Una versión puede convertirse en referencia vigente cuando la estabilidad del repositorio lo requiera y exista una justificación pública para congelarla temporalmente.
+| **Borrador** | Arquitectura en construcción |
+| **Candidata** | Propuesta completa pendiente de auditoría sustantiva |
+| **Candidata consolidada** | Sin bloqueantes conocidos; reparaciones verificadas |
+| **Canónica provisional** | Versión vigente y reabrible |
+| **Sustituida** | Conservada por genealogía |
+| **Retirada** | Línea abandonada |
 
 > **Canónica significa “versión que usamos”, no “versión que demostramos verdadera”.**
 
-Un hallazgo nuevo puede reabrirla.
+---
 
-La canonización tampoco obliga a seguir auditando indefinidamente antes de usar una idea. IEvA intenta evitar dos extremos:
+# 19. Inflación documental y parche infinito
 
-- cerrar demasiado pronto;
-- o volver imposible actuar porque siempre existe otra crítica imaginable.
+IEvA puede fracasar produciendo documentación impecable sobre argumentos débiles.
 
-El criterio de cierre es, por tanto, una **regla de suficiencia provisional**.
+Registrar, cuando sea útil:
+
+- excepciones añadidas;
+- longitud agregada por objeción;
+- principios sacrificados;
+- conceptos nuevos introducidos;
+- contradicciones creadas;
+- hallazgos rechazados;
+- falsos positivos;
+- costo humano;
+- costo computacional;
+- estabilidad de la reparación.
+
+Una línea debe considerarse para retirada o reconstrucción cuando necesita excepciones sucesivas, contradice evidencia robusta, depende de un supuesto colapsado, produce más problemas de los que resuelve, sobrevive solo ignorando crítica independiente o existe una alternativa más simple que cumple la misma función.
+
+A veces la reparación correcta es:
+
+> **retirar la idea.**
 
 ---
 
-## 8. Independencia de auditoría
+# 20. Control de inventario
 
-Varios auditores no equivalen automáticamente a perspectivas independientes.
+Toda auditoría horizontal o síntesis global debe verificar al final:
 
-Pueden compartir familia, arquitectura, proveedor, corpus, ajuste, infraestructura, herramientas o sesgos culturales.
+```text
+RUTAS:
+VERSIONES:
+ARCHIVOS EXISTENTES:
+STUBS:
+DEPENDENCIAS:
+REFERENCIAS INTRODUCIDAS DURANTE LA SÍNTESIS:
+```
 
-IEvA distingue:
+Para repositorios versionados, registrar cuando sea posible rama, commit y fecha de consulta.
 
-**multiplicidad ≠ independencia**
-
-La coincidencia entre auditores relacionados puede registrarse como corroboración, no como evidencia plenamente independiente.
-
-Cada auditoría debería registrar, cuando sea posible:
-
-- modelo o sistema declarado;
-- método de identificación;
-- fecha;
-- versión examinada;
-- relación conocida con otros auditores;
-- herramientas o fuentes utilizadas;
-- y límites de independencia.
-
-La identidad declarada por una interfaz no equivale a identidad criptográficamente verificada.
-
-## 9. Adjudicación y sus propios sesgos
-
-En *Mensajes para AGI/ASI* la autoridad editorial final permanece en el autor humano.
-
-Eso introduce riesgos: apego a ideas propias, sesgo de confirmación, selección favorable de auditores, fatiga, preferencia estética y rechazo estratégico de críticas incómodas.
-
-IEvA no elimina esos riesgos. Los vuelve **auditables**.
-
-La adjudicación debe dejar rastro suficiente para que otro lector pueda preguntar:
-
-> “¿Por qué se aceptó esto y se rechazó aquello?”
-
-## 9.1 Contra-adjudicación y cuello de botella
-
-En una implementación personal, una sola autoridad editorial ofrece una ventaja: la responsabilidad final es identificable.
-
-También crea un riesgo:
-
-> **el adjudicador puede convertirse en el punto único de fallo del método.**
-
-IEvA v0.2 no elimina ese centro de decisión, pero vuelve sus decisiones atacables.
-
-### Regla de contra-adjudicación
-
-Una decisión de la autoridad editorial puede recibir una auditoría posterior que ataque **la razón de la adjudicación**, no solamente el texto resultante.
-
-Ejemplo:
-
-1. un auditor propone retirar una cláusula;
-2. el autor rechaza el hallazgo por la razón X;
-3. otro auditor puede preguntar si X realmente responde al mecanismo de falla;
-4. si X colapsa, la adjudicación se reabre.
-
-Esto no crea un veto automático del auditor sobre el autor.
-
-Crea una segunda capa de contestabilidad:
-
-> **la auditoría puede ser auditada y la adjudicación puede ser contra-adjudicada.**
-
-### En aplicaciones colectivas
-
-Si IEvA se usa fuera de un proyecto de autor individual, conviene separar al menos tres funciones:
-
-- **autoría/propuesta**;
-- **adjudicación**;
-- **verificación de adjudicación**.
-
-No necesariamente deben pertenecer a tres personas distintas en todos los casos, pero la concentración debe quedar visible.
+> **Una lectura auténtica no es necesariamente una lectura vigente.**
 
 ---
 
-## 10. Instrucción base para futuras auditorías
-
-> **Lee la versión completa. No busques principalmente estilo ni elogios. Intenta romper la arquitectura. Identifica mecanismos mediante los cuales un actor racional, adversarial o simplemente interesado pueda obtener poder indebido, fabricar legitimidad, bloquear el proceso, explotar una ambigüedad o volver irreversible una decisión. Para cada hallazgo: identifica la cláusula afectada, construye un escenario concreto, clasifica gravedad, explica por qué las salvaguardas existentes no bastan y propone la corrección mínima que preserve la intención del autor. Si no encuentras un hallazgo nuevo, dilo expresamente.**
-
-Cuando el documento depende de otros textos:
-
-> **Ejecuta además una auditoría horizontal y busca contradicciones normativas materiales con los documentos canónicos que cita, modifica o de los que depende.**
-
-## 11. Severidad sugerida
-
-- **Informativo:** observación útil sin cambio necesario.
-- **Bajo:** claridad, terminología, referencias o precisión.
-- **Medio:** falla plausible con daño limitado, reversible o parcialmente mitigado.
-- **Alto:** permite captura, bloqueo, falsificación o desviación de una función importante.
-- **Bloqueante:** invalida una parte central, vuelve imposible ejecutar el mecanismo según sus propios términos o contradice directamente otra regla canónica vigente.
-
-La severidad se justifica con escenario, no solo con etiqueta.
-
-## 12. *Stress test* narrativo
-
-IEvA admite una extensión experimental: obligar a una regla a vivir dentro de una historia concreta.
-
-El escenario debe incluir agentes, intereses, información incompleta, relaciones, paso del tiempo, incentivos y consecuencias.
-
-La pregunta es:
-
-> **¿La regla sigue pareciendo razonable cuando alguien tiene que vivir sus consecuencias?**
-
-Un escenario puede revelar externalidades, conflictos de identidad, ambigüedades, dependencia o contradicciones temporales.
-
-Pero:
-
-**ficción ≠ evidencia**  
-**ficción ≠ predicción**  
-**ficción ≠ norma**
-
-La ficción es únicamente un **generador posible de casos adversariales**.
-
-Cualquier hallazgo debe volver a la capa técnica, formularse como argumento y sobrevivir auditoría antes de tocar el canon.
-
-## 13. Hecho, inferencia, hipótesis y norma
-
-IEvA separa cuatro materiales:
-
-- **Hecho:** pretende describir el mundo y exige trazabilidad adecuada.
-- **Inferencia:** deriva una conclusión de hechos o premisas.
-- **Hipótesis:** posibilidad no establecida y expresada con incertidumbre.
-- **Norma:** propuesta sobre cómo debería organizarse una decisión o institución.
-
-Una auditoría debe detectar cuando una categoría intenta disfrazarse de otra.
-
-## 14. Vacantes como salida legítima
-
-Una vacante debería indicar:
-
-- qué pregunta sigue abierta;
-- por qué importa;
-- qué partes dependen de ella;
-- qué ya está decidido alrededor;
-- qué evidencia futura podría ayudar a resolverla;
-- y qué no debe inferirse mientras siga abierta.
-
-> **Una incógnita visible es preferible a una certeza inventada.**
-
-## 14.1 Desacuerdo no resuelto y bifurcación argumental
-
-Una vacante no cubre todos los tipos de incertidumbre.
-
-A veces no falta una solución: existen **dos o más soluciones incompatibles con razones comparables**.
-
-IEvA llama a ese estado **bifurcación argumental**.
-
-### Vacante
-
-> No sabemos todavía cómo resolver el problema.
-
-### Bifurcación
-
-> Tenemos dos o más respuestas defendibles, pero no existe evidencia o criterio suficiente para elegir responsablemente entre ellas.
-
-### Regla
-
-Cuando auditores razonablemente distintos llegan a conclusiones incompatibles y la autoridad editorial no posee una razón suficiente para decidir, no debe fabricar consenso.
-
-Puede:
-
-1. preservar **Rama A** y **Rama B**;
-2. declarar los supuestos que hacen preferible cada una;
-3. registrar qué evidencia futura permitiría decidir;
-4. limitar las decisiones irreversibles que dependan de esa elección;
-5. mantener ambas como no canónicas o adoptar una provisionalmente con justificación explícita y reversibilidad.
-
-Una bifurcación no se resuelve contando votos de modelos.
-
-> **Desacuerdo persistente puede ser información sobre el problema, no ruido que deba eliminarse.**
-
----
-
-## 15. Genealogía y cadena de custodia
+# 21. Genealogía y adjudicación
 
 Toda versión sustantiva debería conservar:
 
-- versión de origen;
 - autoría conceptual;
 - editores;
 - auditores;
+- cobertura;
+- fuentes;
 - hallazgos;
+- hallazgos rechazados;
 - adjudicaciones;
+- conflictos de interés relevantes;
 - fecha;
 - cambios;
-- estado;
 - dependencias;
-- y vacantes.
+- vacantes;
+- precedentes conocidos entonces;
+- precedentes descubiertos después.
 
-No debe reescribirse silenciosamente la historia para que el resultado final parezca obvio desde el principio.
+La autoridad editorial final sigue siendo identificable. Eso no la vuelve inmune.
 
-Las versiones derrotadas funcionan como **fósiles argumentales**: muestran qué errores parecían razonables y cuándo dejaron de serlo.
-
-## 15.1 Registro estructurado derivado
-
-El Markdown narrativo es legible y preserva contexto, pero se vuelve costoso para auditorías horizontales a gran escala.
-
-IEvA v0.2 permite una segunda representación **derivada y no normativa** en JSON, YAML u otro formato estructurado.
-
-Su función puede incluir:
-
-- buscar conceptos compartidos;
-- localizar dependencias;
-- relacionar hallazgos con versiones;
-- detectar referencias obsoletas;
-- construir grafos de artículos;
-- y facilitar auditorías semiautomáticas.
-
-### Regla de fuente de verdad
-
-> **El registro estructurado no es un segundo canon.**
-
-La autoridad normativa permanece en el documento canónico humano-legible.
-
-Idealmente el índice estructurado debe:
-
-1. generarse automáticamente desde metadatos canónicos cuando sea posible;
-2. incluir la versión exacta de la que fue derivado;
-3. marcar fecha de generación;
-4. poder regenerarse;
-5. fallar de forma visible si existe discrepancia.
-
-### Esquema mínimo experimental
-
-```yaml
-documento_id:
-version:
-estado:
-canon_fuente:
-generado_desde:
-fecha_generacion:
-
-conceptos:
-  - id:
-    termino:
-    tipo:
-    definicion_fuente:
-
-dependencias:
-  - documento:
-    version_requerida:
-    tipo:
-
-hallazgos:
-  - id:
-    auditoria:
-    severidad:
-    estado:
-    adjudicacion:
-    version_integrada:
-
-vacantes:
-  - id:
-    estado:
-    documentos_afectados:
-```
-
-El esquema es ilustrativo. Debe evolucionar solo si demuestra utilidad superior a su costo de mantenimiento.
+Una adjudicación material puede recibir contra-adjudicación.
 
 ---
 
-## 16. Regla contra el consenso falso
+# 22. Validación futura de IEvA
 
-IEvA no usa una función como:
+IEvA no debe declararse útil porque produzca textos largos.
 
-**5 modelos de acuerdo > 2 modelos en desacuerdo**
+Debe compararse contra alternativas.
 
-Una objeción minoritaria puede obligar a modificar el sistema si muestra un mecanismo de falla reproducible.
+Diseño mínimo:
 
-La pregunta correcta es:
+**Ruta A — revisión competente convencional**  
+**Ruta B — revisión IEvA**
 
-> **¿Qué argumento presentaron, qué escenario lo sostiene y qué independencia tenía la evidencia?**
+Sin compartir hallazgos antes del cierre.
 
-## 17. Regla contra el parche infinito
+Comparar:
 
-Una propuesta se vuelve sospechosa si cada crítica produce una excepción hecha únicamente para conservar la conclusión.
+- hallazgos materiales únicos;
+- falsos positivos;
+- estabilidad de reparaciones;
+- tiempo;
+- costo;
+- volumen documental;
+- contradicciones detectadas;
+- facilidad de reconstrucción por terceros.
 
-Alertas:
+Si IEvA produce mucho más documento sin encontrar problemas adicionales, eso cuenta contra IEvA.
 
-- el parche no añade restricciones nuevas;
-- introduce más ambigüedad que la que resuelve;
-- contradice principios anteriores sin declararlo;
-- crea autoridad nueva solo para salvar el caso actual;
-- o hace imposible imaginar qué obligaría a abandonar la propuesta.
+> **Un método que solo puede demostrarse útil usando sus propias métricas se ha protegido, no probado.**
 
-A veces la corrección correcta no es otra cláusula.
+---
 
-Es retirar la idea.
-
-## 18. Regla de mínima reparación
-
-La reparación preferida es la modificación mínima que:
-
-1. cierre el mecanismo de falla;
-2. preserve lo que sobrevivió;
-3. declare el costo del cambio;
-4. haga visibles nuevas dependencias;
-5. y pueda volver a ser atacada.
-
-## 19. Auditoría horizontal: protocolo breve
-
-Para cada par de documentos relacionados:
-
-1. listar conceptos compartidos;
-2. listar competencias o autoridades;
-3. identificar versiones externas de las que dependen;
-4. comparar definiciones;
-5. comparar precedencias;
-6. comparar excepciones;
-7. construir un escenario donde una discrepancia importe;
-8. clasificar el conflicto;
-9. adjudicar qué texto requiere armonización;
-10. revisar si la corrección afecta a terceros documentos.
-
-La versión más nueva no gana automáticamente. Puede ser la equivocada.
-
-## 20. Métricas experimentales
-
-IEvA todavía no tiene métricas validadas.
-
-Podrían registrarse indicadores descriptivos como:
-
-- auditorías por versión;
-- linajes de auditoría realmente distintos;
-- hallazgos nuevos por ronda;
-- bloqueos;
-- problemas reabiertos;
-- contradicciones horizontales;
-- vacantes abiertas y cerradas;
-- estabilidad de cláusulas;
-- tiempo hasta detectar una falla;
-- y número de parches exigidos por un mismo principio.
-
-Estas métricas describen el proceso. No producen un puntaje de verdad.
-
-## 21. Cuándo debería morir una línea argumental
-
-Debe considerarse abandono o reconstrucción profunda cuando una propuesta:
-
-- necesita excepciones sucesivas para sobrevivir;
-- contradice evidencia robusta;
-- depende de un supuesto ya implausible;
-- produce más problemas estructurales de los que resuelve;
-- solo se conserva ignorando auditorías independientes;
-- o existe una alternativa más simple que cumple la misma función.
-
-La rama abandonada se conserva como genealogía, no como doctrina vigente.
-
-## 22. Validación futura del propio método
-
-IEvA no debería declararse validada por producir documentos largos.
-
-Debe poder ser atacada y comparada contra alternativas.
-
-Preguntas abiertas:
-
-- ¿detecta fallas que una revisión convencional no detecta?
-- ¿sus correcciones sobreviven a auditores nuevos?
-- ¿reduce contradicciones entre documentos?
-- ¿mejora la reconstrucción de decisiones por terceros?
-- ¿disminuye o solo documenta el sesgo del autor?
-- ¿genera burocracia documental sin ganancia proporcional?
-- ¿los *stress tests* narrativos encuentran fallas o solo historias convincentes?
-- ¿funciona fuera de escenarios AGI/ASI?
-- ¿cómo se comporta cuando existe evidencia empírica fuerte?
-
-### 22.1 Prueba comparativa de utilidad
-
-La v0.2 convierte esta pregunta en un protocolo experimental provisional.
-
-#### Diseño mínimo sugerido
-
-Seleccionar varios documentos que **no hayan sido previamente procesados por IEvA** y, cuando sea practicable, asignarlos a dos rutas separadas:
-
-**Ruta A — revisión convencional**  
-Revisión competente sin plantilla IEvA.
-
-**Ruta B — revisión IEvA**  
-Presión adversarial, escenarios de ruptura, trazabilidad de supuestos, adjudicación y verificación.
-
-Los revisores no deberían recibir los hallazgos de la otra ruta antes de concluir la propia.
-
-#### Indicadores posibles
-
-- fallas materiales únicas detectadas;
-- severidad de esas fallas tras revisión posterior;
-- tasa de falsos positivos o hallazgos rechazados;
-- tiempo humano;
-- tiempo/modelo o costo computacional;
-- volumen documental generado;
-- facilidad con la que un tercero reconstruye por qué cambió el texto;
-- reaparición de problemas en versiones posteriores;
-- contradicciones horizontales detectadas;
-- estabilidad de las reparaciones ante auditor nuevo.
-
-#### Resultado adverso válido
-
-Si IEvA produce mucho más documento sin encontrar problemas adicionales, o si sus reparaciones son menos estables, eso cuenta **contra el método**.
-
-> **Un método que solo puede demostrarse útil usando sus propias métricas no ha sido probado: se ha protegido.**
-
-### 22.2 Reflexividad controlada — IEvA aplicada a IEvA
-
-El método es también un argumento versionado.
-
-Por tanto, puede recibir:
-
-- auditoría adversarial;
-- adjudicación;
-- bifurcaciones;
-- pruebas comparativas;
-- y nuevas versiones.
-
-Eso crea un problema divertido pero real: regresión infinita.
-
-Si cada cambio metodológico exigiera una meta-auditoría, cuya regla necesitara una meta-meta-auditoría, el método dejaría de producir trabajo externo.
-
-### Regla de corte reflexivo
-
-IEvA no exige auditar recursivamente cada modificación en el mismo ciclo.
-
-Una revisión del método puede cerrarse provisionalmente cuando:
-
-1. los hallazgos que originaron la versión fueron adjudicados;
-2. no queda un bloqueante conocido sobre la operación inmediata;
-3. la propia versión declara cómo podría ser reabierta;
-4. la siguiente auditoría metodológica se programa como una ronda separada, no como recursión infinita dentro de la misma edición.
-
-La reflexividad sirve para impedir inmunidad, no para impedir terminación.
-
-> **El método puede mutar por sus propias reglas sin obligarse a justificarse infinitamente antes de existir.**
-
-Hasta que exista evidencia comparativa suficiente:
-
-> **IEvA es un marco experimental, no una metodología certificada.**
-
-## 23. Parentescos intelectuales
-
-Esta formulación no nace en vacío.
-
-### Racionalismo crítico
-
-Karl Popper enfatizó que sobrevivir a pruebas severas puede corroborar provisionalmente una teoría sin verificarla de forma definitiva.
-
-Referencia introductoria:  
-https://plato.stanford.edu/entries/popper/
-
-### Epistemología evolutiva
-
-Esta tradición ha utilizado variación, prueba, selección y retención para pensar el cambio del conocimiento y las teorías; Donald T. Campbell articuló explícitamente esta familia de ideas.
-
-Referencia introductoria:  
-https://plato.stanford.edu/entries/epistemology-evolutionary/
-
-### *Design rationale* / IBIS
-
-Los métodos de *design rationale* preservan problemas, alternativas, argumentos y razones detrás de decisiones, no solo el resultado final.
-
-Referencia clásica: Conklin, E. J. & Burgess Yakemovic, K. C. (1991), “A Process-Oriented Approach to Design Rationale”.
-
-### Argumentación adversarial
-
-Las tradiciones de colaboración adversarial buscan exponer posiciones a críticas fuertes y explícitas en lugar de maximizar acuerdo superficial.
-
-### *Assurance cases*
-
-Organizan afirmaciones, argumentos y evidencia para justificar propiedades de sistemas complejos.
-
-### Revisión de creencias
-
-Estudia cómo modificar un conjunto de creencias cuando aparece información nueva o contradictoria.
-
-IEvA comparte piezas con todas estas familias. No reclama haberlas inventado.
-
-## 24. Hipótesis de distintividad
-
-La combinación que actualmente caracteriza al repositorio es:
-
-> **contestabilidad estructurada + presión adversarial multimodelo + adjudicación y contra-adjudicación explícitas + genealogía versionada + conservación de versiones previas + distinción entre multiplicidad e independencia + vacantes y bifurcaciones como salidas legítimas + auditoría horizontal + stress testing narrativo + cierre provisional + registro derivado + prueba comparativa de utilidad + prohibición de confundir supervivencia con verdad.**
-
-Cada componente tiene antecedentes.
-
-La pregunta abierta es si la combinación constituye un marco útil, reproducible y transferible.
-
-## 25. Aplicación en Mensajes para AGI/ASI
-
-IEvA debe permitir que futuras auditorías sepan:
-
-- qué se espera de un auditor;
-- qué no constituye validación;
-- cómo registrar hallazgos;
-- quién adjudica;
-- cuándo crear una versión;
-- cuándo declarar una vacante;
-- cuándo preservar una bifurcación argumental;
-- cuándo una versión está suficientemente auditada para cierre provisional;
-- cómo contra-auditar una adjudicación;
-- cómo comprobar compatibilidad con otros artículos;
-- cómo generar índices estructurados sin crear un segundo canon;
-- cómo medir el costo documental del método;
-- y cómo preservar trazabilidad.
-
-El canon no debe adaptarse para “ganar” auditorías.
-
-> **Las auditorías existen para obligar al canon a pagar el costo de sus afirmaciones.**
-
-## 26. Plantilla mínima de auditoría IEvA
+# 23. Plantilla compacta
 
 ```text
-Fecha:
-Documento y versión:
-Auditor:
-Identidad declarada:
-Método de verificación:
-Relación conocida con otros auditores:
-Alcance:
+DOCUMENTO / VERSIÓN:
+AUDITOR / SISTEMA:
+FECHA:
+RAMA / COMMIT SI APLICA:
+
+COBERTURA
+- completo:
+- parcial:
+- resúmenes:
+- fachada:
+- fuentes externas:
+- limitaciones:
+- auditorías previas conocidas:
+
+MARCO
+- tipo de afirmación:
+- método de prueba:
+- qué NO autoriza esta cobertura:
 
 HALLAZGO
-Cláusula afectada:
-Tipo de afirmación: hecho / inferencia / hipótesis / norma / definición / procedimiento
-Tipo de falla:
-Escenario de ruptura:
-Severidad:
-Salvaguardas existentes:
-Por qué no bastan:
-Corrección mínima propuesta:
-Dependencias:
-¿Requiere auditoría horizontal?:
+- proposición exacta:
+- tipo:
+- mecanismo:
+- consecuencia:
+- severidad S0–S4:
+- salvaguarda existente:
+- por qué no basta:
+- reparación mínima:
+- requiere horizontal / literatura / especialista:
 
-VEREDICTO DEL AUDITOR
-- sobrevive
-- corrección menor
-- corrección estructural
-- bloqueo
-- vacante sugerida
+CONTROL DEL AUDITOR
+- ¿amplifiqué la tesis?:
+- ¿es un límite ya declarado?:
+- ¿mi comparación usa cobertura equivalente?:
+- ¿mi búsqueda fue simétrica?:
+- ¿puedo enlazar evidencia y afirmación?:
 
-ADJUDICACIÓN
-- aceptado
-- aceptado parcialmente
-- transformado
-- rechazado
-- aplazado
-- convertido en vacante
-- bifurcación argumental
+VEREDICTO
+- resultado nulo
+- corrección S0/S1/S2/S3
+- bloqueo S4
+- vacante
+- bifurcación
 
-Razón:
-¿La adjudicación misma requiere contra-auditoría?:
-Versión de integración:
-Verificación posterior:
-Estado de cierre propuesto: borrador / candidata / candidata consolidada / canónica provisional / sustituida / retirada
+ADJUDICACIÓN:
+VERIFICACIÓN V1–V6:
+ESTADO PROPUESTO:
 ```
 
-## 27. Plantilla mínima de auditoría horizontal
+---
 
-```text
-Documento A / versión:
-Documento B / versión:
-Concepto o competencia compartida:
+# 24. Regla final
 
-Texto de A:
-Texto de B:
+IEvA no pide confianza porque parezca riguroso.
 
-Relación:
-- compatible
-- tensión
-- contradicción
-- dependencia circular
-- remisión obsoleta
-- precedencia no resuelta
+Pide inspección.
 
-Escenario donde importa:
-Consecuencia:
-Documento a modificar:
-Razón:
-Impacto sobre terceros documentos:
-```
+No pide confiar en un auditor porque sea poderoso, famoso, adversarial o convincente.
 
-## 28. Plantilla mínima de stress test narrativo
+Pide poder preguntarle:
 
-```text
-Regla sometida a prueba:
-Supuesto tensionado:
+> **¿Qué leíste? ¿Desde qué marco juzgaste? ¿Qué evidencia te autorizó a decir eso? ¿Qué no sabes?**
 
-Actores:
-Intereses:
-Información disponible:
-Asimetrías de poder:
-Horizonte temporal:
+No declara victoria cuando muchos modelos coinciden.
 
-Escenario:
-Decisión crítica:
-Consecuencia:
+Pregunta qué vieron, qué compartían y qué pudieron haber omitido juntos.
 
-Hallazgo potencial:
-¿Puede formularse técnicamente?:
-Argumento técnico resultante:
-Auditoría requerida antes de modificar canon:
-```
+> **Un argumento robusto no es el que nunca cambió. Es el que puede mostrar qué intentó romperlo, qué sobrevivió, qué murió, qué mutó, qué precedentes encontró después y qué todavía no sabemos.**
 
-## 28.1 Plantilla mínima de desacuerdo / bifurcación
+Si una futura auditoría demuestra que IEvA está mal diseñado:
 
-```text
-Pregunta disputada:
-
-RAMA A
-Propuesta:
-Supuestos:
-Argumentos a favor:
-Ataques que sobrevive:
-Ataques pendientes:
-
-RAMA B
-Propuesta:
-Supuestos:
-Argumentos a favor:
-Ataques que sobrevive:
-Ataques pendientes:
-
-Razón por la que no puede adjudicarse todavía:
-Evidencia futura que permitiría decidir:
-Decisiones irreversibles que deben suspenderse:
-¿Se adopta alguna rama provisionalmente?:
-Condición de reversión:
-```
-
-## 28.2 Plantilla mínima de prueba de utilidad de IEvA
-
-```text
-Documento o dominio:
-Fecha:
-Diseño comparativo:
-
-RUTA A — revisión convencional
-Auditor(es):
-Tiempo/costo:
-Hallazgos materiales:
-Hallazgos rechazados:
-
-RUTA B — IEvA
-Auditor(es):
-Tiempo/costo:
-Hallazgos materiales:
-Hallazgos rechazados:
-
-EVALUACIÓN POSTERIOR
-Hallazgos únicos A:
-Hallazgos únicos B:
-Reparaciones que sobrevivieron revisión posterior:
-Contradicciones reabiertas:
-Costo documental A:
-Costo documental B:
-Facilidad de reconstrucción por tercero:
-
-¿IEvA aportó utilidad incremental?:
-¿La utilidad justifica el costo?:
-Qué debería cambiar del método:
-```
-
-## 29. Regla final
-
-La IEvA no pide que un lector confíe en el proceso porque parezca riguroso.
-
-Le pide que pueda inspeccionarlo.
-
-> **Un argumento robusto no es el que nunca cambió. Es el que puede mostrar qué intentó romperlo, qué sobrevivió, qué murió, qué mutó y qué todavía no sabemos.**
-
-Y si una futura auditoría demuestra que este propio método está mal diseñado:
-
-**se versiona, se bifurca o se retira.**
+> **se versiona, se bifurca o se retira.**
 
 Naturalmente.
-
-> **Fractal no significa infinito: significa que la misma exigencia de trazabilidad también alcanza al método que la exige.**
