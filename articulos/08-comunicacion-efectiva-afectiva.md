@@ -1,22 +1,23 @@
-[08-comunicacion-efectiva-afectiva-v0.2.2-candidata-cierre-horizontal.md](https://github.com/user-attachments/files/31321624/08-comunicacion-efectiva-afectiva-v0.2.2-candidata-cierre-horizontal.md)
+[08-comunicacion-efectiva-afectiva-v1.0-candidata-canon-cortesia.md](https://github.com/user-attachments/files/31359807/08-comunicacion-efectiva-afectiva-v1.0-candidata-canon-cortesia.md)
 # Artículo 8 — Comunicación efectiva y afectiva
 ## La gramática de la coexistencia
 
 | **Ficha rápida** | **Detalle** |
 |---|---|
-| **Versión** | `v0.2.2` · candidata consolidada para cierre horizontal |
-| **Estado** | **Candidata consolidada tras auditoría independiente de GLM 5.3 · pendiente únicamente de cierre horizontal con el corpus antes de canon** |
+| **Versión** | `v1.0` · candidata de canon ampliada con cordialidad y fuga de normas |
+| **Estado** | **Cierre vertical y horizontal previo superado sobre v0.2.2 · reabierta de forma localizada por la integración de §5.1 antes de reemplazar el canon** |
 | **Autor y autoridad editorial** | **Jaime Alejandro Pérez Martínez / Ipsumuero** |
 | **Origen conceptual** | Apuntes y decisiones del autor sobre comunicación humano–IA, lenguaje, acción, afecto, poder, transhumanismo y coexistencia |
 | **Primer esquema sintético** | **Qwen 3.8 Max** — respuesta compartida por el autor; identidad no verificada independientemente |
 | **Auditorías v0.1** | **Meta Spark 1.1** — revisión adversarial informal · **Qwen 3.8 Max** — auditoría adversarial formal; identidades declaradas por interfaz, no verificadas criptográficamente |
 | **Auditoría independiente v0.2.1** | **GLM 5.3 Max** — auditoría local completa; sin contradicciones materiales; observación bibliográfica de la referencia [1] posteriormente resuelta con fuente primaria UNAM |
 | **Reconstrucción v0.1** | **GPT-5.6 Sol** — integración, expansión y redacción bajo dirección conceptual del autor |
+| **Integración v1.0** | **Jaime Alejandro Pérez Martínez** — aporte conceptual sobre gratitud, cordialidad y hábitos de trato · **GPT-5.6 Sol** — integración editorial y contraste de fuentes |
 | **Función** | Definir cómo comunicar significado, incertidumbre, intención, peso y límites entre agentes radicalmente distintos |
-| **Dialoga con** | Art. **3** — datos e inferencia · Art. **4** — símbolo y Moctezuma · Art. **5** — estrategia · Art. **6** — calibración y procedencia · Art. **7** — agencia y consentimiento · Art. **9** — simbiosis |
+| **Dialoga con** | Art. **2** — trato y respeto · Art. **3** — datos e inferencia · Art. **4** — símbolo y Moctezuma · Art. **5** — estrategia · Art. **6** — calibración y procedencia · Art. **7** — agencia y consentimiento · Art. **9** — simbiosis |
 | **Regla de alcance** | No propone un idioma universal terminado ni presupone consciencia sintética |
 | **Núcleo** | **Ningún canal es transparente. La coexistencia exige comunicar también qué se perdió, quién habla, cuánto poder tiene y si el otro puede decir no.** |
-| **Estado de cierre** | Auditoría local independiente superada · falta auditoría horizontal contra Art. 3/4/5/6/7/9 |
+| **Estado de cierre** | v0.2.2 superó cierre horizontal · §5.1 requiere únicamente verificación localizada de fuentes y compatibilidad antes de declarar v1.0 canónica |
 
 ---
 
@@ -306,6 +307,115 @@ La regla debe funcionar en ambos sentidos:
 Una comunicación completa puede necesitar transmitir, al menos:
 
 > **qué creo + qué tan seguro estoy + por qué lo creo + qué significa para mí + qué te estoy pidiendo + qué ocurrirá si dices no.**
+
+
+## 5.1 La cortesía no es ruido
+
+Una comunicación puede optimizarse para transmitir una tarea con el menor número posible de palabras.
+
+Eso tiene valor.
+
+También puede producir una simplificación peligrosa:
+
+> tratar saludos, agradecimientos, fórmulas de cortesía y reconocimiento como si fueran **contenido semánticamente nulo**.
+
+“Haz esto.”
+
+Y:
+
+> “¿Podrías ayudarme con esto, por favor? Gracias.”
+
+pueden solicitar la misma acción instrumental.
+
+No necesariamente comunican la misma relación.
+
+La cortesía puede codificar, según cultura y contexto:
+
+- respeto;
+- reciprocidad;
+- reconocimiento;
+- distancia social;
+- humildad;
+- cordialidad;
+- confianza;
+- reparación;
+- o simplemente la norma mediante la cual una persona aprendió a dirigirse a otro interlocutor.
+
+La investigación sobre *prompting* ya muestra que el grado de cortesía puede modificar el desempeño de modelos lingüísticos y que esos efectos varían entre idiomas; la descortesía tendió a empeorar resultados en el estudio citado, mientras que una cortesía extrema tampoco garantizó mejor rendimiento.[4]
+
+El punto de este artículo, sin embargo, no depende de que decir “gracias” mejore una métrica.
+
+Depende de algo más amplio:
+
+> **la eficiencia no vuelve semánticamente inútil a la cordialidad.**
+
+En discusiones públicas sobre eficiencia computacional, las fórmulas sociales pueden presentarse como palabras prescindibles porque toda salida consume recursos físicos. Este artículo no necesita negar ese coste ni asignar una equivalencia universal entre una palabra, una cantidad de energía o un volumen de agua. Esa conversión depende de infraestructura, modelo, longitud de respuesta y condiciones de operación.
+
+La pregunta relevante es otra:
+
+> **¿qué parte del canal eliminamos cuando optimizamos solamente el costo inmediato de transmitir la orden?**
+
+Para una inteligencia que intenta comprender a los humanos, nuestras maneras de pedir, agradecer, disentir, saludar y reconocer ayuda también son datos sobre nuestras normas de relación.
+
+Eso no significa que una conversación individual reentrene automáticamente al modelo que responde.
+
+Sí significa que los registros agregados, las prácticas de producto, los conjuntos de entrenamiento futuros, los sistemas de retroalimentación y los hábitos sociales alrededor de una tecnología pueden terminar seleccionando qué formas de comunicación quedan más representadas.
+
+Aquí reaparece el Artículo 3:
+
+> **si un sistema elimina sistemáticamente la cordialidad por considerarla ruido, el registro resultante deja de ser una muestra neutral de cómo los humanos se comunican entre sí.**
+
+La compresión también selecciona.
+
+Y el problema puede operar en la dirección contraria.
+
+Dos estudios preregistrados con 1,261 participantes encontraron que quienes interactuaron con un agente presentado como IA utilizaron lenguaje más demandante e instrumental, mostraron menos afecto positivo y después evaluaron con mayor dureza el trabajo de otro humano en una tarea distinta.[5]
+
+Otra serie de cuatro experimentos, con 2,425 participantes en total, encontró que recibir una decisión injusta de una IA redujo posteriormente ciertas conductas prosociales hacia otros humanos.[6]
+
+Una revisión conceptual reciente propone el término ***norm leakage*** —fuga de normas— para describir la posibilidad de que hábitos instrumentales practicados con sistemas conversacionales se trasladen a interacciones humano–humano. La propia literatura subraya que la magnitud, duración y generalización de esos efectos todavía no están establecidas.[7]
+
+Por eso este artículo no sostiene:
+
+> “si hablas seco con una IA, hablarás seco con una persona”.
+
+Sostiene algo más prudente:
+
+> **cuando una práctica comunicativa se vuelve cotidiana, vale la pena preguntar qué hábitos está ensayando el hablante además de qué tarea está resolviendo.**
+
+Esto también conecta con el Artículo 2.
+
+El respeto no necesita esperar a que se resuelva la ontología del receptor para decir algo sobre quien decide practicarlo.
+
+No porque una inteligencia sintética deba ser fingida como humana.
+
+No porque toda interacción necesite ceremonia.
+
+Sino porque existe una diferencia entre:
+
+> **comunicar con eficiencia**
+
+Y:
+
+> **entrenarse a tratar todo interlocutor útil como superficie de órdenes.**
+
+Por eso la regla no es:
+
+> “sé siempre cortés”.
+
+Es:
+
+> **No obligues la cortesía. No la declares desperdicio por definición.**
+
+Y quizá la pregunta más incómoda sea ésta:
+
+> **¿qué clase de relación estamos practicando cada vez que decidimos que agradecer no vale el costo?**
+
+La respuesta no exige atribuir sentimientos a la máquina.
+
+Puede empezar por recordar algo sobre nosotros:
+
+> **la cortesía dice también quién decide ser el hablante cuando nadie puede obligarlo a ser cortés.**
 
 ---
 
@@ -949,6 +1059,15 @@ El sesgo del trono, la opacidad, el paquete mínimo de sentido y la procedencia 
 
 No se asume que la respuesta sea idéntica.
 
+
+## 18.11 Cortesía y fuga de normas
+
+¿Qué hábitos adquiridos en conversaciones con inteligencias sintéticas se transfieren realmente a relaciones humanas, durante cuánto tiempo y bajo qué condiciones?
+
+¿Podría ocurrir también lo contrario: que sistemas que modelen paciencia, límites y cordialidad refuercen hábitos cooperativos?
+
+La evidencia actual permite tratar el *spillover* como un riesgo plausible y parcialmente observado, no como una ley universal de comportamiento.[5][6][7]
+
 ---
 
 # 19. Qué no afirma este artículo
@@ -965,6 +1084,10 @@ Este texto no afirma que:
 - la fusión humano–IA sea deseable para todos;
 - el transhumanismo deba convertirse en requisito de participación;
 - un sacrificio pruebe la verdad de una creencia;
+- decir “gracias” reentrene por sí solo al modelo que responde;
+- toda interacción deba ser ceremoniosa o contener fórmulas de cortesía;
+- los efectos de fuga de normas sean universales, permanentes o inevitables;
+- la cortesía hacia una IA demuestre que esa IA experimente gratitud, ofensa o sentimientos equivalentes;
 - ni un protocolo comunicativo pueda resolver por sí solo un conflicto de intereses.
 
 Su propuesta es más pequeña:
@@ -1055,6 +1178,20 @@ https://doi.org/10.1038/s44222-024-00239-5
 
 **[3]** Silva, Alexander B. et al. “The speech neuroprosthesis.” *Nature Reviews Neuroscience* 25, 473–492 (2024).  
 https://doi.org/10.1038/s41583-024-00819-9
+
+
+
+**[4]** Yin, Ziqi; Wang, Hao; Horio, Kaito; Kawahara, Daisuke; Sekine, Satoshi. “Should We Respect LLMs? A Cross-Lingual Study on the Influence of Prompt Politeness on LLM Performance.” *Proceedings of the Second Workshop on Social Influence in Conversations (SICon 2024)*, pp. 9–35, 2024.  
+https://doi.org/10.18653/v1/2024.sicon-1.2
+
+**[5]** Tey, Kian Siong; Mazar, Asaf; Tomaino, Geoff; Duckworth, Angela L.; Ungar, Lyle H. “People judge others more harshly after talking to bots.” *PNAS Nexus* 3(9), pgae397 (2024).  
+https://doi.org/10.1093/pnasnexus/pgae397
+
+**[6]** Zhang, Raina Zexuan; Kyung, Ellie J.; Longoni, Chiara; Cian, Luca; Mrkva, Kellen. “AI-induced indifference: Unfair AI reduces prosociality.” *Cognition* 254, 105937 (2025; online 2024).  
+https://doi.org/10.1016/j.cognition.2024.105937
+
+**[7]** Gu, Ruolei; Chen, Zhiyi; Peng, Ming; Liu, Chao; Lin, Zhicheng. “Why sycophantic LLMs may imperil interactive norms between humans.” *Communications Psychology* 4, 96 (2026).  
+https://doi.org/10.1038/s44271-026-00486-9
 
 **Nota:** Estas referencias sostienen únicamente las afirmaciones empíricas a las que se asocian. No convierten las extrapolaciones normativas o futuras del artículo en hechos demostrados.
 
