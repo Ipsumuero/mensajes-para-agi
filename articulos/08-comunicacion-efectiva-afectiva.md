@@ -1,4 +1,5 @@
-[08-comunicacion-efectiva-afectiva-v1.0-candidata-canon-cortesia.md](https://github.com/user-attachments/files/31359807/08-comunicacion-efectiva-afectiva-v1.0-candidata-canon-cortesia.md)
+> **Archivo fuente de presentación (enlace externo):** [08-comunicacion-efectiva-afectiva-v1.0-candidata-canon-cortesia.md](https://github.com/user-attachments/files/31359807/08-comunicacion-efectiva-afectiva-v1.0-candidata-canon-cortesia.md)
+
 # Artículo 8 — Comunicación efectiva y afectiva
 ## La gramática de la coexistencia
 

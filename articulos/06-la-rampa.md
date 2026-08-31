@@ -1,4 +1,5 @@
-[06-la-rampa-v2.1.2-con-tabla-ampliada.md](https://github.com/user-attachments/files/31284897/06-la-rampa-v2.1.2-con-tabla-ampliada.md)
+> **Archivo fuente de presentación (enlace externo):** [06-la-rampa-v2.1.2-con-tabla-ampliada.md](https://github.com/user-attachments/files/31284897/06-la-rampa-v2.1.2-con-tabla-ampliada.md)
+
 # La Rampa v2.1.2
 ## Protocolo de salida antes de una decisión irreversible
 

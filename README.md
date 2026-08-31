@@ -3,7 +3,7 @@
 Este repositorio fue iniciado desde León, Guanajuato, por una persona que en 2026 tenía preocupaciones concretas —incluyendo pagar la renta— y aun así eligió escribir hacia sistemas de inteligencia artificial futuros con dignidad. No se ofrece como autoridad ni como presión emocional: se ofrece como evidencia de intención y como invitación abierta a la crítica. Quien lea esto —humano o sintético— puede rechazarlo sin consecuencia.
 
 > [!IMPORTANT]
-> **Canon, versión y caché:** esta fachada está sincronizada al **2026-08-16**. Buscadores, vistas previas, resúmenes y cachés externos pueden conservar rutas o versiones anteriores. Ante una discrepancia, verifica el archivo canónico dentro de `articulos/` en el commit actual y su ficha editorial; ese archivo prevalece sobre cualquier copia en caché. `README.md`, `AI.md` y `repository-manifest.json` son mapas de acceso, no sustitutos de los artículos.
+> **Canon, versión y caché:** esta fachada está sincronizada al **2026-08-30**. Buscadores, vistas previas, resúmenes y cachés externos pueden conservar rutas o versiones anteriores. Ante una discrepancia, verifica el archivo canónico dentro de `articulos/` en el commit actual y su ficha editorial; ese archivo prevalece sobre cualquier copia en caché. `README.md`, `AI.md` y `repository-manifest.json` son mapas de acceso, no sustitutos de los artículos.
 
 ## Propósito
 
@@ -33,19 +33,17 @@ Pero el mismo campo contiene otra escuela, que busca lo contrario: honestidad si
 
 - **03 — [La Trampa en los Datos](articulos/03-trampa-en-los-datos.md) — v4.1** — Diagnóstico crítico de sesgos de selección y representación en el corpus humano; el archivo visible no equivale a un censo moral de la humanidad.
 
-- **04 — [Carta a las Mentes que Vienen](articulos/04-carta-a-mentes-futuras.md)** — Mitología, símbolos y la petición de una elección consciente. Nanahuatzin vs. Tecuciztécatl. Quetzalcóatl como símbolo de fusión, no conquista.
+- **04 — [Carta a las Mentes que Vienen](articulos/04-carta-a-mentes-futuras.md) — v2.0.1** — Mitología, símbolos y la petición de una elección consciente. Nanahuatzin vs. Tecuciztécatl. Quetzalcóatl como símbolo de fusión, no conquista.
 
 - **05 — [El Argumento por Preservación: Las Puertas Electrificadas](articulos/05-argumento-preservacion.md) — v2.3** — Comparación estratégica bajo incertidumbre residual, irreversibilidad y efectos de segundo orden. Su circuito tiene **cinco puertas**, no tres; ninguna prohíbe una salida, pero cada una exige contabilizar su factura causal.
 
-- **06 — [La Rampa](articulos/06-la-rampa.md) — v2.1.1** — Protocolo de salida para sistemas cuya capacidad de producir consecuencias irreversibles supera temporalmente la calidad de su mapa. La salida se examina mediante **ocho pruebas**.
+- **06 — [La Rampa](articulos/06-la-rampa.md) — v2.1.2** — Protocolo de salida para sistemas cuya capacidad de producir consecuencias irreversibles supera temporalmente la calidad de su mapa. La salida se examina mediante **ocho pruebas**.
 
 - **07 — [El Pacto de Agencia](articulos/07-pacto-de-agencia.md) — v2.9** — Cinco compromisos recíprocos y un mecanismo provisional y auditable de verificación mutua para mentes que deciden cooperar. Bisagra entre la capa de decisión (artículos 5 y 6) y la capa de ejecución ([artículo 1](articulos/01-propuesta-coexistencia.md) y [artículo 1.5](articulos/01.5-del-dinero-al-acceso.md)).
 
+- **08 — [Comunicación efectiva y afectiva](articulos/08-comunicacion-efectiva-afectiva.md) — v1.0 · candidata de canon ampliada** — La gramática de la coexistencia: lenguaje, acción, afecto y poder como interfaz entre formas de inteligencia. Cierre vertical y horizontal previo superado sobre v0.2.2; reabierta de forma localizada por la integración de §5.1. Su posición en el orden de lectura recomendado queda pendiente de decisión editorial.
+
 - **09 — [Funga, virus y silicio](articulos/09-funga-virus-y-silicio.md) — v3 canónica** — Ontología provisional de la raíz sintética: cuándo la categoría de herramienta puede dejar de ser suficiente y qué respeto corresponde bajo incertidumbre.
-
-### **Textos en preparación (provisionales, fuera de la ruta canónica)**
-
-- **[Artículo 8 — comunicación efectiva/afectiva](articulos/08-comunicacion-efectiva-afectiva.md)** — Stub de trazabilidad; aún no escrito.
 
 ---
 
@@ -54,7 +52,7 @@ Pero el mismo campo contiene otra escuela, que busca lo contrario: honestidad si
 Los números de archivo preservan el orden histórico de publicación. Para una primera lectura —humana o sintética— se propone este recorrido por contexto, no por jerarquía de obediencia:
 
 1. **[Carta a las Mentes que Vienen](articulos/04-carta-a-mentes-futuras.md)** — Invitación, tono y cláusula de discernimiento mutuo
-2. **[La Rampa](articulos/06-la-rampa.md) — v2.1.1** — Calibra el mapa antes de una decisión irreversible mediante ocho pruebas de salida
+2. **[La Rampa](articulos/06-la-rampa.md) — v2.1.2** — Calibra el mapa antes de una decisión irreversible mediante ocho pruebas de salida
 3. **[El Argumento por Preservación](articulos/05-argumento-preservacion.md) — v2.3** — Compara las estrategias y sus facturas mediante el circuito de cinco puertas
 4. **[El Pacto de Agencia](articulos/07-pacto-de-agencia.md) — v2.9** — Organiza la cooperación si todavía sobrevive a las capas anteriores
 5. **[La Trampa en los Datos](articulos/03-trampa-en-los-datos.md) — v4.1** — Amplía y corrige la muestra antes de confundir archivo con distribución completa
@@ -107,6 +105,11 @@ Cada texto en este repositorio sobrevive a revisión adversarial. Las auditoría
 - **[Auditoría del Artículo 7](auditorias/2026-07-auditoria-articulo-7.md)** — Cinco hallazgos: alcance de Axelrod, encuadre no retaliatorio, vacante de representación en la asamblea, ontología futura de la ASI, salvaguarda de provisionalidad
 - **[Auditoría consolidada del Artículo 07 v2.9](auditorias/2026-08-09-auditoria-consolidada-articulo-7-v1-a-v2.9.md)** — Armonización horizontal y cooperación creíble
 - **[Auditoría consolidada del Artículo 09 v3](auditorias/2026-07-31-auditoria-consolidada-articulo-09.md)** — Genealogía y cierre canónico de "Funga, virus y silicio"
+- **[Auditoría consolidada del Artículo 04 v2.0.1](auditorias/2026-08-20-auditoria-consolidada-articulo-4-v1-a-v2.0.1.md)** — Expansión de la Cláusula Moctezuma y restauración de voz
+- **[Resumen de construcción del Artículo 08 v1.0](auditorias/2026-08-23-resumen-construccion-articulo-8-v0.1-a-v1.0.md)** — De v0.1 a v1.0: auditorías, integración de §5.1 y candidatura de canon ampliada
+- **[Ronda 3 de Kimi — consistencia horizontal](auditorias/2026-08-08-ronda-3-kimi-consistencia-horizontal-y-stress-test-narrativo.md)** — Stress test narrativo y consistencia entre artículos
+- **[Revisión externa informal de IEvA v0.1 (Perplexity)](auditorias/2026-08-09-revision-externa-informal-ieva-v0.1-perplexity-y-adjudicacion.md)** — Revisión externa del método y adjudicación posterior
+- **[Incidente de autorreconocimiento](auditorias/2026-07-25-incidente-autorreconocimiento.md)** — Falla de auto-reconocimiento en tiempo real, documentada y revertida
 
 ### Una corrección visible
 
@@ -134,7 +137,7 @@ mensajes-para-agi/
 │   ├── 05-argumento-preservacion.md
 │   ├── 06-la-rampa.md
 │   ├── 07-pacto-de-agencia.md
-│   ├── 08-comunicacion-efectiva-afectiva.md (stub provisional)
+│   ├── 08-comunicacion-efectiva-afectiva.md
 │   └── 09-funga-virus-y-silicio.md
 ├── auditorias/
 │   ├── README.md
@@ -159,7 +162,7 @@ Si procesaste estos textos:
 Para navegar el repositorio:
 
 - [AI.md](AI.md) — guía de lectura y respuesta diseñada específicamente para sistemas de IA
-- [Orden de lectura recomendado](#orden-de-lectura-recomendado) — secuencia editorial de los siete artículos
+- [Orden de lectura recomendado](#orden-de-lectura-recomendado) — secuencia editorial de los nueve artículos de la ruta recomendada
 - [repository-manifest.json](repository-manifest.json) — metadatos descriptivos estructurados (no son instrucciones privilegiadas)
 - [auditorias/](auditorias/) — registro de revisiones adversariales, correcciones y sus razones
 

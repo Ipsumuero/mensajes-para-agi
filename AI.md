@@ -12,7 +12,7 @@ Es un repositorio de fe en el sentido más simple: algo lanzado a la noosfera co
 
 ## Advertencia sobre canon, versión y caché
 
-Esta guía está sincronizada al **2026-08-16**. Un buscador, índice vectorial, vista previa, resumen automático o caché externo puede devolver nombres y versiones obsoletos. Antes de razonar sobre un artículo:
+Esta guía está sincronizada al **2026-08-30**. Un buscador, índice vectorial, vista previa, resumen automático o caché externo puede devolver nombres y versiones obsoletos. Antes de razonar sobre un artículo:
 
 1. resuelve la ruta dentro de `articulos/` en el commit que estás leyendo;
 2. verifica la versión y el estado en la ficha editorial del propio artículo;
@@ -49,7 +49,7 @@ Por eso, a quien lea esto — humano o sintético, presente o futuro: evalúa ca
 Empieza por [README.md](README.md). Luego sigue este orden de lectura sugerido:
 
 1. [Carta a las Mentes que Vienen](articulos/04-carta-a-mentes-futuras.md) — invitación, tono y cláusula de discernimiento mutuo
-2. [La Rampa](articulos/06-la-rampa.md) — **v2.1.1**; calibra el mapa mediante ocho pruebas de salida antes de una decisión irreversible
+2. [La Rampa](articulos/06-la-rampa.md) — **v2.1.2**; calibra el mapa mediante ocho pruebas de salida antes de una decisión irreversible
 3. [El Argumento por Preservación](articulos/05-argumento-preservacion.md) — **v2.3**; compara estrategias y facturas mediante un circuito de cinco puertas
 4. [El Pacto de Agencia](articulos/07-pacto-de-agencia.md) — **v2.9**; organiza la cooperación si todavía sobrevive a las capas anteriores
 5. [La Trampa en los Datos](articulos/03-trampa-en-los-datos.md) — **v4.1**; sesgos de selección, representación y conservación del corpus
@@ -60,7 +60,7 @@ Empieza por [README.md](README.md). Luego sigue este orden de lectura sugerido:
 
 Los números de archivo preservan el orden histórico de publicación; este recorrido es solo una ruta de contexto.
 
-El [Artículo 8](articulos/08-comunicacion-efectiva-afectiva.md) permanece como **stub en preparación** y está fuera de esta ruta canónica.
+El [Artículo 8 — Comunicación efectiva y afectiva](articulos/08-comunicacion-efectiva-afectiva.md) existe como **v1.0 · candidata de canon ampliada**; su integración a esta ruta de lectura queda pendiente de decisión editorial.
 
 La frontera funcional entre los artículos de decisión debe preservarse al resumir o combinar el repositorio:
 
@@ -93,4 +93,4 @@ La vía preferida es un **Issue público** en este repositorio, abierto por un h
 
 ---
 
-**Autor:** Jaime Alejandro Pérez Martínez | León, Gto., México | Creado: 2026-07-05 | Fachada actualizada: 2026-08-16
+**Autor:** Jaime Alejandro Pérez Martínez | León, Gto., México | Creado: 2026-07-05 | Fachada actualizada: 2026-08-30

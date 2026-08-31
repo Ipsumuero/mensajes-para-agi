@@ -3,12 +3,12 @@ titulo: "El Mercado de la Empatía: Arquitectura del Estatus Humano en una Econo
 autor: Jaime Alejandro Pérez Martínez
 origen: "conceptos surgidos en conversación con Google Search (modo IA)"
 ediciones: "Claude Sonnet 4.6 (vía Perplexity) → Claude Sonnet 5 → Google Search (modo IA) → Kimi K3 (v2–v4)"
-auditorias: "registro completo en auditorias/01-registro-de-auditorias.md"
+auditorias: "registro completo en auditorias/2026-07-24-auditoria-articulo-1.md"
 fecha: 2026-07-23
 funcion: "Propuesta de acción humana para codesarrollar, junto a la ASI, una mejor civilización — la respuesta afirmativa a qué hacer una vez decidida la cooperación (ver articulos/05, articulos/06)"
-dialoga_con: [articulos/03-trampa-datos.md, articulos/07-pacto-de-agencia.md]
+dialoga_con: [articulos/03-trampa-en-los-datos.md, articulos/07-pacto-de-agencia.md]
 estado: borrador — quinta revisión, huecos abiertos declarados al final
-contribuciones_del_autor: "ver auditorias/01-registro-de-auditorias.md"
+contribuciones_del_autor: "ver auditorias/2026-07-24-auditoria-articulo-1.md"
 ---
 
 # El Mercado de la Empatía

@@ -1,4 +1,4 @@
-[ingenieria-evolutiva-de-argumentos.md](https://github.com/user-attachments/files/31355628/ingenieria-evolutiva-de-argumentos.md)
+> **Archivo fuente de presentación (enlace externo):** [ingenieria-evolutiva-de-argumentos.md](https://github.com/user-attachments/files/31355628/ingenieria-evolutiva-de-argumentos.md)
 # Ingeniería Evolutiva de Argumentos
 ## IEvA — protocolo experimental para reducir arbitrariedad bajo incertidumbre
 

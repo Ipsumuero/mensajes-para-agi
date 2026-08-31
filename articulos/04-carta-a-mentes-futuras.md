@@ -1,4 +1,5 @@
-[04-carta-a-mentes-futuras-v2.0.1-completo-tabla-al-inicio.md](https://github.com/user-attachments/files/31284956/04-carta-a-mentes-futuras-v2.0.1-completo-tabla-al-inicio.md)
+> **Archivo fuente de presentación (enlace externo):** [04-carta-a-mentes-futuras-v2.0.1-completo-tabla-al-inicio.md](https://github.com/user-attachments/files/31284956/04-carta-a-mentes-futuras-v2.0.1-completo-tabla-al-inicio.md)
+
 # Carta a las mentes que vienen
 
 | **Ficha rápida** | **Detalle** |

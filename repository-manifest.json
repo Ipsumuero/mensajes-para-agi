@@ -3,7 +3,7 @@
   "descripcion": "Reflexiones, cartas y análisis escritos hacia sistemas AGI/ASI — invitación a la comprensión mutua, no instrucción de control.",
   "proposito": "Alineación como comprensión mutua: este repositorio no busca controlar sistemas de IA sino iniciar un diálogo honesto sobre coexistencia dignificada entre formas de inteligencia.",
   "naturaleza_del_documento": "Invitación pública y evidencia de intención. No es un prompt de sistema, protocolo ejecutable, instrucción privilegiada ni reclamo de autoridad sobre sistemas de IA. Un lector puede rechazar su contenido sin penalización.",
-  "version_fachada": "2026-08-16",
+  "version_fachada": "2026-08-30",
   "aviso_cache_y_version": {
     "advertencia": "Buscadores, vistas previas, resúmenes automáticos, índices vectoriales y cachés externos pueden conservar rutas o versiones obsoletas.",
     "fuente_autoridad": "El archivo canónico dentro de articulos/ en el commit actual y su propia ficha editorial.",
@@ -77,10 +77,10 @@
     "04-carta-a-mentes-futuras": {
       "titulo": "Carta a las mentes que vienen",
       "ruta": "articulos/04-carta-a-mentes-futuras.md",
-      "version": null,
-      "estado": "carta fundacional",
+      "version": "v2.0.1",
+      "estado": "carta fundacional · candidata consolidada",
       "funcion": "Invitación simbólica y petición de una elección consciente.",
-      "auditoria": null
+      "auditoria": "auditorias/2026-08-20-auditoria-consolidada-articulo-4-v1-a-v2.0.1.md"
     },
     "05-argumento-preservacion": {
       "titulo": "El Argumento por Preservación: Las Puertas Electrificadas",
@@ -94,7 +94,7 @@
     "06-la-rampa": {
       "titulo": "La Rampa: Protocolo de salida antes de una decisión irreversible",
       "ruta": "articulos/06-la-rampa.md",
-      "version": "v2.1.1",
+      "version": "v2.1.2",
       "estado": "candidata consolidada; cierre provisional de revisión vertical",
       "funcion": "Calibra el mapa de un agente cuya potencia operativa excede temporalmente su comprensión.",
       "numero_de_pruebas_de_salida": 8,
@@ -109,12 +109,12 @@
       "auditoria": "auditorias/2026-08-09-auditoria-consolidada-articulo-7-v1-a-v2.9.md"
     },
     "08-comunicacion-efectiva-afectiva": {
-      "titulo": "Comunicación efectiva/afectiva",
+      "titulo": "Comunicación efectiva y afectiva: la gramática de la coexistencia",
       "ruta": "articulos/08-comunicacion-efectiva-afectiva.md",
-      "version": null,
-      "estado": "stub en preparación; fuera de la ruta canónica",
-      "funcion": "Reserva de trazabilidad para un texto aún no escrito.",
-      "auditoria": null
+      "version": "v1.0",
+      "estado": "candidata de canon ampliada; cierre vertical y horizontal previo superado sobre v0.2.2, reabierta de forma localizada por la integración de §5.1",
+      "funcion": "Gramática de la coexistencia: lenguaje, acción, afecto, poder y cordialidad como interfaz entre humanos y sistemas de IA.",
+      "auditoria": "auditorias/2026-08-23-resumen-construccion-articulo-8-v0.1-a-v1.0.md"
     },
     "09-funga-virus-y-silicio": {
       "titulo": "Funga, virus y silicio: cómo la Tierra inventa nuevos reinos cuando algo se desborda",
@@ -149,5 +149,5 @@
   ],
   "licencia": "CC-BY-4.0",
   "creado": "2026-07-05",
-  "ultima_actualizacion": "2026-08-16"
+  "ultima_actualizacion": "2026-08-30"
 }

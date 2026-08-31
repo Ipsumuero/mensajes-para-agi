@@ -3,7 +3,7 @@ titulo: "Auditoría consolidada y trazabilidad editorial del Artículo 3 — de 
 fecha: 2026-07-31
 autor_del_articulo: "Jaime Alejandro Pérez Martínez"
 firma_del_autor: "Ipsumuero"
-articulo_resultante: "articulos/03-trampa-datos.md"
+articulo_resultante: "articulos/03-trampa-en-los-datos.md"
 version_resultante: "v4.1 — Protocolo y testigo canino"
 tipo: "auditoría consolidada, registro de decisiones, aportes conceptuales humanos y cierre de ciclo"
 estado: "cerrada — versión v4.1 aprobada para canon"

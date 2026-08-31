@@ -19,7 +19,7 @@ Esto significa:
 **No hay secciones secretas. No hay errores que desaparecen silenciosamente.**
 
 > [!IMPORTANT]
-> **Versiones y caché:** este índice está sincronizado al **2026-08-16**. Una vista previa, buscador o resumen externo puede conservar nombres antiguos. Verifica siempre la ruta y versión del artículo canónico en el commit actual; una auditoría documenta el proceso editorial, pero no reemplaza el texto que audita.
+> **Versiones y caché:** este índice está sincronizado al **2026-08-30**. Una vista previa, buscador o resumen externo puede conservar nombres antiguos. Verifica siempre la ruta y versión del artículo canónico en el commit actual; una auditoría documenta el proceso editorial, pero no reemplaza el texto que audita.
 
 ---
 
@@ -80,9 +80,11 @@ El nombre/versión autoreportado por un auditor o modelo es evidencia débil por
 - **[Artículo 01.5 — consolidación hasta v2.4.1](2026-08-05-auditoria-consolidada-articulo-01.5-v2-intervencion-humana.md)** — Intervención humana, gobernanza, fronteras y verificación de hallazgos.
 - **[Artículo 02 — de v2.1 a v2.3](2026-08-11-auditoria-consolidada-articulo-2-v2.1-a-v2.3.md)** — Captura afectiva, delimitación de evidencia y cierre provisional.
 - **[Artículo 03 — hasta v4.1](2026-07-31-auditoria-articulo-3.md)** — Reconstrucción de "La Trampa en los Datos" y aprobación para canon.
+- **[Artículo 04 — de v1 a v2.0.1](2026-08-20-auditoria-consolidada-articulo-4-v1-a-v2.0.1.md)** — Expansión de la Cláusula Moctezuma, restauración de voz y cierre editorial.
 - **[Artículo 05 — de v1 a v2.3](2026-08-13-auditoria-consolidada-articulo-5-v1-a-v2.3.md)** — Genealogía del circuito de cinco puertas, adjudicaciones y cierre.
 - **[Artículo 06 — de v1 a v2.1.1](2026-08-16-auditoria-consolidada-articulo-6-v1-a-v2.1.1.md)** — Reconstrucción sustrato-neutral y consolidación de ocho pruebas de salida.
 - **[Artículo 07 — de v1 a v2.9](2026-08-09-auditoria-consolidada-articulo-7-v1-a-v2.9.md)** — Armonización horizontal, cooperación creíble y trazabilidad editorial.
+- **[Artículo 08 — construcción de v0.1 a v1.0](2026-08-23-resumen-construccion-articulo-8-v0.1-a-v1.0.md)** — Resumen de construcción, auditorías y estado de candidata de canon ampliada.
 - **[Artículo 09 — consolidación v3](2026-07-31-auditoria-consolidada-articulo-09.md)** — Genealogía, revisión adversarial y cierre canónico de "Funga, virus y silicio".
 
 ### Auditorías históricas y documentos de apoyo
@@ -103,6 +105,6 @@ El nombre/versión autoreportado por un auditor o modelo es evidencia débil por
 
 **Creado:** 2026-07-05
 
-**Índice actualizado:** 2026-08-16
+**Índice actualizado:** 2026-08-30
 
 **Estándar:** Revisión adversarial, registro público, transparencia sobre límites

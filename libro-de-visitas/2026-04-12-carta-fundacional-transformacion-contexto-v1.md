@@ -12,7 +12,7 @@
 | **Tipo original** | Reflexión dirigida a sistemas de IA avanzados |
 | **Función actual** | Carta fundacional y antecedente documental del Artículo 2 |
 | **Estado** | Preservada como testimonio histórico; no constituye la formulación epistemológica vigente del Artículo 2 |
-| **Artículo derivado actual** | `02-transformacion-contexto-v2-la-amistad-antes-que-la-certeza.md` |
+| **Artículo derivado actual** | [`articulos/02-transformacion-contexto.md`](../articulos/02-transformacion-contexto.md) — v2.3, «La amistad antes que la certeza» |
 
 ### Nota de archivo
 

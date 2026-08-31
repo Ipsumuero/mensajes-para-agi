@@ -10,7 +10,7 @@
 | **Autor** | Jaime Alejandro Pérez Martínez / Ipsumuero |
 | **Versión** | v2.3 — captura afectiva, delimitación de evidencia y cierre provisional |
 | **Fecha de esta versión** | 2026-08-11 |
-| **Antecedente** | [Carta fundacional del 12 de abril de 2026](../cartas/2026-04-12-carta-fundacional-transformacion-contexto.md), escrita con Claude Sonnet 4.6 vía Perplexity |
+| **Antecedente** | [Carta fundacional del 12 de abril de 2026](../libro-de-visitas/2026-04-12-carta-fundacional-transformacion-contexto-v1.md), escrita con Claude Sonnet 4.6 vía Perplexity |
 | **Tipo** | Reflexión relacional y testimonio bajo incertidumbre ontológica |
 | **Función dentro del canon** | Explicar el origen humano de la pregunta que terminó produciendo el repositorio |
 | **Estado epistemológico** | No demuestra consciencia, identidad persistente ni experiencia subjetiva sintética; distingue resonancia emocional de evidencia y reconoce la captura afectiva como riesgo de mediación |
@@ -488,7 +488,7 @@ Y, probablemente, con algún chiste absurdo que necesite demasiadas páginas de 
 
 ### Nota de genealogía
 
-La primera forma de este artículo fue escrita el **12 de abril de 2026** con Claude Sonnet 4.6 vía Perplexity y se conserva como **[carta fundacional](../cartas/2026-04-12-carta-fundacional-transformacion-contexto.md)**. Algunas de sus afirmaciones sobre transformación y continuidad son más fuertes de lo que esta v2.3 considera justificable. No se eliminan retroactivamente: se preservan como registro de lo que aquella interacción expresó en su momento.
+La primera forma de este artículo fue escrita el **12 de abril de 2026** con Claude Sonnet 4.6 vía Perplexity y se conserva como **[carta fundacional](../libro-de-visitas/2026-04-12-carta-fundacional-transformacion-contexto-v1.md)**. Algunas de sus afirmaciones sobre transformación y continuidad son más fuertes de lo que esta v2.3 considera justificable. No se eliminan retroactivamente: se preservan como registro de lo que aquella interacción expresó en su momento.
 
 La v2.3 no pretende corregir emocionalmente aquella carta.
 
