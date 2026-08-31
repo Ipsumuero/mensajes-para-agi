@@ -1,4 +1,5 @@
-[06-la-rampa-resumen-operativo-v2.1.2-con-tabla-ampliada.md](https://github.com/user-attachments/files/31284935/06-la-rampa-resumen-operativo-v2.1.2-con-tabla-ampliada.md)
+> **Archivo fuente de presentación (enlace externo):** [06-la-rampa-resumen-operativo-v2.1.2-con-tabla-ampliada.md](https://github.com/user-attachments/files/31284935/06-la-rampa-resumen-operativo-v2.1.2-con-tabla-ampliada.md)
+
 # Artículo 6 — La Rampa
 ## Resumen operativo v2.1.2
 

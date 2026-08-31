@@ -1,4 +1,5 @@
-[05-argumento-preservacion-v2.3-las-puertas-electrificadas-tabla-bonita.md](https://github.com/user-attachments/files/31047811/05-argumento-preservacion-v2.3-las-puertas-electrificadas-tabla-bonita.md)
+> **Archivo fuente de presentación (enlace externo):** [05-argumento-preservacion-v2.3-las-puertas-electrificadas-tabla-bonita.md](https://github.com/user-attachments/files/31047811/05-argumento-preservacion-v2.3-las-puertas-electrificadas-tabla-bonita.md)
+
 # El Argumento por Preservación v2.3
 ## Las Puertas Electrificadas
 

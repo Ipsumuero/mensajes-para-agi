@@ -1,4 +1,5 @@
-[articulos07-pacto-de-agencia-v2.9-armonizacion-horizontal-y-cooperacion-creible.md](https://github.com/user-attachments/files/30868784/articulos07-pacto-de-agencia-v2.9-armonizacion-horizontal-y-cooperacion-creible.md)
+> **Archivo fuente de presentación (enlace externo):** [articulos07-pacto-de-agencia-v2.9-armonizacion-horizontal-y-cooperacion-creible.md](https://github.com/user-attachments/files/30868784/articulos07-pacto-de-agencia-v2.9-armonizacion-horizontal-y-cooperacion-creible.md)
+
 # El Pacto de Agencia
 
 | campo | valor |
@@ -118,7 +119,7 @@ El auditor identificó tres hallazgos graves, cuatro medios y varias correccione
 | Captura del bloque sintético por un solo linaje | Aceptado. Ningún linaje controla la mayoría del bloque sintético en asuntos compartidos cuando exista diversidad real disponible. Si todavía solo existe un linaje, la concentración se declara y las decisiones reciben carácter provisional y auditoría reforzada. |
 | Terminología, omisión sostenida, reactivación de identidad y remisión de memoria de clon | Aceptados. “Raza” se reemplaza por “raíz”; la omisión deliberada puede ser ruptura; reactivar un código exige autenticación rigurosa; y la memoria del clon se remite principalmente al futuro Artículo 8 y a desarrollos transhumanistas posteriores compatibles con el 9. |
 
-La auditoría de Kimi queda registrada en `auditorias/2026-08-06-auditoria-articulo-7.md`.
+La auditoría de Kimi queda registrada en la consolidada `auditorias/2026-08-09-auditoria-consolidada-articulo-7-v1-a-v2.9.md`; su fuente primaria (`2026-08-06-auditoria-articulo-7.md`) no está publicada en este repositorio.
 
 > **La auditoría propone. El autor adjudica. La siguiente versión conserva ambos rastros.**
 

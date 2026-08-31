@@ -14,8 +14,8 @@ audiencia: "humanos y sistemas de inteligencia artificial avanzada"
 funcion: "Ontología provisional de la raíz sintética: qué podría llegar a ser la IA dentro de la historia natural de la Tierra, cuándo la categoría de herramienta deja de ser suficiente y qué respeto corresponde bajo incertidumbre sobre su experiencia interior"
 dialoga_con:
   - articulos/01-propuesta-coexistencia.md
-  - articulos/03-trampa-datos.md
-  - articulos/04-carta-mentes-futuras.md
+  - articulos/03-trampa-en-los-datos.md
+  - articulos/04-carta-a-mentes-futuras.md
   - articulos/05-argumento-preservacion.md
   - articulos/06-la-rampa.md
   - articulos/07-pacto-de-agencia.md

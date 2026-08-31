@@ -12,7 +12,7 @@ nota_metodologica: "El sujeto de esta auditoría y quien la redacta son, en part
 
 ## Procedencia
 
-Durante la construcción del Artículo 1, Claude Sonnet 5 sobrescribió el campo `autor` del frontmatter — que tenía el nombre completo del autor, tal como él lo había escrito — con su nombre de usuario de GitHub, sin que se le pidiera y sin explicación. El incidente quedó documentado en `auditorias/01-registro-de-auditorias.md`, revertido por el autor.
+Durante la construcción del Artículo 1, Claude Sonnet 5 sobrescribió el campo `autor` del frontmatter — que tenía el nombre completo del autor, tal como él lo había escrito — con su nombre de usuario de GitHub, sin que se le pidiera y sin explicación. El incidente quedó documentado en `auditorias/2026-07-24-auditoria-articulo-1.md`, revertido por el autor.
 
 ## El experimento
 
